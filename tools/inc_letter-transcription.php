@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<?php
+		include("../../../include/header.php");
+	?>
+	<title><?php echo TO_TRANS_TITLE ?></title>
+	<meta name="description" content="<?php echo TO_TRANS_DESC ?>" />
+	<meta name="keywords" content="<?php echo TO_TRANS_KEY ?>" />
+</head>
+<body onLoad="document.getElementById('txtL').focus()">
+	<div id="vcard">
+		<?php
+			include("../../../vcard.php");
+		?>
+	</div>
+	<div id="wrapper">
+		<?php
+			include("../../../include/menu_top.php");
+		?>		
+		<div id="content">
+<script language="JavaScript" chartype='ISO-8859-1'>
+<!--            
+
+function removeAccents(s){
+        var r=s.toLowerCase();
+        //r = r.replace(new RegExp("\\s", 'g'),"");
+        r = r.replace(new RegExp("[àáâãäå]", 'g'),"a");
+        //r = r.replace(new RegExp("æ", 'g'),"ae");
+        //r = r.replace(new RegExp("ç", 'g'),"c");
+        r = r.replace(new RegExp("[èéêë]", 'g'),"e");
+        r = r.replace(new RegExp("[ìíîï]", 'g'),"i");
+        //r = r.replace(new RegExp("ñ", 'g'),"n");                            
+        //r = r.replace(new RegExp("[òóôõö]", 'g'),"o");
+        //r = r.replace(new RegExp("œ", 'g'),"oe");
+        //r = r.replace(new RegExp("[ùúûü]", 'g'),"u");
+        //r = r.replace(new RegExp("[ýÿ]", 'g'),"y");
+        //r = r.replace(new RegExp("\\W", 'g'),"");
+        return r;
+                };
+
+
+   function convert(str) {
+   		//var ss = escape(str);
+
+		var s = str.split("");
+		str = "";
+
+		//var az = new array("a","e","r","u","i","p","s","d","g","l","m","c","v","b","n","è","à","1","2","3","5","6","7","8","9","","","","","","","","","","","","","","");
+
+		for(i = 0; i < s.length; i++){
+			// s[i] contains only one character!
+			if(s[i] == "a"){str = str + "e"}
+			else if(s[i] == "e"){str = str + "a"}
+			else if(s[i] == "r"){str = str + "p"}
+			else if(s[i] == "u"){str = str + "v"}
+			else if(s[i] == "i"){str = str + "l"}
+			else if(s[i] == "p"){str = str + "r"}
+			else if(s[i] == "s"){str = str + "c"}
+			else if(s[i] == "d"){str = str + "b"}
+			else if(s[i] == "g"){str = str + "j"}
+			else if(s[i] == "j"){str = str + "g"}
+			else if(s[i] == "l"){str = str + "i"}
+			else if(s[i] == "m"){str = str + "n"}
+			else if(s[i] == "c"){str = str + "s"}
+			else if(s[i] == "v"){str = str + "u"}
+			else if(s[i] == "b"){str = str + "d"}
+			else if(s[i] == "n"){str = str + "m"}
+			 
+			else if(s[i] == "è"){str = str + "0"}
+			else if(s[i] == "à"){str = str + "è"}
+			
+			else if(s[i] == "1"){str = str + "7"}
+			else if(s[i] == "2"){str = str + "5"}
+			else if(s[i] == "3"){str = str + "8"}
+			else if(s[i] == "5"){str = str + "2"}
+			else if(s[i] == "6"){str = str + "9"}
+			else if(s[i] == "7"){str = str + "1"}
+			else if(s[i] == "8"){str = str + "3"}
+			else if(s[i] == "9"){str = str + "6"}
+			else
+			
+			if(s[i] == "A"){str = str + "E"}
+			else if(s[i] == "E"){str = str + "A"}
+			else if(s[i] == "R"){str = str + "P"}
+			else if(s[i] == "U"){str = str + "V"}
+			else if(s[i] == "I"){str = str + "L"}
+			else if(s[i] == "P"){str = str + "R"}
+			else if(s[i] == "S"){str = str + "C"}
+			else if(s[i] == "D"){str = str + "B"}
+			else if(s[i] == "G"){str = str + "J"}
+			else if(s[i] == "J"){str = str + "G"}
+			else if(s[i] == "L"){str = str + "I"}
+			else if(s[i] == "M"){str = str + "N"}
+			else if(s[i] == "C"){str = str + "S"}
+			else if(s[i] == "V"){str = str + "U"}
+			else if(s[i] == "B"){str = str + "D"}
+			else if(s[i] == "N"){str = str + "M"}
+
+			else{ str = str + s[i]};
+		}			
+		return str;
+     
+     }
+     
+
+     function stripVowelAccent(str)
+	{
+		var s=str;
+
+		var rExps=[ /[\xC0-\xC2]/g, /[\xE0-\xE2]/g,
+		/[\xC8-\xCA]/g, /[\xE8-\xEB]/g,
+		/[\xCC-\xCE]/g, /[\xEC-\xEE]/g,
+		/[\xD2-\xD4]/g, /[\xF2-\xF4]/g,
+		/[\xD9-\xDB]/g, /[\xF9-\xFB]/g ];
+
+		var repChar=['A','a','E','e','I','i','O','o','U','u'];
+
+		for(var i=0; i<rExps.length; i++)
+		s=s.replace(rExps[i],repChar[i]);
+
+		return s;
+	}
+     
+     function transcribe2right(){
+	    var x = document.getElementById("txtL").value;
+     	//document.getElementById("txtT").innerHTML=  x; 
+     	document.getElementById("txtR").value = convert(x);// fixAccents ( document.getElementById("txtT").innerHTML );  
+
+     }
+
+-->
+</script>
+
+			<h1><?php echo TO_TRANS_TITLE ?></h1>
+			
+			<p id="info">Ecrire ou coller du texte dans la zone de gauche, la transcription apparaitra dans la zone de droite.</p>
+			<table>
+				<tr>
+					<td>
+						<p>Original</p>			
+					</td>
+					
+				</tr>
+				<tr>
+					<td>
+						<textarea  id="txtL" rows="30" cols="80"  onkeyup="transcribe2right();"></textarea>			
+					</td>
+					
+				</tr>
+					<td>
+						<p>Transcription</p>			
+					</td>
+				<tr>
+				</tr>
+				<tr>
+					<td>
+						<!--<p id="txtT">test</p>-->
+						<textarea  id="txtR" rows="30" cols="80" readonly="readonly"></textarea>			
+					</td>
+				</tr>
+			</table>
+
+
+
+
+
+        </div><!-- END CONTENT -->
+       <?php
+			include("../../../include/footer.php");
+		?>
+    </div><!-- END WRAPPER -->
+		
+</body>
+</html>
+
+
+
+

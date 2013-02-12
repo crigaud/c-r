@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /calendar/
+Sitemap: http://www.christophe-rigaud.com/sitemap.xml
+
