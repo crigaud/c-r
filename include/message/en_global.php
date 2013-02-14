@@ -24,10 +24,8 @@ define("VC_NET_T", "Social network");
 define("FO_POWER", "Designed and powered by Christophe Rigaud, hosted by OVH");
 
 /*************************** HOME ****************************/
-define("HO_TITLE", "Christophe Rigaud - Ph.D. student in computer science and image processing");
-define("HO_INTRO", "Welcome to <a href='http://". $_SERVER['SERVER_NAME'].'/'.LANGUAGE ."/'>Christophe Rigaud's</a> professional website.
-<br /><br />
-Latest post:");
+define("HO_TITLE", "Christophe Rigaud's' homepage");
+define("HO_INTRO", "Welcome to my homepage :-)");
 define("HO_DESC", "Welcome to Christophe Rigaud's homepage, you will find his resume, some recent researches and results.");
 define("HO_KEY", "christophe rigaud,rigaud christophe,research,engineer,computer science,image processing,machine learning,data mining,computer vision,comics,cartoon");
 
@@ -35,8 +33,7 @@ define("HO_KEY", "christophe rigaud,rigaud christophe,research,engineer,computer
 define("AB_TITLE", "About Christophe Rigaud");
 define("AB_DESC", "Christophe Rigaud presentation, contact, professional status and personnality.");
 define("AB_KEY", "Christophe Rigaud,Rigaud Christophe,personality,localization,caricature,originality");
-define("AB_INTRO", "I'm powering this website in order to centralize  <a href='http://". $_SERVER['SERVER_NAME'].'/'.LANGUAGE ."/cv/'>links and informations</a> about myself at one place easy to find by co-workers and potential employers.
-       <br /><br />Below is an original representation of my personality, you can click on bubbles to see accomplishment level or description.");
+define("AB_INTRO", "Below is quick overview of myself:");
        
 /************************* CONTACT ***************************/
 define("CO_TITLE", "Contact Christophe Rigaud");

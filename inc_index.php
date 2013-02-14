@@ -1,16 +1,16 @@
 <?php
 	//header("HTTP/1.1 301 Moved Permanently");
- 	if(preg_match('/fr/i', $_SERVER['HTTP_ACCEPT_LANGUAGE'])){
+ 	/*if(preg_match('/fr/i', $_SERVER['HTTP_ACCEPT_LANGUAGE'])){
 		header("Location: http://". $_SERVER['SERVER_NAME']."/fr/cv/");
 	}else{
  		header("Location: http://". $_SERVER['SERVER_NAME']."/en/cv/");
-}
+}*/
 ?>
 
 <!DOCTYPE HTML>
 <html>
 <head>
-	<?php include("../include/header.php"); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/include/header.php"); ?>
 	<title><?php echo HO_TITLE ?></title>
 	<meta name="description" content="<?php echo HO_DESC ?>" />
 	<meta name="keywords" content="<?php echo HO_KEY ?>" />
@@ -22,23 +22,23 @@
 <body onload="setStyle1(1);">		
 	<div id="vcard">
 		<?php
-			include("../vcard.php");
+			include($_SERVER['DOCUMENT_ROOT']."/vcard.php");
 		?>
 	</div>	
 	<div id="wrapper">
 		<?php
-			include("../include/menu_top.php");
+			include($_SERVER['DOCUMENT_ROOT']."/include/menu_top.php");
 		?>
 
 		<div id="content">
 			<?php
 				echo '<p>'.HO_INTRO.'</p>';
-				include('../blog/inc_article_content.php');
+				include($_SERVER['DOCUMENT_ROOT'].'/about/inc_index.php');
 				//include("../mindmap.php");
 			?>
 		</div>	
 		<?php
-			include("../include/footer.php");
+			include($_SERVER['DOCUMENT_ROOT']."/include/footer.php");
 		?>				
 	</div>
 	

@@ -18,9 +18,18 @@
 				<td>&nbsp;</td>
 				<td>&nbsp;</td>
 				<td>
-					<a href="http://<?php echo $_SERVER['SERVER_NAME']; if( strcmp($lang[1], 'fr') == 0 ){ echo str_replace( '/index.php', '/', str_replace( 'fr/', 'en/', $_SERVER['PHP_SELF']) ) ; }else{ echo str_replace( '/index.php', '/', $_SERVER['PHP_SELF'] ); } ?>	" title="Display in English">English</a> 
-					-
-					<a href="http://<?php echo $_SERVER['SERVER_NAME'];	if( strcmp($lang[1], 'en') == 0 ){ echo str_replace( '/index.php', '/', str_replace( 'en/', 'fr/', $_SERVER['PHP_SELF']) ) ; }else{ echo str_replace( '/index.php', '/', $_SERVER['PHP_SELF'] ); } ?> " title="Afficher en Français">Fran&#231;ais</a>
+				<a href="http://<?php echo $_SERVER['SERVER_NAME']; 
+					if( strcmp($lang[1], 'fr') == 0 ){ 
+						echo str_replace( '/index.php', '/', str_replace( 'fr/', 'en/', $_SERVER['PHP_SELF']) ) ; 
+						echo '" title="Change language to English">Display in English</a>'; 
+					}else if( strcmp($lang[1], 'en') == 0 ){ 
+						echo str_replace( '/index.php', '/', str_replace( 'en/', 'fr/', $_SERVER['PHP_SELF']) ); 
+						echo '" title="Voir la page en français">Afficher en français</a>'; 
+					}else{
+						echo '/fr/'; 
+						echo '" title="Voir la page en français">Afficher en français</a>'; 
+					}					
+				?>
 				</td>
 				<td>&nbsp;</td>
 				<td>&nbsp;</td>

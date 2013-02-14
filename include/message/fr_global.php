@@ -26,9 +26,7 @@ define("FO_POWER", "Développé et propulsé par Christophe Rigaud, hébergé pa
 /*************************** HOME ****************************/
 define("HO_TITLE", "Christophe Rigaud - Doctorant-ingénieur en informatique et traitement d'image");
 
-define("HO_INTRO", "<!--Bienvenue sur le site professionnel de <a href='http://". $_SERVER['SERVER_NAME'].'/'.LANGUAGE ."/'>Christophe Rigaud</a>
-       <br /><br />-->
-       Les derniers articles :");
+define("HO_INTRO", "Bienvenue :-)<br />");
 define("HO_DESC", "Bienvenue sur le site Christophe Rigaud, vous y trouverez son CV, ses comp&#233;tences, ses derni&#232;res activi&#233;s et r&#233;sultats.");
 define("HO_KEY", "christophe rigaud,rigaud christophe,ing&eacute;nieur,chercheur,traitement d'image,vision par ordinateur,machine learning,data mining,informatique,vision par ordinateur,christophe,rigaud,rigot,rigaut,rigo,rigod");
 
@@ -36,8 +34,7 @@ define("HO_KEY", "christophe rigaud,rigaud christophe,ing&eacute;nieur,chercheur
 define("AB_TITLE", "A propos de Christophe Rigaud");
 define("AB_DESC", "Présentation de Christophe Rigaud, contact, situation professionnelle et personnalité.");
 define("AB_KEY", "Christophe Rigaud,Rigaud Christophe,personnalité,localisation,caractère,originalité");
-define("AB_INTRO", "Ce site centralise les <a href='http://". $_SERVER['SERVER_NAME'].'/'.LANGUAGE ."/cv/'>liens et informations</a> me concernant de façon à les rendre plus facilement accessibles à tous.
-       <br />Vous trouverez ci-dessous une représentation originale de ma personnalité, vous pouvez cliquer sur certaines bulles pour afficher le niveau d'accomplissement ou une description.
+define("AB_INTRO", "Vous trouverez ci-dessous une représentation originale de ma personnalité, vous pouvez cliquer sur certaines bulles pour afficher le niveau d'accomplissement ou une description.
        <br /><br />Bonne visite!");
  
 /************************* CONTACT ***************************/

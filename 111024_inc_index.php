@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<?php include("../include/header.php"); ?>
+	<?php include("../include/header.php"); //comment to remove ?>
 	<title><?php echo HO_TITLE ?></title>
 	<meta name="description" content="<?php echo HO_DESC ?>" />
 	<meta name="keywords" content="<?php echo HO_KEY ?>" />

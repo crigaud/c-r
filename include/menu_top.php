@@ -6,7 +6,9 @@
 	<table class="menuTop">
 	<tbody>
 	<tr>
-		<td class="logo" ><h1><a href="http://<?php echo $_SERVER['SERVER_NAME']; ?>" title="<?php echo ME_LOGO ?>">Christophe Rigaud</a></h1></td>
+		<td class="logo" ><h1>
+
+		<a href="http://<?php echo $_SERVER['SERVER_NAME'] . '/'; if( strlen($lang[1]) == 2){echo $lang[1];}; ?>" title="<?php echo ME_LOGO ?>">Christophe Rigaud</a></h1></td>
 		<!--<td class="logo"><h1><a class="logo_a" href="http://<?php echo $_SERVER['SERVER_NAME']; ?>" title="<?php echo ME_LOGO ?>">Christophe &nbsp;&nbsp; Rigaud</a></h1></td>-->
 		<td>&nbsp;&nbsp;&nbsp;</td>
 		<td class="ball_1"><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.LANGUAGE; ?>/blog/" onclick="setStyle1(1);"><?php echo ME_HOME ?></a></td>
