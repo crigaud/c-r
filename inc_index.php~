@@ -20,11 +20,11 @@
 	
 </head>
 <body onload="setStyle1(1);">		
-	<!--<div id="vcard">
+	<div id="vcard">
 		<?php
 			//include($_SERVER['DOCUMENT_ROOT']."/vcard.php");
 		?>
-	</div>	-->
+	</div>	
 	<div id="wrapper">
 		<?php
 			include($_SERVER['DOCUMENT_ROOT']."/include/menu_top.php");

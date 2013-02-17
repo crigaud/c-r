@@ -13,7 +13,7 @@ define("ME_CONTACT", "Contact");
 define("VC_AGE_T", "Age");
 define("VC_AGE_D", "ans");
 define("VC_AFF_T", "Affiliation");
-define("VC_AFF_D", "<a href='http://l3i.univ-larochelle.fr' ><span itemprop='brand'>Laboratoire L3i</span></a>");
+define("VC_AFF_D", "<a href='http://l3i.univ-larochelle.fr' ><span itemprop='affiliation'>Laboratoire L3i</span></a>");
 define("VC_LOC_T", "Adresse");
 define("VC_LOC_BUILDING", "<a href='http://sciences.univ-larochelle.fr' >
 <span itemprop='postOfficeBoxNumber'>Pôle Sciences & Technologies</span></a>

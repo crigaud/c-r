@@ -15,11 +15,11 @@
 			include("inc_skill.php");
 		?>
 	</div>	
-	<!--<div id="vcard">
+	<div id="vcard">
 		<?php
-			//include("../../vcard.php");
+			include("../../vcard.php");
 		?>
-	</div>	-->	
+	</div>		
 	<div id="wrapper">
 		<?php
 			include("../../include/menu_top.php");

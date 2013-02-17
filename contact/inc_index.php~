@@ -9,11 +9,11 @@
 	<meta name="keywords" content="<?php echo CO_KEY ?>" />
 </head>
 <body onload="setStyle1(3);">			   
-	<!--<div id="vcard">
+	<div id="vcard">
 		<?php
-			//include("../../vcard.php");
+			include("../../vcard.php");
 		?>
-	</div>-->
+	</div>
 	<div id="wrapper">
 		<?php
 			include("../../include/menu_top.php");
