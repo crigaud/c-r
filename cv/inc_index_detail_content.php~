@@ -118,7 +118,7 @@
 					
 			//-- EXPERIENCE DOC -->															
 				}if( array_key_exists($ID.'DOC', $txt ) ){
-					echo "<h4>" . $txt['RE_EX_TITLE_DOC']  . "</h4>";
+					echo "<h4>" . $txt['RE_EX_TITLE_DOC']  . "</h4>";				
 					echo "<a class='LinkPdf' href=' " . $txt[$ID.'DOC']  . "'    onclick='window.open(this.href); return false;' ><img class='img_no_decoration' title='" . $txt[$ID.'DOC'] . "' alt='" . $txt['RE_EX_TITLE_DOC'] . "' src='http://" . $_SERVER['SERVER_NAME'] . "/icon/pdf.png' /></a>";
 					
 				}if( array_key_exists($ID.'DETAIL', $txt ) ){

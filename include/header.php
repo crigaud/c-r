@@ -32,4 +32,6 @@
 	<!-- GENERAL -->
 	<!--<meta name="owner" content="Christophe Rigaud" />-->
 	<meta name="author" content="Christophe Rigaud" />
+	<meta name="designer" content="Christophe Rigaud">
 	<!--<meta name="name" content="Christophe Rigaud official website" />-->
+	

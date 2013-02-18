@@ -197,7 +197,7 @@ td.ball_1 a, td.ball_2 a, td.ball_3 a{
  	opacity: 		0.9;
 }
 #menu_top table.menuTop tbody tr td.logo h1{
-	margin:			6px; 
+	margin:			5px; 
 }
 .ball_1,.ball_2,.ball_3{	
 	border-radius: 		0.5em 2em 0.5em 2em;

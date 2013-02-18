@@ -12,11 +12,11 @@
 	<meta property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME'].'/icon/favicon.png'; ?>" />-->
 </head>
 <body onload="setStyle1(2);">		
-	<!--<div id="vcard">-->
+	<div id="vcard">
 		<?php
-			//include("../../vcard.php");
+			include("../../vcard.php");
 		?>
-	<!--</div>	-->
+	</div>	
 	<div id="wrapper">
 		<?php
 			include("../../include/menu_top.php");
