@@ -24,7 +24,7 @@ html {
 }
 body{
 	background-color:	#1F1F1F;
-	width:				1320px;
+	width:				80em;
 	margin-right:		auto;		
 	margin-left:		auto;				
 /*	margin:				0;*/
@@ -34,23 +34,23 @@ body{
 }
 #wrapper{
 	/*background-color:	#222222;*/
-	margin-left:		270px;	
-	margin-right:		270px;
-	width:				800px;
-	padding:			5px;	
+	margin-right:		auto;		
+	margin-left:		auto;
+	width:				80em;
+	padding:			0.2em;	
 }
 
 #content{
-	width:				700px;
+	width:				44em;
 	min-height:			40em;
-	margin-top:			10px;
+	margin-top:			0.1em;
 	margin-left:		auto;
 	margin-right:		auto;	
 	
 /* 	background-color:	#EEEEEE; */
 	background-color:	white;		/* The Fallback for IE */
 	/*background-color:	rgba(240, 240, 240, 0.9);*/
-	padding:			50px;
+	padding:			3em;
 	border: 			1px solid;
 /* 	-moz-border-radius: 	20px; */
 /* 	-webkit-border-radius: 	20px; */
@@ -125,22 +125,20 @@ body{
 .logo{
 	width:			40%;
 	font-size:		0.9em;
-	text-align:		left;
 	color:			#f8BB33;
 }
 .logo a:hover{
 	color:			#f8BB33;
 }
-.logo a:visited{
-	color:			#f8BB33;
-}
+
 /*html body div#wrapper div#menu_top table tbody tr td{*/
 /*html body div#wrapper div#menu_top table tbody tr td.ball_1*/
 
 /*}*/
 #menu_top{
-	width:			800px;
-	margin-top:		10px;
+	text-align:center;
+	width:			60em;
+	margin-top:		0.5em;
 	margin-left:	auto;
 	margin-right:	auto;	
 }
@@ -150,17 +148,15 @@ body{
 	text-align:		center;
 }
 
-td.ball_1, td.ball_2, td.ball_3{
+li.ball_1, li.ball_2, li.ball_3{
 	font-size:		1em;
 	width:			20%;
 	color:			white;
 	font-weight:	bold;	
 
 }
-td.ball_1 a, td.ball_2 a, td.ball_3 a{
-	color:			white;
-	margin-top:		40px;
-	padding:		30px;	
+li.ball_1 a, li.ball_2 a, li.ball_3 a{
+	color:			white;	
 }
 /*#menu_top table a.ball_1{*/
 /*	color:			white;*/
@@ -190,14 +186,28 @@ td.ball_1 a, td.ball_2 a, td.ball_3 a{
 /*#menu_top table a.logo_a:hover{*/
 /*	color:			#f8AA33;*/
 /*}*/
-#menu_top table tbody tr td a img{
+img.flag{
  	opacity: 		0.3;
 }
-#menu_top table tbody tr td a img:hover{
+img.flag:hover{
  	opacity: 		0.9;
 }
-#menu_top table.menuTop tbody tr td.logo h1{
-	margin:			5px; 
+ul.menuTop{
+	list-style-type: none;
+	margin-left:	-3em;
+}
+ul.menuTop li.logo{
+	font-size:			1.8em;
+	font-weight:		bold;
+	display: 			inline-block;
+    width:				11em;
+}
+ul.menuTop li.ball_1,ul.menuTop li.ball_2,ul.menuTop li.ball_3 {
+    display: 			inline-block;
+    width:				3em;
+    text-align:			center;
+	padding:			1.6em 3em 1.6em 3em;
+	margin:				0em 0em 0.5em 0.8em;
 }
 .ball_1,.ball_2,.ball_3{	
 	border-radius: 		0.5em 2em 0.5em 2em;
@@ -474,11 +484,11 @@ div#content a.CompanyLink, div#content a.LinkPdf{
 	border-color:		#33BB33;
 }
 /*********** SKILLS / VARIED ************/
-#skill{
-	width:				200px;
+#right{
+	width:				12em;
 	float:				right;
 	background-color:	white;
-	margin-top:			6.5em;
+	margin-top:			7em;
 /*	margin-left:		1em;	*/
 /*	margin-left:		3em;*/
 	padding:			5px;	
@@ -566,12 +576,12 @@ div#content a.CompanyLink, div#content a.LinkPdf{
 /********************************************************************************/
 
 footer, #footer{
-/*	width:				800px;*/
+	width:				50em;
 /*	padding:			10px;*/
 	margin-top:			20px;
 	margin-bottom:		20px;
-/*	margin-left:		auto;*/
-/*	margin-right:		auto;	*/
+	margin-left:		auto;
+	margin-right:		auto;
 }
 
 footer table, #footer table{
@@ -613,4 +623,7 @@ a:link, a:visited {
 	text-decoration:	none;				/* soulignement des liens */
 	border: 		none;
 	color:			gray;
+}
+.logo a:visited{
+	color:			#f8BB33;
 }

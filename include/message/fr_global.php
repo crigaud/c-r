@@ -1,5 +1,5 @@
 <?php
-define("LANGUAGE", "fr");
+//define("LANGUAGE", "fr");
 define("ERROR_404", "Désolé, cette page n'existe plus, merci de <a href='/' >retourner à l'accueil</a>");
 define("ERROR_403", "Autorisations insuffisantes <a href='/' >retourner à l'accueil</a>.");
 

@@ -484,11 +484,11 @@ div#content a.CompanyLink, div#content a.LinkPdf{
 	border-color:		#33BB33;
 }
 /*********** SKILLS / VARIED ************/
-#skill{
+#right{
 	width:				12em;
 	float:				right;
 	background-color:	white;
-	margin-top:			7.5em;
+	margin-top:			7em;
 /*	margin-left:		1em;	*/
 /*	margin-left:		3em;*/
 	padding:			5px;	
@@ -497,6 +497,9 @@ div#content a.CompanyLink, div#content a.LinkPdf{
 	border-radius: 		20px 20px 20px 20px;			/* BUG: Parse Error [empty string] ???? */
  	box-shadow: 		5px 5px 10px #CCC;	 /*x y size color*/
 
+}
+#right:empty {
+ 	display: none;
 }
 #skill h2, #skill h2 a:link, #skill h2 a:visited{
 	text-align:			center;
@@ -627,3 +630,4 @@ a:link, a:visited {
 .logo a:visited{
 	color:			#f8BB33;
 }
+

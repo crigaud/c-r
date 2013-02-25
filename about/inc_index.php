@@ -1,5 +1,8 @@
+<?php echo '<p>'.HO_INTRO.'</p>'; ?>
+
 <p class="Style1" >
 	<?php echo AB_INTRO ?>
+	
 </p>
 		
 <div id="mindmap">

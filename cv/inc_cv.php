@@ -48,11 +48,11 @@
 			<img class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/linkedin_logo.png" alt="Visit Linkedin network profile account" title="Connect Linkedin" /></a>
 		</td>
 		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>	
-		<td><a href="http://www.viadeo.com/<?php echo LANGUAGE ?>/profile/christophe.rr" onclick="window.open(this.href); return false;">
+		<td><a href="http://www.viadeo.com/<?php echo $lang ?>/profile/christophe.rr" onclick="window.open(this.href); return false;">
 			<img class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/viadeo_logo.png" alt="Viadeo profile" title="Connect Viadeo" /></a>
 		</td>
 		<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>	
-		<td><a onclick="window.open(this.href); return false;" href="http://<?php echo $_SERVER['SERVER_NAME'];?>/cv/download/CV_Christophe_Rigaud_<?php echo LANGUAGE ?>.pdf" >
+		<td><a onclick="window.open(this.href); return false;" href="http://<?php echo $_SERVER['SERVER_NAME'];?>/cv/download/CV_Christophe_Rigaud_<?php echo $lang ?>.pdf" >
 			<img class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/pdf.png" alt="CV PDF" title="Download PDF" />
 		</a></td>
 	</tr>
@@ -65,7 +65,7 @@
  	*********************************************************************************************************************-->
 
 <br />
-	<?php include('experience_content.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/experience_content.php'); ?>
 <br />
 <!--*********************************************************************************************************************
 	*														EDUCATION													*

@@ -3,7 +3,7 @@
 	*														EXPERIENCE 													*
  	*********************************************************************************************************************-->
  	
-<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/experience.php'.'" 
+<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/experience/'.'" 
 				>'. $txt['RE_EX_TITLE'] .'</a></h2>';?></div>
 
 <nav><ul>
@@ -20,7 +20,7 @@ for( $i=15 ; $i >= 5 ; $i-- ){
 		<table class="ItemTable">
 		<tr>
 			<td class="ItemTitle">
-				<h3><a href="http://'. $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/'. $subFolderName .'/" 
+				<h3><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. $subFolderName .'/" 
 					title="'. $txt['RE_EX_'.$ID.'_TITLE'] .'" >'. $txt['RE_EX_'.$ID.'_TITLE'] .'</a></h3>
 			</td>
 			<td class="logo_institution">';
@@ -32,7 +32,7 @@ for( $i=15 ; $i >= 5 ; $i-- ){
 		</table>
 
 
-				<h4 class="ItemSubTitle"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/'. $subFolderName .'/"
+				<h4 class="ItemSubTitle"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. $subFolderName .'/"
 				>'. $txt['RE_EX_'.$ID.'_SUB_TITLE'] .'</a></h4>
 
 		<ul class="ItemDesc">
@@ -44,7 +44,7 @@ for( $i=15 ; $i >= 5 ; $i-- ){
 			if( array_key_exists('RE_EX_'.$ID.'_DESC_05', $txt ) ){ echo '<li>' . $txt['RE_EX_'.$ID.'_DESC_05'] . '</li>';}
 		echo '
 		</ul>
-	<span class="more"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/'. formatCompanyName( $txt['RE_EX_'.$ID.'_SUB_TITLE'] ) .'/"
+	<span class="more"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt['RE_EX_'.$ID.'_SUB_TITLE'] ) .'/"
 				>'. $txt['RE_MORE'] .'</a></span>
 	</li>
 	';	//END ECHO

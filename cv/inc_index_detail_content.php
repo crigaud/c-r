@@ -1,45 +1,43 @@
-<!DOCTYPE HTML>
-<html>
-<head>
+
 	<?php
-		include_once($_SERVER['DOCUMENT_ROOT']."/include/header.php");
+		//include_once($_SERVER['DOCUMENT_ROOT']."/include/header.php");
 
 
 /********************************************************************************************************************
-*										GET CONSTANTS DEPENDING ON URL 												*
+*										GET CONSTANTS DEPENDING ON url_temp 												*
 *********************************************************************************************************************/		
 
-		$url = explode('/', $_SERVER['PHP_SELF']);
+		$url_temp = explode('/', $_SERVER['PHP_SELF']);
 		$cat = 0;
 
 /********************************************************
 *						EXPERIENCE 						*
 *********************************************************/
 
-		if( strcmp($url[3], 'l3i') == 0 ){
+		if( strcmp($url_temp[3], 'l3i') == 0 ){
 			$ID = 'RE_EX_10_';
-		}elseif( strcmp($url[3], 'lisa') == 0 ){
+		}elseif( strcmp($url_temp[3], 'lisa') == 0 ){
 			$ID = 'RE_EX_09_';
-		}elseif( strcmp($url[3], 'traveltura') == 0 ){
+		}elseif( strcmp($url_temp[3], 'traveltura') == 0 ){
 			$ID = 'RE_EX_08_';
-		}elseif( strcmp($url[3], 'bontour') == 0 ){
+		}elseif( strcmp($url_temp[3], 'bontour') == 0 ){
 			$ID = 'RE_EX_07_';
-		}elseif( strcmp($url[3], 'erm-automatismes') == 0 ){
+		}elseif( strcmp($url_temp[3], 'erm-automatismes') == 0 ){
 			$ID = 'RE_EX_06_';
-		}elseif( strcmp($url[3], 'campbell-s-soup') == 0 ){
+		}elseif( strcmp($url_temp[3], 'campbell-s-soup') == 0 ){
 			$ID = 'RE_EX_05_';
 
 /********************************************************
 *						EDUCATION 						*
 *********************************************************/
 
-		}elseif( strcmp($url[3], 'istia-lisa') == 0 ){
+		}elseif( strcmp($url_temp[3], 'istia-lisa') == 0 ){
 			$ID = 'RE_ED_07_';
 			$cat = 1;
-		}elseif( strcmp($url[3], 'istia') == 0 ){
+		}elseif( strcmp($url_temp[3], 'istia') == 0 ){
 			$ID = 'RE_ED_06_';
 			$cat = 1;
-		}elseif( strcmp($url[3], 'iut-salon-de-provence') == 0 ){
+		}elseif( strcmp($url_temp[3], 'iut-salon-de-provence') == 0 ){
 			$ID = 'RE_ED_05_';
 			$cat = 1;
 		}
@@ -50,30 +48,12 @@
 *********************************************************************************************************************/		
 ?>
 
-	<title><?php  echo $txt['RE_TITLE_EX'] . $url[3] ?></title>
-	<meta name="description" content="<?php echo $txt['RE_DESC_EX'] . $url[3] ?>" />
-	<!--<meta property="og:title" content="<?php echo $txt['RE_TITLE_EX'] ?>"/>-->
-	<!--<meta property="og:description" content="<?php echo $txt['RE_DESC_EX'] ?>" />-->
-	<meta name="keywords" content="<?php echo $txt['RE_KEY_EX']; $e = explode( '-', $url[3]); echo ',' . $e[0]; ?>" />
-</head>
-<body onload="setStyle1(2);">	
-	<!--<div id="vcard">
-		<?php
-			//include("../../../vcard.php");
-		?>-->
-	</div>			   
-	<div id="wrapper">
-<?php
-			include($_SERVER['DOCUMENT_ROOT']."/include/menu_top.php");
-?>
-		<div id="content">
-		
 			<!-- TITLE -->
 			<?php if ($cat == 0){ ?>
-			<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/experience.php'.'" 
+			<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/experience.php'.'" 
 				>'. $txt['RE_EX_TITLE'] .'</a></h2>';?></div>
 			<?php }else{ ?>			
-			<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/education.php'.'" 
+			<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/education.php'.'" 
 				>'. $txt['RE_ED_TITLE'] .'</a></h2>';?></div>
 			<?php } ?>				
 							
@@ -82,21 +62,21 @@
 					<table class="ItemTable">
 						<tr>
 							<td class="ItemTitle">
-								<h3><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>" title="<?php echo $txt[$ID.'TITLE'] ?>" ><?php echo $txt[$ID.'TITLE'] ?></a></h3>
+								<h3><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>" title="<?php echo $txt[$ID.'TITLE'] ?>" ><?php echo $txt[$ID.'TITLE'] ?></a></h3>
 				<?php }	else{ 
 							echo $txt[$ID.'TITLE']; } ?>	
 							</td>
 							<td class="logo_institution">		
 																	
 			<!-- EXPERIENCE LOGO -->				
-						<?php if( array_key_exists($ID.'WEB', $txt ) ){ echo "<a class='' href=' " . $txt[$ID.'WEB']  . " ' title='". ucfirst($url[3]) ."'  onclick='window.open(this.href); return false;' ><img class='Logo' src='http://" . $_SERVER['SERVER_NAME'].'/cv/image/logo_' . $url[3] . ".jpg' alt='" . ucfirst($url[3]) . "' /></a>";}?>
+						<?php if( array_key_exists($ID.'WEB', $txt ) ){ echo "<a class='' href=' " . $txt[$ID.'WEB']  . " ' title='". ucfirst($url_temp[3]) ."'  onclick='window.open(this.href); return false;' ><img class='Logo' src='http://" . $_SERVER['SERVER_NAME'].'/cv/image/logo_' . $url_temp[3] . ".jpg' alt='" . ucfirst($url_temp[3]) . "' /></a>";}?>
 							</td>
 						</tr>
 					</table>
 					
 			<!-- EXPERIENCE SUBTITLE -->				
 				<?php 	if( array_key_exists($ID.'TITLE', $txt ) && array_key_exists($ID.'SUB_TITLE', $txt ) ){	?>
-							<h4 class="ItemSubTitle"><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>"><?php echo $txt[$ID.'SUB_TITLE'] ?></a></h4>
+							<h4 class="ItemSubTitle"><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>"><?php echo $txt[$ID.'SUB_TITLE'] ?></a></h4>
 				<?php }else{ 
 							echo $txt[$ID.'SUB_TITLE']; } ?>						
 
@@ -123,16 +103,9 @@
 					
 				}if( array_key_exists($ID.'DETAIL', $txt ) ){
 					//echo "<p class='category'>" . $txt['RE_EX_TITLE_DE']  . "</p>";
-					//echo "../../../cv/detail/inc_" . LANGUAGE . "_" . $url[3] . ".php";
-					include_once($_SERVER['DOCUMENT_ROOT']."/cv/detail/inc_" . LANGUAGE . "_" . $url[3] . ".php");
+					//echo "../../../cv/detail/inc_" . $lang . "_" . $url_temp[3] . ".php";
+					include_once($_SERVER['DOCUMENT_ROOT']."/cv/detail/inc_" . $lang . "_" . $url_temp[3] . ".php");
 				}
 			?>			
 						
-		</div><!-- END CONTENT -->			
-		<?php
-			include($_SERVER['DOCUMENT_ROOT']."/include/footer.php");
-		?>	
-	</div>
-	
-</body>
-</html>
+

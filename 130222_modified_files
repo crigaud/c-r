@@ -1,0 +1,88 @@
+# On branch master
+# Your branch is ahead of 'origin/master' by 10 commits.
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   .gitignore
+#	modified:   .gitignore~
+#	modified:   about/inc_index.php
+#	modified:   about/inc_index.php~
+#	modified:   cv/education_content.php
+#	modified:   cv/experience_content.php
+#	modified:   cv/inc_cv.php
+#	modified:   cv/inc_cv.php~
+#	modified:   cv/inc_index_detail_content.php
+#	modified:   cv/inc_index_detail_content.php~
+#	modified:   cv/inc_skill.php
+#	modified:   design.css
+#	modified:   design.css~
+#	modified:   en/about/index.php
+#	modified:   en/blog/index.php
+#	modified:   en/contact/index.php
+#	modified:   en/cv/bontour/index.php
+#	modified:   en/cv/campbell-s-soup/index.php
+#	deleted:    en/cv/education.php
+#	modified:   en/cv/erm-automatismes/index.php
+#	deleted:    en/cv/experience.php
+#	modified:   en/cv/index.php
+#	modified:   en/cv/istia-lisa/index.php
+#	modified:   en/cv/istia/index.php
+#	modified:   en/cv/iut-salon-de-provence/index.php
+#	modified:   en/cv/l3i/index.php
+#	modified:   en/cv/lisa/index.php
+#	modified:   en/cv/traveltura/index.php
+#	deleted:    en/resume/clean_CALL_FROM_TERMINAL_HERE_ONLY.sh
+#	modified:   en/resume/index.php
+#	modified:   en/tag/index.php
+#	modified:   en/tools/index.php
+#	modified:   fr/about/index.php
+#	modified:   fr/about/index.php~
+#	modified:   fr/blog/index.php
+#	modified:   fr/blog/index.php~
+#	modified:   fr/contact/index.php
+#	modified:   fr/contact/index.php~
+#	modified:   fr/cv/bontour/index.php
+#	modified:   fr/cv/campbell-s-soup/index.php
+#	deleted:    fr/cv/education.php
+#	modified:   fr/cv/erm-automatismes/index.php
+#	deleted:    fr/cv/experience.php
+#	modified:   fr/cv/index.php
+#	modified:   fr/cv/istia-lisa/index.php
+#	modified:   fr/cv/istia/index.php
+#	modified:   fr/cv/iut-salon-de-provence/index.php
+#	modified:   fr/cv/l3i/index.php
+#	modified:   fr/cv/lisa/index.php
+#	modified:   fr/cv/traveltura/index.php
+#	modified:   fr/tag/index.php
+#	modified:   fr/tools/index.php
+#	modified:   icon/logo_validation_w3c_css_level_3.png
+#	modified:   inc_index.php
+#	modified:   inc_index.php~
+#	modified:   include/header.php
+#	modified:   include/header.php~
+#	modified:   include/menu_top.php
+#	modified:   include/menu_top.php~
+#	modified:   include/message/en_resume.php
+#	modified:   include/message/fr_global.php
+#	modified:   include/message/fr_global.php~
+#	modified:   include/message/fr_resume.php
+#
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	130222_modified_files
+#	en/cv/OLD_education.php
+#	en/cv/OLD_experience.php
+#	en/cv/education/
+#	en/cv/experience/
+#	en/resume/TO_DETETE.txt
+#	fr/cv/OLD_education.php
+#	fr/cv/OLD_experience.php
+#	fr/cv/education/
+#	fr/cv/experience/
+#	fr/resume/TO_DETETE.txt
+#	include/navigation.php
+#	skeleton/
+no changes added to commit (use "git add" and/or "git commit -a")

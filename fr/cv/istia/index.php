@@ -1,4 +1,4 @@
 <?php
-	include("../../../cv/inc_index_detail_content.php");
+	include($_SERVER['DOCUMENT_ROOT']."/inc_index.php");
 ?>
 

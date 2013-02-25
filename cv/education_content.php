@@ -3,7 +3,7 @@
 	*														EDUCATION 													*
  	*********************************************************************************************************************-->
  	
-<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/education.php'.'" 
+<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/education/'.'" 
 				>'. $txt['RE_ED_TITLE'] .'</a></h2>';?></div>
 
 <nav><ul>
@@ -17,13 +17,13 @@ echo '
 	<table class="ItemTable">
 	<tr>
 		<td class="ItemTitle">
-			<h3><a href="http://'. $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/'. formatCompanyName( $txt['RE_ED_0'.$i.'_SUB_TITLE'] ) .'/" 
+			<h3><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt['RE_ED_0'.$i.'_SUB_TITLE'] ) .'/" 
 				title="'. $txt['RE_ED_0'.$i.'_TITLE'] .'" >'. $txt['RE_ED_0'.$i.'_TITLE'] .'</a></h3>
 		</td>
 	</tr>
 	</table>
 	
-	<h4 class="ItemSubTitle"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/'. formatCompanyName( $txt['RE_ED_0'.$i.'_SUB_TITLE'] ) .'/"
+	<h4 class="ItemSubTitle"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt['RE_ED_0'.$i.'_SUB_TITLE'] ) .'/"
 			>'. $txt['RE_ED_0'.$i.'_SUB_TITLE'] .'</a></h4>
 
 
@@ -36,7 +36,7 @@ echo '
 		if( array_key_exists('RE_ED_0'.$i.'_DESC_05', $txt ) ){ echo '<li>' . $txt['RE_ED_0'.$i.'_DESC_05'] . '</li>';}
 	echo '
 	</ul>
-<span class="more"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/'. formatCompanyName( $txt['RE_ED_0'.$i.'_SUB_TITLE'] ) .'/"
+<span class="more"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt['RE_ED_0'.$i.'_SUB_TITLE'] ) .'/"
 			>'. $txt['RE_MORE'] .'</a></span>
 </li>
 

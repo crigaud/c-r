@@ -1,36 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<?php include("../../include/header.php"); ?>
-	<title><?php echo $art['AR_TITLE'] ?></title>
-	<meta name="description" content="<?php echo $art['AR_DESC'] ?>" />
-	<meta name="keywords" content="<?php echo $art['AR_KEY'] ?>" />
-	<!--<meta property="og:title" content="<?php echo HO_TITLE ?>"/>-->
-	<!--<meta property="og:description" content="<?php echo HO_DESC ?>" />-->
-	<!--<meta property="og:image" content="http://<?php echo $_SERVER['SERVER_NAME'].'/icon/favicon.png'; ?>" />-->
-	
-</head>
-<body onload="setStyle1(1);">		
-	<div id="vcard">
-		<?php
-			include("../../vcard.php");
-		?>
-	</div>	
-	<div id="wrapper">
-		<?php
-			include("../../include/menu_top.php");
-		?>
+<?php
+	include($_SERVER['DOCUMENT_ROOT']."/inc_index.php");
+?>
 
-		<div id="content">
-			<?php
-				//echo '<p>'.BL_INTRO.'</p>';
-				include('../../blog/inc_article_content.php');
-			?>
-		</div>	
-		<?php
-			include("../../include/footer.php");
-		?>				
-	</div>
-	
-</body>
-</html>

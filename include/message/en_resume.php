@@ -13,7 +13,7 @@ $txt = array(
 'RE_KEY_EX'			=> 	"christophe rigaud,rigaud christophe,experience,job,people,partner,contact,reference,details",
 'RE_INTRO'			=>	"Focused on computer engineering and research, I'm performing a Ph.D. at the laboratory <a href='http://l3i.univ-larochelle.fr/' onclick='window.open(this.href); return false;'>L3i</a> in La Rochelle (France). My research topic is: complex objects segmentation and indexation from comic books. <br />Speak fluent English and French, allowed to work in Europe. 
 <br />
-<br />Feel free to <a href='http://". $_SERVER['SERVER_NAME'].'/'.LANGUAGE."/contact' title='Go to contact form' >contact me</a>.",
+<br />Feel free to <a href='http://". $_SERVER['SERVER_NAME'].'/'.$lang."/contact' title='Go to contact form' >contact me</a>.",
 'RE_MORE'			=>	"more +",
 
 /********************************************************************************************************************

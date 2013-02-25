@@ -8,7 +8,7 @@
 <img class="myId" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/cv/image/christophe_rigaud.jpg" alt="Christophe Rigaud picture" title="Welcome!"/>
 
 <section itemscope itemtype="http://schema.org/Person"> 
-				<span itemprop="fn">Christophe</span> <span itemprop="familyName">Rigaud</span>
+				<span itemprop="givenName">Christophe</span> <span itemprop="familyName">Rigaud</span>
 				<br />
 				<span itemprop="jobTitle"><?php echo VC_AVA_D ?></span>
 				<br /><br />
@@ -65,7 +65,7 @@
  	*********************************************************************************************************************-->
 
 <br />
-	<?php include('experience_content.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/experience_content.php'); ?>
 <br />
 <!--*********************************************************************************************************************
 	*														EDUCATION													*

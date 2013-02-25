@@ -12,7 +12,7 @@ $txt = array(
 'RE_KEY' 			=>	"christophe rigaud,rigaud christophe,cv,curriculum vitae,formation,diplôme,expériences professionnelles,entreprise,projet,passion,recherche,ingénieur,informatique,traitement d'image,vision par ordinateur",
 'RE_KEY_EX'			=> 	"christophe rigaud,rigaud christophe,expérience,emploi,tuteur,partenaire,contact,référence,détail",
 'RE_INTRO' 			=> 	"De formation ingénieur en informatique complétée par un master recherche, je suis actuellement en première année de doctorat au laboratoire <a href='http://l3i.univ-larochelle.fr/' onclick='window.open(this.href); return false;'>L3i</a> à la Rochelle. Je travaille sur la segmentation et l'indexation d'objets complexes à partir d'images de bandes dessinées numériques.<br/>
-       <br />Parle couramment anglais et mobile en France comme &#224; l'étranger. <a href=\"http://". $_SERVER['SERVER_NAME']."/".LANGUAGE."/contact\" title=\"Envoyer un email\">Contacter</a>",
+       <br />Parle couramment anglais et mobile en France comme &#224; l'étranger. <a href=\"http://". $_SERVER['SERVER_NAME']."/".$lang."/contact\" title=\"Envoyer un email\">Contacter</a>",
 'RE_MORE'			=>	"en savoir +",
 
 /********************************************************************************************************************
@@ -39,7 +39,7 @@ $txt = array(
 'RE_EX_09_SUB_TITLE'=> "LISA - Laboratoire d'Ingénierie des Systèmes Automatisés | Angers - FR (Mars 2011 - Juillet 2011)",
 'RE_EX_09_WEB'		=> "http://www.istia.univ-angers.fr/LISA/",
 'RE_EX_09_DETAIL'	=> "1",
-'RE_EX_09_DOC'		=> "http://". $_SERVER['SERVER_NAME']."/cv/detail/download/Presentation_master_recherche_christophe_rigaud.pdf",
+'RE_EX_09_DOC'		=> "https://github.com/crigaud/publication/blob/master/2011/master_research/presentation/2011_Rigaud_Image_interpretation_and_conceptual_graph_integrating_topologic_and_photometric_knowledge.pdf?raw=true",
 'RE_EX_09_DESC_01' 	=> "Étude bibliographique sur l'interprétation d'images par des connaissances topologiques et photométriques à priori",
 'RE_EX_09_DESC_02' 	=> "Construction et analyse de graphes conceptuels, formulation mathématique",
 'RE_EX_09_DESC_03' 	=> "Application : optimisation du fenêtrage d'images scanner (DICOM) de la région de l'abdomen pour assister le diagnostic par un professionnel de la santé (base d'images <a href=\"http://www.ircad.fr/softwares/3Dircadb/3Dircadb1/\" title=\"Institut de Recherche contre les Cancers de l'Appareil Digestif\" onclick=\"window.open(this.href); return false;\">IRCAD</a>)",
