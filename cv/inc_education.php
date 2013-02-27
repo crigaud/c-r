@@ -2,7 +2,7 @@
 <html>
 <head>
 	<?php
-		include("../../include/header.php");
+		//include("../../include/header.php");
 	?>
 	<title><?php echo $txt['RE_ED_TITLE_ALL'] ?></title>
 	<meta name="description" content="<?php echo $txt['RE_ED_DESC_ALL'] ?>" />

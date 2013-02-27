@@ -6,7 +6,7 @@
 	<ul class="menuTop">
 		<li class="logo" >
 			<!--<h1>-->
-				<a href="http://<?php echo $_SERVER['SERVER_NAME'] . '/'; if( strlen($lang) == 2){echo $lang;}; ?>" title="<?php echo ME_LOGO ?>">Christophe Rigaud</a>
+				<a href="http://<?php echo $_SERVER['SERVER_NAME'] . '/'; if( strlen($lang) == 2){echo $lang;}; ?>" title="<?php echo $global['ME_LOGO'] ?>">Christophe Rigaud</a>
 			<!--</h1>-->
 
 			<a href="http://<?php echo $_SERVER['SERVER_NAME']; 
@@ -23,13 +23,13 @@
 			?>
 		</li>
 		<li class="ball_1">
-			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.LANGUAGE; ?>/" onclick="setStyle1(1);"><?php echo ME_HOME ?></a>
+			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang; ?>/" onclick="setStyle1(1);"><?php echo ME_HOME ?></a>
 		</li>
 		<li class="ball_2">
-			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.LANGUAGE; ?>/cv/" onclick="setStyle1(2);"><?php echo ME_RESUME ?></a>
+			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang; ?>/cv/" onclick="setStyle1(2);"><?php echo ME_RESUME ?></a>
 		</li>
 		<li class="ball_3">
-			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.LANGUAGE; ?>/contact/" onclick="setStyle1(3);"><?php echo ME_CONTACT ?></a>
+			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang; ?>/contact/" onclick="setStyle1(3);"><?php echo ME_CONTACT ?></a>
 		</li>
 	</ul>
 </div>

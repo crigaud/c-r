@@ -1,14 +1,14 @@
 
 <div id="contact">
 
-	<h1><?php echo CO_H1 ?></h1>
+	<h1><?php echo $global['CO_H1'] ?></h1>
 
 	<figure tabindex=1>
 		<img src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contact/img/qr_code_mailto_christophe_rigaud.png" alt="QR code mailto" title="Zoom, flash and email" />
 	</figure>
 
 	<p>
-		<?php echo CO_INTRO ?>
+		<?php echo $global['CO_INTRO'] ?>
 	</p>
 	<p class="contact_error">
 <?php 	
@@ -18,11 +18,11 @@
 	if (isset( $_GET['sent']) ){	$sent = $_GET['sent'];	}else{		$sent = 0;	}
 	
 	// Check if it's sent
-	if($sent == 1) echo CO_SUCCESS;
+	if($sent == 1) echo $global['CO_SUCCESS'];
  ?>
 	</p>
 		
-<form method="post" action="/<?php echo LANGUAGE; ?>/contact/sendmail.php" >
+<form method="post" action="/<?php echo $lang; ?>/contact/sendmail.php" >
 
 <?php
 	$ipi = getenv("REMOTE_ADDR");
@@ -38,36 +38,41 @@
 	<table>
 	<tbody >
 		<tr>
-			<td><?php echo CO_NAME ?></td>
+			<td><?php echo $global['CO_NAME'] ?></td>
 			<td><input type="text" name="visitor" /></td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
-			<td class="contact_error"><?php if($t1 == 1){ echo CO_NAME_ERROR; }?></td>
+			<td class="contact_error">
+			<?php 
+			if($t1 == 1){ 
+				echo $global['CO_NAME_ERROR']; 
+			}?>
+			</td>
 		</tr>
 		<tr>
-			<td><?php echo CO_EMAIL ?></td>
+			<td><?php echo $global['CO_EMAIL'] ?></td>
 			<td><input type="text" name="visitormail" /></td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
-			<td class="contact_error"><?php if($t2 == 1){ echo CO_EMAIL_ERROR; }?></td>
+			<td class="contact_error"><?php if($t2 == 1){ echo $global['CO_EMAIL_ERROR']; }?></td>
 		</tr>
 		<tr>
-			<td><?php echo CO_SUBJECT ?></td>
-			<td><input type="text" name="attn" value="<?php echo CO_SUBJECT_CONTENT ?>"/></td>
+			<td><?php echo $global['CO_SUBJECT'] ?></td>
+			<td><input type="text" name="attn" value="<?php echo $global['CO_SUBJECT_CONTENT'] ?>"/></td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
 			<td></td>
 		</tr>
 		<tr>
-			<td><?php echo CO_MESSAGE ?></td>
+			<td><?php echo $global['CO_MESSAGE'] ?></td>
 			<td><textarea name="notes" rows="8" cols="30"></textarea></td>
 		</tr>
 		<tr>
 			<td>&nbsp;</td>
-			<td><input type="submit" value="<?php echo CO_BTN_SEND ?>" /></td>
+			<td><input type="submit" value="<?php echo $global['CO_BTN_SEND'] ?>" /></td>
 			
 		</tr>
 	</tbody>

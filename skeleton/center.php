@@ -3,9 +3,9 @@
 		if(strcmp($subsection, "") == 0){
 			include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_cv.php');
 		}else if(strcmp($subsection, "education") == 0){
-			include($_SERVER['DOCUMENT_ROOT'].'/cv/education_content.php');
+			include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_cv.php');
 		}else if(strcmp($subsection, "experience") == 0){
-			include($_SERVER['DOCUMENT_ROOT'].'/cv/experience_content.php');
+			include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_cv.php');
 		}else{
 			include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_index_detail_content.php');
 		}		

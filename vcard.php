@@ -6,7 +6,7 @@
 
 			<?php echo VC_AFF_D ?>
 			<br /><br />
-				<section itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+			<section itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
                 
                 	<?php //echo VC_LOC_BUILDING ?>
                 </span>

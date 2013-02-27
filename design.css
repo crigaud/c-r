@@ -158,6 +158,11 @@ li.ball_1, li.ball_2, li.ball_3{
 li.ball_1 a, li.ball_2 a, li.ball_3 a{
 	color:			white;	
 }
+ul.menuTop li.ball_1 a, ul.menuTop li.ball_2 a, ul.menuTop li.ball_3 a {
+  display: block;
+  text-decoration: none;
+  padding:			1em 0em 1em 0em;
+}
 /*#menu_top table a.ball_1{*/
 /*	color:			white;*/
 /*	width:			100px;*/
@@ -206,7 +211,7 @@ ul.menuTop li.ball_1,ul.menuTop li.ball_2,ul.menuTop li.ball_3 {
     display: 			inline-block;
     width:				3em;
     text-align:			center;
-	padding:			1.6em 3em 1.6em 3em;
+	padding:			0.6em 3em 0.6em 3em;
 	margin:				0em 0em 0.5em 0.8em;
 }
 .ball_1,.ball_2,.ball_3{	
@@ -357,6 +362,15 @@ html body div#wrapper div#content div.post div.article div.article_right_content
 	float:				right;
 	margin-left:		20px;
 }
+#content ul.network li{
+	display: inline-block;
+  	text-decoration: none;
+  	padding-right:	2em;
+
+}
+#content ul.network{
+	text-align:		center;
+}
 .ItemTable{
 	width:				100%;
 	padding-left:		0.5em;
@@ -463,6 +477,19 @@ div#content a.CompanyLink, div#content a.LinkPdf{
 	color:				gray;
 	margin-left:		90%;	
 }
+p.see_all{
+
+	width:				3%;
+	height:				2em;
+	margin-left:		auto;
+	margin-right:		auto;
+	border-right:		5px dotted gray;;
+	text-align:			center;
+}
+p.see_all a{
+	padding:			1em 2.5em 1em 1em;
+}
+
 #content nav ul li table.ItemTable tbody tr td.logo_institution{
 	text-align:			right;
 }
@@ -622,6 +649,9 @@ footer table.table_footer tbody tr td a img{
 	border-color:red;
 }
 
+a:hover{
+	text-decoration:	underline;
+}
 a:link, a:visited {
 	text-decoration:	none;				/* soulignement des liens */
 	border: 		none;
