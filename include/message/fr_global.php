@@ -9,6 +9,7 @@ $global = array(
 "ME_HOME" 	=> "Home",
 "ME_RESUME" => "CV",
 "ME_CONTACT"=> "Contact",
+"ME_PUBLI"	=> "Publications",
 
 /*************************** VCARD ****************************/
 "VC_AGE_T" => "Age",

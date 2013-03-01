@@ -50,10 +50,10 @@
 
 			<!-- TITLE -->
 			<?php if ($cat == 0){ ?>
-			<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/experience.php'.'" 
+			<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/experience/'.'" 
 				>'. $txt['RE_EX_TITLE'] .'</a></h2>';?></div>
 			<?php }else{ ?>			
-			<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/education.php'.'" 
+			<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/education/'.'" 
 				>'. $txt['RE_ED_TITLE'] .'</a></h2>';?></div>
 			<?php } ?>				
 							

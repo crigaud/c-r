@@ -36,7 +36,7 @@ $global = array(
 /*************************** HOME ****************************/
 "HO_TITLE" => "Christophe Rigaud - Doctorant-ingénieur en informatique et traitement d'image",
 
-"HO_INTRO" => "Bienvenue :-)<br />Ce site présente mes <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/research/\" >activées de recherche</a>, les publications associées et mon <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >CV interactif</a>.<br />N'hésitez pas à me <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contacter</a>.",
+"HO_INTRO" => "Bienvenue :-)<br />Ce site présente mes activées de recherche, les publications associées et mon <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >CV interactif</a>.<br />N'hésitez pas à me <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contacter</a>.",
 "HO_DESC" => "TODO",
 "HO_KEY" => "christophe rigaud,rigaud christophe,ing&eacute;nieur,chercheur,traitement d'image,vision par ordinateur,machine learning,data mining,informatique,vision par ordinateur,christophe,rigaud,rigot,rigaut,rigo,rigod",
 

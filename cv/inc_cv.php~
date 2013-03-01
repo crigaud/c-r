@@ -7,7 +7,7 @@
 
 <img class="myId" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/cv/image/christophe_rigaud.jpg" alt="Christophe Rigaud picture" title="Welcome!"/>
 
-<section itemscope itemtype="http://schema.org/Person"> 
+<section class="person" itemscope itemtype="http://schema.org/Person"> 
 				<span itemprop="givenName">Christophe</span> <span itemprop="familyName">Rigaud</span>
 				<br />
 				<span itemprop="jobTitle"><?php echo $global['VC_AVA_D'] ?></span>
@@ -40,10 +40,11 @@
 			    </span>
 				
 		    <br />
+		    +33 (0) 5 46 45 87 63<br />
+		    <?php echo $global['VC_EMA_T'] ?><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/contact/';?>" ><?php echo $global['VC_EMA_D'] ?></a>
 	</section>
 	
-	<?php echo $global['VC_EMA_T'] ?><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/contact/';?>" ><?php echo $global['VC_EMA_D'] ?></a><br />
-	<?php echo $global['VC_NET_T'] ?>
+	
 
 	<ul class="network">
 		<li>

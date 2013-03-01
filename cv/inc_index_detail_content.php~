@@ -62,7 +62,7 @@
 					<table class="ItemTable">
 						<tr>
 							<td class="ItemTitle">
-								<h3><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>" title="<?php echo $txt[$ID.'TITLE'] ?>" ><?php echo $txt[$ID.'TITLE'] ?></a></h3>
+								<h3><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>" title="<?php echo $txt[$ID.'TITLE'] ?>" ><?php echo $txt[$ID.'TITLE'] ?></a></h3>
 				<?php }	else{ 
 							echo $txt[$ID.'TITLE']; } ?>	
 							</td>
@@ -76,7 +76,7 @@
 					
 			<!-- EXPERIENCE SUBTITLE -->				
 				<?php 	if( array_key_exists($ID.'TITLE', $txt ) && array_key_exists($ID.'SUB_TITLE', $txt ) ){	?>
-							<h4 class="ItemSubTitle"><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.LANGUAGE.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>"><?php echo $txt[$ID.'SUB_TITLE'] ?></a></h4>
+							<h4 class="ItemSubTitle"><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>"><?php echo $txt[$ID.'SUB_TITLE'] ?></a></h4>
 				<?php }else{ 
 							echo $txt[$ID.'SUB_TITLE']; } ?>						
 
@@ -103,8 +103,8 @@
 					
 				}if( array_key_exists($ID.'DETAIL', $txt ) ){
 					//echo "<p class='category'>" . $txt['RE_EX_TITLE_DE']  . "</p>";
-					//echo "../../../cv/detail/inc_" . LANGUAGE . "_" . $url_temp[3] . ".php";
-					include_once($_SERVER['DOCUMENT_ROOT']."/cv/detail/inc_" . LANGUAGE . "_" . $url_temp[3] . ".php");
+					//echo "../../../cv/detail/inc_" . $lang . "_" . $url_temp[3] . ".php";
+					include_once($_SERVER['DOCUMENT_ROOT']."/cv/detail/inc_" . $lang . "_" . $url_temp[3] . ".php");
 				}
 			?>			
 						

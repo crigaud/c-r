@@ -17,19 +17,18 @@
 				echo str_replace( '/index.php', '/', str_replace( 'en/', 'fr/', $_SERVER['PHP_SELF']) ); 
 				echo '" title="Afficher en français"><img class="flag" alt="Afficher en français" src="http://' . $_SERVER['SERVER_NAME'] . '/icon/flag_fr.png" /></a>';
 			}else{
-				echo '/fr/'; 
-				echo '" title="Voir la page en français"><img class="flag" alt="Afficher en français" src="http://' . $_SERVER['SERVER_NAME'] . '/icon/flag_fr.png" /></a>'; 
+				echo '/fr/" title="Voir la page en français"><img class="flag" alt="Afficher en français" src="http://' . $_SERVER['SERVER_NAME'] . '/icon/flag_fr.png" /></a>'; 
 			}					
 			?>
 		</li>
 		<li class="ball_1">
-			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang; ?>/" onclick="setStyle1(1);"><?php echo ME_HOME ?></a>
+			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang; ?>/" onclick="setStyle1(1);"><?php echo $global['ME_HOME'] ?></a>
 		</li>
 		<li class="ball_2">
-			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang; ?>/cv/" onclick="setStyle1(2);"><?php echo ME_RESUME ?></a>
+			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang; ?>/cv/" onclick="setStyle1(2);"><?php echo $global['ME_RESUME'] ?></a>
 		</li>
 		<li class="ball_3">
-			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang; ?>/contact/" onclick="setStyle1(3);"><?php echo ME_CONTACT ?></a>
+			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang; ?>/publications/" onclick="setStyle1(3);"><?php echo $global['ME_PUBLI'] ?></a>
 		</li>
 	</ul>
 </div>

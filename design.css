@@ -162,6 +162,9 @@ ul.menuTop li.ball_1 a, ul.menuTop li.ball_2 a, ul.menuTop li.ball_3 a {
   display: block;
   text-decoration: none;
   padding:			1em 0em 1em 0em;
+  width:			8em;
+  margin-left:		auto;
+  margin-right:		auto;
 }
 /*#menu_top table a.ball_1{*/
 /*	color:			white;*/
@@ -209,9 +212,9 @@ ul.menuTop li.logo{
 }
 ul.menuTop li.ball_1,ul.menuTop li.ball_2,ul.menuTop li.ball_3 {
     display: 			inline-block;
-    width:				3em;
+    width:				9em;
     text-align:			center;
-	padding:			0.6em 3em 0.6em 3em;
+	padding:			0.6em 0em 0.6em 0em;
 	margin:				0em 0em 0.5em 0.8em;
 }
 .ball_1,.ball_2,.ball_3{	
@@ -353,9 +356,54 @@ html body div#wrapper div#content div.post div.article div.article_right_content
 	
 }
 /********************************************************************************/
+/*									PUBLICATIONS								*/
+/********************************************************************************/
+#content div#publications h1{
+	margin-top:			0;
+	text-align:			center;
+	font-size:			1.5em;
+}
+#content div#publications h3{
+	text-align:			center;
+}
+#publications section{
+	margin-bottom:		1em;
+	font-size:			0.82em;
+}
+#publications section span.headline{
+	font-weight:		bold;
+	color:				#4F5051;
+}
+
+#publications section span.publisher{
+	font-style:		italic;
+}
+#publications section ul.download{
+	list-style-type: none;
+	margin-left: -40px;
+	margin-top:	5px;
+}
+#publications section ul.download li {
+    border-color: #BBBBBB;
+    border-style: solid;
+    border-width: 1px;
+    color: #333399;
+    display: inline;
+    margin-right: 0.5ex;
+    margin-top: 0;
+    padding-left: 1ex;
+    padding-right: 1ex;
+    width: auto;
+}
+/********************************************************************************/
 /*										RESUME									*/
 /********************************************************************************/
-
+#content section.person a{
+	color:				black;
+}
+#content section.person{
+	font-size:			0.82em;
+}
 #content img.myId{
 	width:				117px;
 	height:				146px;

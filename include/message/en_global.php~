@@ -35,7 +35,7 @@ $global = array(
 
 /*************************** HOME ****************************/
 "HO_TITLE" => "Christophe Rigaud's' homepage",
-"HO_INTRO" => "Welcome :-)<br />This website present my research activities, my publications and my <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >resume</a>.<br />Feel free to <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contact me</a>.",
+"HO_INTRO" => "Welcome :-)<br />This website present my research activities, publications and <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >resume</a>.<br />Feel free to <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contact me</a>.",
 "HO_DESC" => "Welcome to Christophe Rigaud's homepage, you will find his resume, some recent researches and results.",
 "HO_KEY" => "christophe rigaud,rigaud christophe,research,engineer,computer science,image processing,machine learning,data mining,computer vision,comics,cartoon",
 
