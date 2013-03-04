@@ -11,6 +11,15 @@ $global = array(
 "ME_CONTACT" => "Contact",
 "ME_PUBLI"	=> "Publications",
 
+/************************* LEFT PANEL *************************/
+"LT_TITLE" => "News",
+"LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/publications/\" >ICDAR'13 paper submission</a>",
+"LT_01_DATE" => "February 22, 2013",
+"LT_02_HEAD" => "Elected at ADocs leadership",
+"LT_02_DATE" => "January 18, 2013",
+"LT_03_HEAD" => "Research stay in Osaka",
+"LT_03_DATE" => "January 12, 2013",
+
 /*************************** VCARD ****************************/
 "VC_AGE_T" => "Age",
 "VC_AGE_D" => "years old",
@@ -36,8 +45,11 @@ $global = array(
 
 /*************************** HOME ****************************/
 "HO_TITLE" => "Christophe Rigaud's' homepage",
-"HO_INTRO" => "Welcome :-)<br />This website present my research activities, publications and <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >resume</a>.<br />Feel free to <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contact me</a>.",
-"HO_DESC" => "Welcome to Christophe Rigaud's homepage, you will find his resume, some recent researches and results.",
+"HO_INTRO" => "Hi,<br />This website is a place where I show some <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/publications/\" >recent work</a> and keep an up-to-date <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >resume</a>.<br />Feel free to <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contact me</a> by e-mail or other forms of social media.
+Thanks for stopping by!
+
+",
+"HO_DESC" => "In construction...",
 "HO_KEY" => "christophe rigaud,rigaud christophe,research,engineer,computer science,image processing,machine learning,data mining,computer vision,comics,cartoon",
 
 /************************ ABOUT ****************************/

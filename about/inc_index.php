@@ -1,4 +1,4 @@
-<p><?php echo $global['HO_INTRO'];; ?>
+<p><?php //echo $global['HO_INTRO']; ?>
 </p>
 
 <p class="Style1" >

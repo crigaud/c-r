@@ -9,9 +9,9 @@
 <!-- REMOVE ONLOAD STYLE -->
 <body onload="setStyle1(1);">		
 	<div id="wrapper">
-		<div id="left">
+		<div id="left_panel">
 			<?php
-				include($_SERVER['DOCUMENT_ROOT']."/skeleton/left.php");
+				include($_SERVER['DOCUMENT_ROOT']."/skeleton/left_panel.php");
 			?>
 		</div>
 		<div id="right"><?php include($_SERVER['DOCUMENT_ROOT']."/skeleton/right.php");	?></div>		

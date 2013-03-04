@@ -11,6 +11,16 @@ $global = array(
 "ME_CONTACT"=> "Contact",
 "ME_PUBLI"	=> "Publications",
 
+
+/************************* LEFT PANEL *************************/
+"LT_TITLE" => "Actualité",
+"LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/publications/\" >Article soumis à ICDAR'13</a>",
+"LT_01_DATE" => "22 Février 2013",
+"LT_02_HEAD" => "Elu au bureau de l'ADocs",
+"LT_02_DATE" => "18 Janvier 2013",
+"LT_03_HEAD" => "Séjour recherche à Osaka",
+"LT_03_DATE" => "12 Janvier 2013",
+
 /*************************** VCARD ****************************/
 "VC_AGE_T" => "Age",
 "VC_AGE_D" => "ans",
@@ -37,7 +47,7 @@ $global = array(
 /*************************** HOME ****************************/
 "HO_TITLE" => "Christophe Rigaud - Doctorant-ingénieur en informatique et traitement d'image",
 
-"HO_INTRO" => "Bienvenue :-)<br />Ce site présente mes activées de recherche, les publications associées et mon <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >CV interactif</a>.<br />N'hésitez pas à me <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contacter</a>.",
+"HO_INTRO" => "Bienvenue,<br />Ce site présente mes activées de recherche, les publications associées et mon <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >CV interactif</a>.<br />N'hésitez pas à me <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contacter</a>.",
 "HO_DESC" => "TODO",
 "HO_KEY" => "christophe rigaud,rigaud christophe,ing&eacute;nieur,chercheur,traitement d'image,vision par ordinateur,machine learning,data mining,informatique,vision par ordinateur,christophe,rigaud,rigot,rigaut,rigo,rigod",
 

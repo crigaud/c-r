@@ -4,15 +4,12 @@
 	<?php
 		include($_SERVER['DOCUMENT_ROOT']."/skeleton/head.php");
 	?>
-	
-	
 </head>
 
 <!-- REMOVE ONLOAD STYLE -->
 <body onload="setStyle1(1);">		
-
 	<div id="wrapper">
-		<div id="left">
+		<div id="left_panel">
 			<?php
 				include($_SERVER['DOCUMENT_ROOT']."/skeleton/left.php");
 			?>
@@ -28,7 +25,6 @@
 				include($_SERVER['DOCUMENT_ROOT']."/skeleton/center.php");
 			?>
 		</div>
-
 		</div>
 		<div id="bottom">
 			<?php
@@ -36,6 +32,5 @@
 			?>
 		</div>
 	</div>
-	
 </body>
 </html>

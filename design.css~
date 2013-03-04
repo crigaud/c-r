@@ -37,7 +37,6 @@ body{
 	margin-right:		auto;		
 	margin-left:		auto;
 	width:				80em;
-	padding:			0.2em;	
 }
 
 #content{
@@ -65,21 +64,35 @@ body{
 	font-size:		0.82em;
 }
 
+
+/********************************************************************************/
+/*										NEWS									*/
+/********************************************************************************/
+#vcard div.news_head a, #vcard div.news_date a:visited{
+	color:				black;
+}
+#vcard div.news_date{
+	color:				gray;
+	font-size:			0.7em;
+}
+
+
 /********************************************************************************/
 /*										VCARD									*/
 /********************************************************************************/
 
 #vcard{
-	width:				200px;
+	width:				14em;
 	float:				left;
 	background-color:	#EEEEEE;
-	margin-top:			6.5em;
-	margin-left:		2em;
-	padding:			5px;	
+	margin-top:			7em;
+	margin-left:		0em;
+	padding:			0.5em;	
 	border: 			1px solid;	
 /*	border-color: 		#F8AA33;*/
 	border-radius: 		20px 20px 20px 20px;			/* BUG: Parse Error [empty string] ???? */
  	box-shadow: 		5px 5px 10px #CCC;	 /*x y size color*/
+ 	font-size:			0.82em;
 
 }
 #vcard h2, #vcard h2 a:link, #vcard h2 a:visited{
@@ -88,33 +101,9 @@ body{
 /*	color:				white;	*/
 }
 
-#vcard dl dt{
-	color: 				gray;
-    font-size: 			0.82em;
-	margin-bottom:		0.2em;
-	font-weight:		bold;
-
-}
-#vcard dl dd a:link, #vcard dl dd a:visited{
-	color:				black;
-}
-#vcard dl dd a:hover{
-	text-decoration:	underline;
-}
-#vcard dl dd{
-	font-size: 			0.71em;
-	color:				black;
-	margin-left:		2em;
-	margin-bottom:		1em;
-}
-#vcard dl dd a img{
-	width:				70px;
-}
-
 #vcard img.myId{
 	width:				70px;
 	border:				none;
-	float:				right;
 	margin:				5px;
 }
 
@@ -361,7 +350,7 @@ html body div#wrapper div#content div.post div.article div.article_right_content
 #content div#publications h1{
 	margin-top:			0;
 	text-align:			center;
-	font-size:			1em;
+	font-size:			1.5em;
 }
 #content div#publications h3{
 	text-align:			center;
