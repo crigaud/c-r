@@ -26,6 +26,10 @@
 			$title = $global["CO_TITLE"];
 			$desc = $global["CO_DESC"];
 			$key = $global["CO_KEY"];
+		}else if($section == "publications"){
+			$title = $txt["PU_TITLE"];
+			$desc = $txt["PU_DESC"];
+			$key = $txt["PU_KEY"];
 		}else{
 			$title = $global['HO_TITLE'];
 			$desc = $global['HO_DESC'];

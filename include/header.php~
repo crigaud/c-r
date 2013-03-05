@@ -19,13 +19,17 @@
 	<?php
 	if(strlen($lang) == 2){
 		if($section == "cv"){
-			$title = $txt[strtoupper($section)."_TITLE"];
-			$desc = $txt[strtoupper($section)."_DESC"];
-			$key = $txt[strtoupper($section)."_KEY"];
+			$title = $txt["RE_TITLE"];
+			$desc = $txt["RE_DESC"];
+			$key = $txt["RE_KEY"];
 		}else if($section == "contact"){
 			$title = $global["CO_TITLE"];
 			$desc = $global["CO_DESC"];
 			$key = $global["CO_KEY"];
+		}else if($section == "publications"){
+			$title = "sdf";
+			$desc = $txt["PU_DESC"];
+			$key = $txt["PU_KEY"];
 		}else{
 			$title = $global['HO_TITLE'];
 			$desc = $global['HO_DESC'];

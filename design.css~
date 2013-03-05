@@ -126,7 +126,7 @@ body{
 /*}*/
 #menu_top{
 	text-align:center;
-	width:			60em;
+	width:			50em;
 	margin-top:		0.5em;
 	margin-left:	auto;
 	margin-right:	auto;	

@@ -15,7 +15,7 @@ $tag = array(
 'TA_DESC'			=> "Détail du niveau d'accomplissement en ",
 'TA_KEY'			=> "christophe rigaud,connaissance,accomplissement,pratique,expérience,niveau,pourcentage",
 
-'TA_TITLE_H'		=> "Niveau d'accomplissement en ",
+'TA_TITLE_H'		=> "Article en rapport avec",
 
 'TA_ASP.NET_VALUE' 						=> "50",
 'TA_AUTOMATION_VALUE' 					=> "50",

@@ -31,6 +31,7 @@ $txt = array(
 
 'RE_EX_10_TITLE' 	=> "Doctoral researcher in computer science",
 'RE_EX_10_SUB_TITLE'=> "L3i - Laboratory Informatic, Image and Interaction | La Rochelle - FR (Octobre 2011 - present)",
+'RE_EX_10_TAGS'		=> "java,research,comics,gimp",
 'RE_EX_10_WEB'		=> "http://l3i.univ-larochelle.fr/Rigaud-Christophe,684.html",
 'RE_EX_10_DESC_01' 	=> "State of the art of color image segmentation, characterization and indexation",
 'RE_EX_10_DESC_02' 	=> "Journal publication and scientific conferences (<a href=\"http://l3i.univ-larochelle.fr/Rigaud-Christophe,684.html\" title=\"Researcher profile\" onclick=\"window.open(this.href); return false;\">publication list</a>)",
@@ -105,6 +106,14 @@ $txt = array(
 'RE_ED_05_DESC_02' 	=> "Working with safety and hygiene standards",
 
 /********************************************************************************************************************
+*														PUBLICATIONS 												*
+*********************************************************************************************************************/
+
+'PU_TITLE'			=> 	"Publications of Christophe Rigaud - Doctoral researcher in computer science",
+'PU_DESC' 			=> 	"Publications list in international conferences and journaux nationaaux et internationnaux (e.g. ICDAR, GREC, VISAPP, LNCS, CIFED and PR).",
+'PU_KEY' 			=>	"publication,scientific articles,academic paper,public domain,ICDAR,LNCS,VISAPP,CIFED",
+
+/********************************************************************************************************************
 *															SKILLS 	(1 to 10 cv ready)								*
 *********************************************************************************************************************/
 'RE_SK_TITLE'		=>	"Technical skills",
@@ -154,6 +163,15 @@ $txt = array(
 'RE_SK4_04'			=>	"Labview",
 'RE_SK4_05'			=>	"QR code",
 'RE_SK4_06'			=>	"Versioning",
+
+
+/********************************************************************************************************************
+*															TAG 													*
+*********************************************************************************************************************/
+'TA_TITLE'			=> "Description of tag ",
+'TA_DESC'			=> "Details of accomplishment level in ",
+'TA_KEY'			=> "christophe rigaud,skills,knowledge,level,accomplishment,percentage",
+'TA_TITLE_H'		=> "Article related to ",
 
 /********************************************************************************************************************
 *															VARIED 													*

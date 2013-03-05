@@ -1,8 +1,11 @@
-<p><?php echo $global['HO_INTRO'];; ?>
+<p><?php //echo $global['HO_INTRO']; ?>
 </p>
 
 <p class="Style1" >
-	<?php //echo $global['AB_INTRO'] ?>
+	<?php //echo $global['AB_INTRO'];
+	if( strlen($lang) == 0 ){
+		$lang="en";
+	} ?>
 	
 </p>
 		

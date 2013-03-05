@@ -1,25 +1,27 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<?php include("include/header.php"); ?>
-	<title><?php echo HO_TITLE ?></title>
-	<meta name="description" content="<?php echo HO_DESC ?>" />
-	<meta name="keywords" content="<?php echo HO_KEY ?>" />
+	<?php
+		include($_SERVER['DOCUMENT_ROOT']."/skeleton/head.php");
+	?>
 </head>
-<body onload="setStyle1(1);">			   
+<body>			   
 	<div id="wrapper">
-		<?php
-			include("include/menu_top.php");
-		?>
-		
+		<div id="top">
+			<?php
+				include($_SERVER['DOCUMENT_ROOT']."/skeleton/top.php");
+			?>
+		</div>
 		<div id="content">
 			<p>
-				<?php echo ERROR_404 ?>
+				<?php echo $global["ERROR_404"] ?>
 			</p>
 		</div>				
-		<?php
-			include("include/footer.php");
-		?>
+		<div id="bottom">
+			<?php
+				include($_SERVER['DOCUMENT_ROOT']."/skeleton/bottom.php");
+			?>
+		</div>
 	</div>
 </body>
 </html>

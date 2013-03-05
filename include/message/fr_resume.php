@@ -118,6 +118,14 @@ $txt = array(
 
 
 /********************************************************************************************************************
+*														PUBLICATIONS 												*
+*********************************************************************************************************************/
+
+'PU_TITLE'			=> 	"Publications de Christophe Rigaud - Doctorant-ingénieur en informatique et traitement d'images",
+'PU_DESC' 			=> 	"Listes des publications dans les conférences et revues nationales et internationnales telles que ICDAR, GREC, VISAPP, LNCS, CIFED and PR.",
+'PU_KEY' 			=>	"publication,articles scientifiques,academique,domaine public,ICDAR,LNCS,VISAPP,CIFED",
+
+/********************************************************************************************************************
 *															SKILLS 	(1 to 10 cv ready)								*
 *********************************************************************************************************************/
 'RE_SK_TITLE'		=>	"Connaissances",
@@ -167,6 +175,14 @@ $txt = array(
 'RE_SK4_05'			=>	"QR code",
 'RE_SK4_06'			=>	"Versioning",
 
+
+/********************************************************************************************************************
+*															TAG 													*
+*********************************************************************************************************************/
+'TA_TITLE'			=> "Description du tag ",
+'TA_DESC'			=> "Détail du niveau d'accomplissement en ",
+'TA_KEY'			=> "christophe rigaud,connaissance,accomplissement,pratique,expérience,niveau,pourcentage",
+'TA_TITLE_H'		=> "Article en rapport avec",
 /********************************************************************************************************************
 *															VARIED 													*
 *********************************************************************************************************************/
@@ -174,7 +190,7 @@ $txt = array(
 'RE_VA_TITLE' 		=> "Divers",
 
 'RE_VA_01_TITLE' 	=> "Langue :",
-'RE_VA_01_DESC_01' 	=> "Anglais courant (TOEIC 900/990), Espagnol basique, Français maternel",
+'RE_VA_01_DESC_01' 	=> "Anglais courant (TOEIC 900/990), Espagnol moyen, notion de Japonais, Français maternel",
 
 'RE_VA_02_TITLE' 	=> "Loisir :",
 'RE_VA_02_DESC_01' 	=> "voyage, programmation web, écologie, billard, modélisme, randonnée VTT, badminton et tennis",
