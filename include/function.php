@@ -1,4 +1,26 @@
 <?php
+
+	/****************************************************
+	*	This class define the stucture of the articles	*
+	*****************************************************/
+	class Article{
+	  public $category;
+	  public $title;            // person taking the test
+	  public $keywordArray;		// SEO and tag, replace public $tagArray
+	  public $date;             // use the word 'score' because 'blah' is meaningless	  
+	  
+	  public $content;
+	  	
+
+	  public function __construct($p, $s){
+		$this->title = $p;
+		$this->date = $s;
+	  }
+
+	  public function __toString(){
+		return "Test [person=$this->person, score=$this->score%]";
+	  }
+	}
 	function random_hex_color(){
 		return sprintf("%02X%02X%02X", mt_rand(0, 255), mt_rand(0, 255), mt_rand(0, 255));
 	}

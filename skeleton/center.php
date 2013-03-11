@@ -7,7 +7,7 @@
 		}else if(strcmp($subsection, "experience") == 0){
 			include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_cv.php');
 		}else{
-			include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_index_detail_content.php');
+			include($_SERVER['DOCUMENT_ROOT'].'/cv/detail_content.php');
 		}		
 	}else if(strcmp($section, 'contact') == 0){
 		include($_SERVER['DOCUMENT_ROOT'].'/contact/inc_contact.php');
@@ -20,6 +20,7 @@
 	}else if(strcmp($section, 'tag') == 0){
 		include($_SERVER['DOCUMENT_ROOT'].'/tag/inc_index.php');
 	}else{
-		include($_SERVER['DOCUMENT_ROOT'].'/about/inc_index.php');
+		include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_cv.php');
+		//include($_SERVER['DOCUMENT_ROOT'].'/about/inc_index.php');
 	}
 ?>

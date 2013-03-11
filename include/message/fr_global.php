@@ -1,5 +1,7 @@
 <?php
 
+
+
 $global = array(
 "ERROR_404" => "Désolé, cette page n'existe plus, merci de <a href='/' >retourner à l'accueil</a>",
 "ERROR_403" => "Autorisations insuffisantes <a href='/' >retourner à l'accueil</a>.",
@@ -14,12 +16,16 @@ $global = array(
 
 /************************* LEFT PANEL *************************/
 "LT_TITLE" => "Actualité",
-"LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/publications/\" >Article soumis à ICDAR'13</a>",
-"LT_01_DATE" => "22 Février 2013",
-"LT_02_HEAD" => "Elu au bureau de l'ADocs",
+"LT_05_HEAD" => "<a href=\"https://github.com/crigaud/publication/blob/master/2013/TALK/intelligent_media_processing_group/segmentation_and_indexation_of_comic_books.pdf?raw=true\" >Présentation à Osaka</a>",
+"LT_05_DATE" => "1 Mars 2013",
+"LT_04_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/fr/publications/\" >Article soumis à ICDAR'13</a>",
+"LT_04_DATE" => "22 Février 2013",
+"LT_03_HEAD" => "<a href=\"http://link.springer.com/book/10.1007/978-3-642-36824-0/page/1\" onclick='window.open(this.href); return false;'>Publication dans LNCS</a>",
+"LT_03_DATE" => "19 Février 2013",
+"LT_02_HEAD" => "Elu au bureau de l'<a href=\"http://adocs.univ-lr.fr/\" onclick='window.open(this.href); return false;'>ADocs</a>",
 "LT_02_DATE" => "18 Janvier 2013",
-"LT_03_HEAD" => "Séjour recherche à Osaka",
-"LT_03_DATE" => "12 Janvier 2013",
+"LT_01_HEAD" => "Séjour recherche à Osaka",
+"LT_01_DATE" => "12 Janvier 2013",
 
 /*************************** VCARD ****************************/
 "VC_AGE_T" => "Age",
@@ -48,7 +54,7 @@ $global = array(
 "HO_TITLE" => "Christophe Rigaud - Doctorant-ingénieur en informatique et traitement d'image",
 
 "HO_INTRO" => "Bienvenue,<br />Ce site présente mes activées de recherche, les publications associées et mon <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >CV interactif</a>.<br />N'hésitez pas à me <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contacter</a>.",
-"HO_DESC" => "TODO",
+"HO_DESC" => "Bienvenue, ce site présente mes activées de recherche, les publications associées et mon CV interactif. N'hésitez pas à me contacter.",
 "HO_KEY" => "christophe rigaud,rigaud christophe,ing&eacute;nieur,chercheur,traitement d'image,vision par ordinateur,machine learning,data mining,informatique,vision par ordinateur,christophe,rigaud,rigot,rigaut,rigo,rigod",
 
 /************************ ABOUT ****************************/

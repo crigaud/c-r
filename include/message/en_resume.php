@@ -5,12 +5,12 @@ $txt = array(
 *														GENERAL 													*
 *********************************************************************************************************************/
 
-'RE_TITLE' 			=>	"Resume of Christophe Rigaud - Ph.D. student in computer science",
+'RE_TITLE' 			=>	"Christophe Rigaud - CV - Ph.D. student in computer vision and document analysis",
 'RE_TITLE_EX'		=>	"Christophe Rigaud's experience at ",
-'RE_DESC'			=>	"Welcome on my online resume! Currently Ph.D. student in computer science and document analysis. Including educations, qualifications, work experiences and other skills.",
+'RE_DESC'			=>	"Welcome on my online resume! Currently Ph.D. student in computer vision and document analysis. Including educations, qualifications, work experiences and other skills.",
 'RE_DESC_EX'		=>	"Details about Christophe Rigaud's experience at ",
 'RE_KEY'			=> 	"christophe rigaud,rigaud christophe,resume,cv,currivulum vitae,linkedin,viadeo,pdf,qualification,degree,experience,skill,hobbies,research,engineer,image processing,computer vision",
-'RE_KEY_EX'			=> 	"christophe rigaud,rigaud christophe,experience,job,people,partner,contact,reference,details",
+'RE_KEY_EX'			=> 	"phd, computer vision, document analysis, christophe rigaud,rigaud christophe,experience,job,people,partner,contact,reference,details",
 'RE_INTRO'			=>	"Focused on computer engineering and research, I'm performing a Ph.D. at the laboratory <a href='http://l3i.univ-larochelle.fr/' onclick='window.open(this.href); return false;'>L3i</a> in La Rochelle (France). My research topic is: complex objects segmentation and indexation from comic books. <br />Speak fluent English and French, allowed to work in Europe. 
 <br />
 <br />Feel free to <a href='http://". $_SERVER['SERVER_NAME'].'/'.$lang."/contact' title='Go to contact form' >contact me</a>.",

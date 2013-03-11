@@ -13,12 +13,16 @@ $global = array(
 
 /************************* LEFT PANEL *************************/
 "LT_TITLE" => "News",
-"LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/publications/\" >ICDAR'13 paper submission</a>",
-"LT_01_DATE" => "February 22, 2013",
-"LT_02_HEAD" => "Elected at ADocs leadership",
+"LT_05_HEAD" => "<a href=\"https://github.com/crigaud/publication/blob/master/2013/TALK/intelligent_media_processing_group/segmentation_and_indexation_of_comic_books.pdf?raw=true\" >Talk Osaka</a>",
+"LT_05_DATE" => "March 1, 2013",
+"LT_04_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/en/publications/\" >ICDAR'13 paper submission</a>",
+"LT_04_DATE" => "February 22, 2013",
+"LT_03_HEAD" => "<a href=\"http://link.springer.com/book/10.1007/978-3-642-36824-0/page/1\" onclick='window.open(this.href); return false;'>Publication in LNCS book</a>",
+"LT_03_DATE" => "February 19, 2013",
+"LT_02_HEAD" => "Elected at <a href='http://adocs.univ-lr.fr/' onclick='window.open(this.href); return false;'>ADocs</a> leadership",
 "LT_02_DATE" => "January 18, 2013",
-"LT_03_HEAD" => "Research stay in Osaka",
-"LT_03_DATE" => "January 12, 2013",
+"LT_01_HEAD" => "Research stay in Osaka",
+"LT_01_DATE" => "January 12, 2013",
 
 /*************************** VCARD ****************************/
 "VC_AGE_T" => "Age",
@@ -44,12 +48,12 @@ $global = array(
 "FO_POWER" => "Designed and powered by Christophe Rigaud, hosted by OVH",
 
 /*************************** HOME ****************************/
-"HO_TITLE" => "Christophe Rigaud's' homepage",
+"HO_TITLE" => "Christophe Rigaud - Ph.D. student in computer vision and document analysis",
 "HO_INTRO" => "Hi,<br />This website is a place where I show some <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/publications/\" >recent work</a> and keep an up-to-date <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >resume</a>.<br />Feel free to <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contact me</a> by e-mail or other forms of social media.
 Thanks for stopping by!
 
 ",
-"HO_DESC" => "In construction...",
+"HO_DESC" => "Hi, this website is a place where I show some recent work and keep an up-to-date resume. Feel free to contact me by e-mail or other forms of social media.",
 "HO_KEY" => "christophe rigaud,rigaud christophe,research,engineer,computer science,image processing,machine learning,data mining,computer vision,comics,cartoon",
 
 /************************ ABOUT ****************************/

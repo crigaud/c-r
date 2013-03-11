@@ -5,12 +5,12 @@ $txt = array(
 *														RESUME 													*
 *********************************************************************************************************************/
 
-'RE_TITLE'			=> 	"CV de Christophe Rigaud - Doctorant-ingénieur en informatique et traitement d'images",
+'RE_TITLE'			=> 	"Christophe Rigaud - CV - Doctorant-ingénieur en informatique et traitement d'images",
 'RE_TITLE_EX' 		=> 	"Expérience de Christophe Rigaud &#224; ",
 'RE_DESC' 			=> 	"Bienvenue sur mon CV en ligne! Doctorant-ingénieur en informatique, automatique et traitement d'images. Formation,  qualifications, expériences professionnelles et connaissances diverses.",
 'RE_DESC_EX' 		=> 	"Tous les détails de l'expérience de Christophe Rigaud &#224; ",
 'RE_KEY' 			=>	"christophe rigaud,rigaud christophe,cv,curriculum vitae,formation,diplôme,expériences professionnelles,entreprise,projet,passion,recherche,ingénieur,informatique,traitement d'image,vision par ordinateur",
-'RE_KEY_EX'			=> 	"christophe rigaud,rigaud christophe,expérience,emploi,tuteur,partenaire,contact,référence,détail",
+'RE_KEY_EX'			=> 	"cv,doctorant,informatique,vision par ordinateur,traitement d'image, analyse de document,christophe rigaud",
 'RE_INTRO' 			=> 	"De formation ingénieur en informatique complétée par un master recherche, je suis actuellement en seconde année de doctorat au laboratoire <a href='http://l3i.univ-larochelle.fr/' onclick='window.open(this.href); return false;'>L3i</a> à la Rochelle. Je travaille sur la segmentation et l'indexation d'objets complexes à partir d'images de bandes dessinées numériques.<br/>
        <br />Parle couramment anglais et mobile en France comme &#224; l'étranger. <a href=\"http://". $_SERVER['SERVER_NAME']."/".$lang."/contact\" title=\"Envoyer un email\">Contacter</a>",
 'RE_MORE'			=>	"En savoir +",

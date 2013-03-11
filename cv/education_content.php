@@ -16,8 +16,8 @@ if($subsection == "education" || strlen($subsection) < 1){
 
 <?php
 
-if( strlen($subsection) < 1){
-	$cmp = 2;
+if( $section != 'cv'){
+	$cmp = 1;
 }else{
 	$cmp = 15;
 }

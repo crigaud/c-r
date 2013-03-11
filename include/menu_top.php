@@ -13,7 +13,7 @@
 			if( strcmp($lang, 'fr') == 0 ){ 
 				echo str_replace( '/index.php', '/', str_replace( 'fr/', 'en/', $_SERVER['PHP_SELF']) ) ; 
 				echo '" title="Display in English"><img class="flag"  alt="Display in English" src="http://' . $_SERVER['SERVER_NAME'] . '/icon/flag_uk.png" /></a>';
-			}else if( strcmp($lang, 'en') == 0 ){ 
+			}else if( strcmp($lang, 'en') == 0 && strlen($section) > 1 ){ 
 				echo str_replace( '/index.php', '/', str_replace( 'en/', 'fr/', $_SERVER['PHP_SELF']) ); 
 				echo '" title="Afficher en français"><img class="flag" alt="Afficher en français" src="http://' . $_SERVER['SERVER_NAME'] . '/icon/flag_fr.png" /></a>';
 			}else{
