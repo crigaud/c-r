@@ -3,6 +3,13 @@
 <div id="vcard">
 	<!--<h2>Presentation</h2>-->
 	<?php //echo $global["HO_INTRO"];?>
+		<!--Publication
+		Experience
+		Education
+		Teaching
+		Skills
+		Other-->
+	
 	
 	<h2><?php echo $global["LT_TITLE"];?></h2>
 	<?php 

@@ -15,7 +15,7 @@ $global = array(
 "LT_TITLE" => "News",
 "LT_05_HEAD" => "<a href=\"https://github.com/crigaud/publication/blob/master/2013/TALK/intelligent_media_processing_group/segmentation_and_indexation_of_comic_books.pdf?raw=true\" >Talk Osaka</a>",
 "LT_05_DATE" => "March 1, 2013",
-"LT_04_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/en/publications/\" >ICDAR'13 paper submission</a>",
+"LT_04_HEAD" => "<a href=\"https://github.com/crigaud/publication/tree/master/2013/ICDAR/an_active_contour_model_for_speech_balloon_detection_in_comics\" >ICDAR'13 paper submission</a>",
 "LT_04_DATE" => "February 22, 2013",
 "LT_03_HEAD" => "<a href=\"http://link.springer.com/book/10.1007/978-3-642-36824-0/page/1\" onclick='window.open(this.href); return false;'>Publication in LNCS book</a>",
 "LT_03_DATE" => "February 19, 2013",
@@ -49,7 +49,7 @@ $global = array(
 
 /*************************** HOME ****************************/
 "HO_TITLE" => "Christophe Rigaud - Ph.D. student in computer vision and document analysis",
-"HO_INTRO" => "Hi,<br />This website is a place where I show some <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/publications/\" >recent work</a> and keep an up-to-date <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >resume</a>.<br />Feel free to <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contact me</a> by e-mail or other forms of social media.
+"HO_INTRO" => "Hi,<br />This website is a place where I show some <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/publication/\" >recent work</a> and keep an up-to-date <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >resume</a>.<br />Feel free to <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contact me</a> by e-mail or other forms of social media.<br />
 Thanks for stopping by!
 
 ",

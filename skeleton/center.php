@@ -6,6 +6,10 @@
 			include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_cv.php');
 		}else if(strcmp($subsection, "experience") == 0){
 			include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_cv.php');
+		}else if(strcmp($subsection, "publication") == 0){
+			include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_cv.php');
+		}else if(strcmp($subsection, "varied") == 0){
+			include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_cv.php');
 		}else{
 			include($_SERVER['DOCUMENT_ROOT'].'/cv/detail_content.php');
 		}		
@@ -16,11 +20,12 @@
 	}else if(strcmp($section, 'about') == 0){
 		include($_SERVER['DOCUMENT_ROOT'].'/about/inc_index.php');
 	}else if(strcmp($section, 'publications') == 0){
-		include($_SERVER['DOCUMENT_ROOT'].'/publications/inc_publications.php');
+		include($_SERVER['DOCUMENT_ROOT'].'/publications/inc_index.php');
 	}else if(strcmp($section, 'tag') == 0){
 		include($_SERVER['DOCUMENT_ROOT'].'/tag/inc_index.php');
 	}else{
-		include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_cv.php');
+		include($_SERVER['DOCUMENT_ROOT'].'/content/'.$lang.'_center_home.php');
+
 		//include($_SERVER['DOCUMENT_ROOT'].'/about/inc_index.php');
 	}
 ?>

@@ -28,7 +28,7 @@
 			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/';if(strlen($lang)==2){echo $lang;}else{echo 'en';}; ?>/cv/" onclick="setStyle1(2);"><?php echo $global['ME_RESUME'] ?></a>
 		</li>
 		<li class="ball_3">
-			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/';if(strlen($lang)==2){echo $lang;}else{echo 'en';}; ?>/publications/" onclick="setStyle1(3);"><?php echo $global['ME_PUBLI'] ?></a>
+			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/';if(strlen($lang)==2){echo $lang;}else{echo 'en';}; ?>/contact/" onclick="setStyle1(3);"><?php echo $global['ME_CONTACT'] ?></a>
 		</li>
 	</ul>
 </div>

@@ -112,7 +112,7 @@ body{
 /********************************************************************************/
 
 .logo a{
-	font-size:		0.9em;
+	font-size:		1em;
 	color:			#f8BB33;
 }
 
@@ -349,9 +349,7 @@ html body div#wrapper div#content div.post div.article div.article_right_content
 	text-align:			center;
 	font-size:			1.5em;
 }
-#content div#publications h3{
-	text-align:			center;
-}
+
 #publications section{
 	margin-bottom:		1em;
 	font-size:			0.82em;
@@ -415,19 +413,19 @@ div.SectionTitle {
 	margin: 			0;
 	background-color:	#EEEEEE;
 }
-div.SectionTitle h2 {
+#content h2 {
 	text-indent: 		2em;
 	margin-top: 		0px;
 	margin-bottom: 		3px;
 /*	background-color:	#EEEEEE;*/
 	font-size:			1em;	
 }
-div.SectionTitle a:link, div.SectionTitle a:visited {
+div.SectionTitle a:link, div.SectionTitle a:visited{
 	color:				black;
 }
 
 div.Description, div.List, #content ul.ItemDesc li, #content nav ul li.Item {
-	margin: 			1em 0;
+	margin: 			0.5em 0;
 	list-style-type: 	none;
 	line-height:		13px !important;
 }
@@ -460,7 +458,7 @@ div#content ul.ItemDesc li {
 /*	font-weight:		bold;*/
 /*	font-size:			1.03em*/
 /*}*/
-.ItemTitle h3 a:link, .ItemTitle h3 a:visited{
+.ItemTitle h3 a:link, .ItemTitle h3 a:visited, #publications section span.headline a:link, #publications section span.headline a:visited{
 	color:				#33BB33;
 	text-align: 		left;
 /*	font-weight:		bold;*/
@@ -528,8 +526,8 @@ p.see_all a{
 	text-align:			right;
 }
 
-#content p, #content dl, #content ul.detail{
-	text-align:			justify;
+#content p, #content ul{
+
 	font-size:			0.82em;	
 }
 

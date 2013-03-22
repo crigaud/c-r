@@ -80,6 +80,7 @@
 <!--<p class="Style1" >
 	<?php //echo $txt['RE_INTRO']; ?>
 </p>-->
+
 <!--*********************************************************************************************************************
 	*														EXPERIENCE													*
  	*********************************************************************************************************************-->
@@ -92,13 +93,24 @@
  	*********************************************************************************************************************-->
 
 <br />
-	<?php include('education_content.php'); ?>
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/education_content.php'); ?>
 <br />
+<!--*********************************************************************************************************************
+	*														PUBLICATION													*
+ 	*********************************************************************************************************************-->
+
+<br />
+	<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/publication_content.php'); ?>
+<br />
+
 <!--*********************************************************************************************************************
 	*														 VARIED 													*
  	*********************************************************************************************************************-->
- <div class="SectionTitle"><h2><?php echo $txt['RE_VA_TITLE'] ?></h2></div>
-
+ <div class="SectionTitle"><h2><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/varied/'.'" 
+#				>'. $txt['RE_VA_TITLE']. '</a></h2>';?></h2></div>
+<?php
+if($subsection == "varied" || $subsection==""){
+?>
 <table class="ItemTable2">
 <?php
 for( $i=1 ; $i <= 4 ; $i++ ){
@@ -111,7 +123,14 @@ for( $i=1 ; $i <= 4 ; $i++ ){
 } //END FOR
 ?>
 </table>
+<?php
+}//AND IF SUBSECTION = EXPERIENCE
+
+if( $subsection != "varied"){
+	//echo '	<p class="see_all" align="right"><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/experience/" title="'. $txt['RE_ALL'] .'"></a></p>';
+}
+?>
 <br />
 
-<div id="ItemUpdate"><?php echo $txt['RE_VA_LAST_UP'] ?></div>
+<div id="ItemUpdate"><?php //echo $txt['RE_VA_LAST_UP'] ?></div>
 

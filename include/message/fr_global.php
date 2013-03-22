@@ -18,7 +18,7 @@ $global = array(
 "LT_TITLE" => "Actualité",
 "LT_05_HEAD" => "<a href=\"https://github.com/crigaud/publication/blob/master/2013/TALK/intelligent_media_processing_group/segmentation_and_indexation_of_comic_books.pdf?raw=true\" >Présentation à Osaka</a>",
 "LT_05_DATE" => "1 Mars 2013",
-"LT_04_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/fr/publications/\" >Article soumis à ICDAR'13</a>",
+"LT_04_HEAD" => "<a href=\"https://github.com/crigaud/publication/tree/master/2013/ICDAR/an_active_contour_model_for_speech_balloon_detection_in_comics\" >Article soumis à ICDAR'13</a>",
 "LT_04_DATE" => "22 Février 2013",
 "LT_03_HEAD" => "<a href=\"http://link.springer.com/book/10.1007/978-3-642-36824-0/page/1\" onclick='window.open(this.href); return false;'>Publication dans LNCS</a>",
 "LT_03_DATE" => "19 Février 2013",
@@ -53,7 +53,7 @@ $global = array(
 /*************************** HOME ****************************/
 "HO_TITLE" => "Christophe Rigaud - Doctorant-ingénieur en informatique et traitement d'image",
 
-"HO_INTRO" => "Bienvenue,<br />Ce site présente mes activées de recherche, les publications associées et mon <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >CV interactif</a>.<br />N'hésitez pas à me <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contacter</a>.",
+"HO_INTRO" => "Bienvenue!<br />Ce site présente mes activées de recherche, les <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/publication/\" >publications</a> associées et mon <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >CV interactif</a>.<br />N'hésitez pas à me <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contacter</a>.",
 "HO_DESC" => "Bienvenue, ce site présente mes activées de recherche, les publications associées et mon CV interactif. N'hésitez pas à me contacter.",
 "HO_KEY" => "christophe rigaud,rigaud christophe,ing&eacute;nieur,chercheur,traitement d'image,vision par ordinateur,machine learning,data mining,informatique,vision par ordinateur,christophe,rigaud,rigot,rigaut,rigo,rigod",
 

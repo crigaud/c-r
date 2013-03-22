@@ -10,14 +10,14 @@
 
 <?php
 
-if($subsection == "experience" || strlen($subsection) < 1){
+if($subsection == "experience" || $subsection==""){
 
 ?>
 <nav><ul>
 <?php
 
 if( $section != 'cv'){
-	$cmp = 1;
+	$cmp = 2;
 }else{
 	$cmp = 15;
 }
@@ -73,9 +73,7 @@ for( $i=10 ; $i >= 5 ; $i-- ){
 }//AND IF SUBSECTION = EXPERIENCE
 
 if( $subsection != "experience"){
-	echo '	<p class="see_all" align="right"><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/experience/"
-					title="'. $txt['RE_ALL'] .'"></a>
-			</p>';
+	//echo '	<p class="see_all" align="right"><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/experience/" title="'. $txt['RE_ALL'] .'"></a></p>';
 }
 
 ?>			

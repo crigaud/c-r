@@ -188,7 +188,7 @@ $txt = array(
 'RE_VA_03_DESC_01' 	=> "United Kingdom (200 days), Spain (5 days), Ireland (5 days), Netherland (3 days)",
 
 'RE_VA_04_TITLE' 	=> "Association :",
-'RE_VA_04_DESC_01' 	=> "member and webmaster of <a href='http://adocs.univ-lr.fr' onclick='window.open(this.href); return false;' title='PhD student association of La Rochelle'>ADOCS</a>",
+'RE_VA_04_DESC_01' 	=> "member and webmaster of <a href='http://adocs.univ-lr.fr' onclick='window.open(this.href); return false;' title='PhD student association of La Rochelle'>ADocsS</a>, setup of <a href='http://vivelevelo17.free.fr/' onclick='window.open(this.href); return false;'>Vive le Vélo</a> website",
 
 'RE_VA_LAST_UP' 	=> "Last updated: January 30, 2012"
 

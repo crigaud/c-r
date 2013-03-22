@@ -1,9 +1,10 @@
 
 <div id="publications">
-	<h1>Publications</h1>
-
+	<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/publications/'.'" 
+#				>Publications</a></h2>';?></div>
+	<br />
 	<section itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
-		<span class="headline" itemprop="headline">An active contour model for speech balloon detection in comics</span><br />
+		<span class="headline" itemprop="headline"><a href="https://github.com/crigaud/publication/tree/master/2013/ICDAR/an_active_contour_model_for_speech_balloon_detection_in_comics" onclick="window.open(this.href); return false;" >An active contour model for speech balloon detection in comics</a></span><br />
 		<span itemprop="author">Christophe Rigaud, Dimosthenis Karatzas, Joost Van de Weijer, Jean-Christophe Burie, Jean-Marc Ogier</span><br />
 		<span class="publisher" itemprop="publisher">Pending acceptance...</span>
 		<ul class="download">
@@ -11,12 +12,12 @@
 		</ul>
 	</section>	
 	<section itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
-		<span class="headline" itemprop="headline">eBDtheque: a representative database of comics</span><br />
+		<span class="headline" itemprop="headline"><a href="http://ebdtheque.univ-lr.fr/" onclick="window.open(this.href); return false;" >eBDtheque: a representative database of comics</a></span><br />
 		<span itemprop="author">Clément Guérin, Christophe Rigaud, Antoine Mercier</span><br />
 		<span class="publisher"  itemprop="publisher">Pending acceptance...</span>
 	</section>	
 	<section itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
-		<span class="headline" itemprop="headline">Automatic text localisation in scanned comic books</span><br />
+		<span class="headline" itemprop="headline"><a href="https://github.com/crigaud/publication/tree/master/2013/VISAPP/automatic_text_localisation_in_scanned_comic_books" onclick="window.open(this.href); return false;" >Automatic text localisation in scanned comic books</a></span><br />
 		<span itemprop="author">Christophe Rigaud, Dimosthenis Karatzas, Joost Van de Weijer, Jean-Christophe Burie, Jean-Marc Ogier</span><br />
 		<span class="publisher" itemprop="publisher">International Conference on Computer Vision Theory and Applications (VISAPP’13)</span>
 		<ul class="download">
@@ -28,7 +29,7 @@
 
 	</section>	
 	<section itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
-		<span class="headline" itemprop="headline">Robust frame and text extraction from comic books</span><br />
+		<span class="headline" itemprop="headline"><a href="https://github.com/crigaud/publication/tree/master/2013/LNCS/robust_frame_and_text_extraction_from_comic_books" onclick="window.open(this.href); return false;" >Robust frame and text extraction from comic books</a></span><br />
 		<span itemprop="author">Christophe Rigaud, Norbert Tsopze, Jean-Christophe Burie, Jean-Marc Ogier</span><br />
 		<span class="publisher" itemprop="publisher">Graphics Recognition. New Trends and Challenges (LNCS), vol. 7423, pp. 129-138</span><br />
 		<ul class="download">
@@ -36,10 +37,10 @@
 		</ul>
 	</section>	
 	
-	<h3>2012</h3>
+	<h4>2012</h4>
 	
 	<section itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
-		<span class="headline" itemprop="headline">Extraction robuste des cases et du texte de bandes dessinées</span><br />
+		<span class="headline" itemprop="headline"><a href="https://github.com/crigaud/publication/tree/master/2012/CIFED/extraction_robuste_des_cases_et_du_texte_de_bandes_dessinees" onclick="window.open(this.href); return false;" >Extraction robuste des cases et du texte de bandes dessinées</a></span><br />
 		<span itemprop="author">Christophe Rigaud, Norbert Tsopze, Jean-Christophe Burie, Jean-Marc Ogier</span><br />
 		<span class="publisher"  itemprop="publisher">Colloque International Francophone sur l'Ecrit et le Document (CIFED'12)</span><br />
 		<ul class="download">

@@ -9,7 +9,7 @@
 
 
 <?php
-if($subsection == "education" || strlen($subsection) < 1){
+if($subsection == "education" || $subsection==""){
 ?>
 
 <nav><ul>
@@ -17,7 +17,7 @@ if($subsection == "education" || strlen($subsection) < 1){
 <?php
 
 if( $section != 'cv'){
-	$cmp = 1;
+	$cmp = 2;
 }else{
 	$cmp = 15;
 }
@@ -66,8 +66,6 @@ for( $i=8 ; $i >= 5 ; $i-- ){
 }//AND IF SUBSECTION = EXPERIENCE
 
 if( $subsection != "education"){
-	echo '	<p class="see_all" align="right"><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/education/"
-					title="'. $txt['RE_ALL'] .'"></a>
-			</p>';
+	//echo '	<p class="see_all" align="right"><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/education/" title="'. $txt['RE_ALL'] .'"></a> </p>';
 }
 ?>	
