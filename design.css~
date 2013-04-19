@@ -24,7 +24,7 @@ html {
 }
 body{
 	background-color:	#1F1F1F;
-	width:				80em;
+	max-width:			80em;
 	margin-right:		auto;		
 	margin-left:		auto;				
 /*	margin:				0;*/
@@ -36,11 +36,11 @@ body{
 	/*background-color:	#222222;*/
 	margin-right:		auto;		
 	margin-left:		auto;
-	width:				80em;
+	/*width:				100%;*/
 }
 
 #content{
-	width:				44em;
+	max-width:			44em;
 	min-height:			40em;
 	margin-top:			0.1em;
 	margin-left:		auto;
@@ -64,6 +64,19 @@ body{
 	font-size:		0.82em;
 }
 
+/********************************************************************************/
+/*									MEDIA QUERIES								*/
+/********************************************************************************/
+@media (max-width: 1200px)
+{
+  	#left_panel,
+  	#wrapper div#right,
+  	#menu_top ul.menuTop li.logo
+    {
+    	display:none;
+    }
+}
+
 
 /********************************************************************************/
 /*										NEWS									*/
@@ -82,7 +95,7 @@ body{
 /********************************************************************************/
 
 #vcard{
-	width:				14em;
+	max-width:				14em;
 	float:				left;
 	background-color:	#EEEEEE;
 	margin-top:			7em;
@@ -102,7 +115,7 @@ body{
 }
 
 #vcard img.myId{
-	width:				70px;
+	max-width:				70px;
 	border:				none;
 	margin:				5px;
 }
@@ -123,7 +136,7 @@ body{
 /*}*/
 #menu_top{
 	text-align:center;
-	width:			50em;
+	max-width:		50em;
 	margin-top:		0.5em;
 	margin-left:	auto;
 	margin-right:	auto;	
@@ -136,7 +149,7 @@ body{
 
 li.ball_1, li.ball_2, li.ball_3{
 	font-size:		1em;
-	width:			20%;
+	/*width:			20%;*/
 	color:			white;
 	font-weight:	bold;	
 
@@ -148,7 +161,7 @@ ul.menuTop li.ball_1 a, ul.menuTop li.ball_2 a, ul.menuTop li.ball_3 a {
   display: block;
   text-decoration: none;
   padding:			1em 0em 1em 0em;
-  width:			8em;
+  /*width:			8em;*/
   margin-left:		auto;
   margin-right:		auto;
 }
@@ -194,15 +207,19 @@ ul.menuTop li.logo{
 	font-size:			1.8em;
 	font-weight:		bold;
 	display: 			inline-block;
-    width:				11em;
+    max-width:				11em;
 }
-ul.menuTop li.ball_1,ul.menuTop li.ball_2,ul.menuTop li.ball_3 {
+@media (min-width: 900px)
+{
+  	ul.menuTop li.ball_1,ul.menuTop li.ball_2,ul.menuTop li.ball_3 {
     display: 			inline-block;
     width:				9em;
     text-align:			center;
 	padding:			0.6em 0em 0.6em 0em;
 	margin:				0em 0em 0.5em 0.8em;
 }
+}
+
 .ball_1,.ball_2,.ball_3{	
 	border-radius: 		0.5em 2em 0.5em 2em;
 /* 	-webkit-border-radius: 155px / 100px; */	
@@ -414,7 +431,7 @@ div.SectionTitle {
 	background-color:	#EEEEEE;
 }
 #content h2 {
-	text-indent: 		2em;
+	/*text-indent: 		2em;*/
 	margin-top: 		0px;
 	margin-bottom: 		3px;
 /*	background-color:	#EEEEEE;*/
@@ -638,7 +655,7 @@ p.see_all a{
 /********************************************************************************/
 
 footer, #footer{
-	width:				50em;
+	max-width:			50em;
 /*	padding:			10px;*/
 	margin-top:			20px;
 	margin-bottom:		20px;

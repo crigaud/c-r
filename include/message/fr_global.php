@@ -16,6 +16,10 @@ $global = array(
 
 /************************* LEFT PANEL *************************/
 "LT_TITLE" => "Actualité",
+"LT_07_HEAD" => "<a href=\"https://github.com/crigaud/publication/tree/master/2013/TALK/seminaire-S2IM-mathematique-modelisation-aeronautique\" >Présentation S2IM à Poitiers</a>",
+"LT_07_DATE" => "11 Avril 2013",
+"LT_06_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/fr/blog/index.php?id=test-de-personnalite-papi-i\" >Test de personnalité PAPI-I</a>",
+"LT_06_DATE" => "8 Avril 2013",
 "LT_05_HEAD" => "<a href=\"https://github.com/crigaud/publication/blob/master/2013/TALK/intelligent_media_processing_group/segmentation_and_indexation_of_comic_books.pdf?raw=true\" >Présentation à Osaka</a>",
 "LT_05_DATE" => "1 Mars 2013",
 "LT_04_HEAD" => "<a href=\"https://github.com/crigaud/publication/tree/master/2013/ICDAR/an_active_contour_model_for_speech_balloon_detection_in_comics\" >Article soumis à ICDAR'13</a>",
@@ -24,7 +28,7 @@ $global = array(
 "LT_03_DATE" => "19 Février 2013",
 "LT_02_HEAD" => "Elu au bureau de l'<a href=\"http://adocs.univ-lr.fr/\" onclick='window.open(this.href); return false;'>ADocs</a>",
 "LT_02_DATE" => "18 Janvier 2013",
-"LT_01_HEAD" => "Séjour recherche à Osaka",
+"LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/fr/blog/index.php?id=la-vie-au-japon\" >Séjour recherche à Osaka</a>",
 "LT_01_DATE" => "12 Janvier 2013",
 
 /*************************** VCARD ****************************/

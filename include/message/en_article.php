@@ -8,25 +8,25 @@ $art = array(
 'AR_DESC'				=> "Latest activities, news and research results.",
 'AR_KEY'				=> "conference,seminar,article,publication,activity,actuality,news,christophe rigaud,rigaud christophe",
 'AR_AUTHOR_TITLE'		=> "About ",
-'AR_FEEDBACK'		=> "<a href=\"http://". $_SERVER['SERVER_NAME']."/".LANGUAGE."/contact/\" title=\"Send an email\">Write a comments</a> ",
+'AR_FEEDBACK'		=> "<a href=\"http://". $_SERVER['SERVER_NAME']."/".$lang."/contact/\" title=\"Send an email\">Write a comments</a> ",
 
 'AR_01_DATE'			=> "16-09-2011",
-'AR_01_TITLE'			=> "Ouverture du blog",
+'AR_01_TITLE'			=> "Blog startup",
 'AR_01_SUB_TITLE'		=> "Finally",
 'AR_01_AUTHOR'			=> "Christophe Rigaud",
-'AR_01_CONTENT' 		=> "<p>Student life is over, now let's blog!</p>",
+'AR_01_CONTENT' 		=> "blog-startup.html",
 
 'AR_02_DATE'			=> "3-10-2011",
-'AR_02_TITLE'			=> "Thèse au laboratoire L3i à la Rochelle",
+'AR_02_TITLE'			=> "Thesis at L3i lab in La Rochelle",
 'AR_02_SUB_TITLE'		=> "The first steps",
 'AR_02_AUTHOR'			=> "Christophe Rigaud",
-'AR_02_CONTENT' 		=> "<p>
-Face to the Ph.D. world, I perceive many way like research, teaching and a personal project of three years. This project will be my thesis that I should defend in order to become graduate as Dr. 
-</p>
-<h4>What is my thesis subject?</h4>
-<p>
-It is about computer science specifically image processing. My aim by 2014 is to reach automatic extraction and indexation of comics content (e.g. frame, speech balloon, characters, complex objects, background...) The interest of this work is to make a framework able to find any part-of-comics element in order to find a specific sequence, a character or to set a new reading model for smartphone and tablet.
-</p>",
+'AR_02_CONTENT' 		=> "thesis-l3i-la-rochelle.html",
+
+'AR_03_DATE'			=> "28-03-2013",
+'AR_03_TITLE'			=> "Japanese life",
+'AR_03_SUB_TITLE'		=> "New culture discovery",
+'AR_03_AUTHOR'			=> "Christophe Rigaud",
+'AR_03_CONTENT' 		=> "japan-life.html",
 
 
 

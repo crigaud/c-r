@@ -29,12 +29,15 @@ $txt = array(
 'RE_EX_TITLE_DOC'	=> "Documentation",
 
 
-'RE_EX_10_TITLE' 	=> "Doctorant en traitement d'images",
-'RE_EX_10_SUB_TITLE'=> "L3i - Laboratoire Informatique, Image et Interaction | La Rochelle - FR (Octobre 2011 - Octobre 2014)",
+'RE_EX_10_TITLE' 	=> "Chargé de recherche",
+'RE_EX_10_SUB_TITLE'=> "L3i - Laboratoire Informatique, Image et Interaction | La Rochelle - FR (Octobre 2011 - en cours)",
 'RE_EX_10_WEB'		=> "http://l3i.univ-larochelle.fr/Rigaud-Christophe.html",
-'RE_EX_10_DESC_01' 	=> "Étude bibliographique sur la segmentation et la caractérisation d'images couleurs",
-'RE_EX_10_DESC_02' 	=> "Publication dans des revues et conférences scientifiques (<a href=\"http://l3i.univ-larochelle.fr/Rigaud-Christophe.html\" title=\"Fiche chercheur\" onclick=\"window.open(this.href); return false;\">liste des publications</a>)",
-'RE_EX_10_DESC_03' 	=> "Application : détection et reconnaissance d’objets complexes dans des images de bandes dessinées numérisées",
+'RE_EX_10_DESC_01' 	=> "Détection et reconnaissance d’objets complexes dans les images de bandes dessinées numérisées",
+'RE_EX_10_DESC_02' 	=> "Étude bibliographique, <a href='http://localhost/fr/cv/publication/' >publication</a> des résultats, revue d'articles, programmation Java et Python",
+'RE_EX_10_DESC_03' 	=> "Enseignement de programmation web et logique, encadrement de stagiaires",
+'RE_EX_10_DESC_04' 	=> "Organisation d'évènements : festival du film, journée des doctorants, conférence nationale",
+'RE_EX_10_DESC_05' 	=> "Représentation des doctorants au conseil de laboratoire, de l'université et dans l'association des doctorants",
+'RE_EX_10_DESC_06' 	=> "Séjour de recherche au laboratoire CVC (Espagne, 9 mois) et au Intelligent Media Processing Lab (Japon, 3 mois)",
 
 'RE_EX_09_TITLE' 	=> "Stage de fin d'études en laboratoire de recherche de 5 mois",
 'RE_EX_09_SUB_TITLE'=> "LISA - Laboratoire d'Ingénierie des Systèmes Automatisés | Angers - FR (Mars 2011 - Juillet 2011)",

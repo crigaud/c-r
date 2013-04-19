@@ -21,7 +21,7 @@ $global = array(
 "LT_03_DATE" => "February 19, 2013",
 "LT_02_HEAD" => "Elected at <a href='http://adocs.univ-lr.fr/' onclick='window.open(this.href); return false;'>ADocs</a> leadership",
 "LT_02_DATE" => "January 18, 2013",
-"LT_01_HEAD" => "Research stay in Osaka",
+"LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/blog/index.php?id=japan-life\" >Research stay in Osaka</a>",
 "LT_01_DATE" => "January 12, 2013",
 
 /*************************** VCARD ****************************/

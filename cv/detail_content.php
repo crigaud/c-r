@@ -83,11 +83,14 @@
 			<!-- EXPERIENCE MISSION -->							
 			<?php if( array_key_exists('RE_EX_TITLE_MI', $txt ) ){ echo "<h4>" . $txt['RE_EX_TITLE_MI']  . "</h4>";}?>
 			<ul class="ItemDesc">
-				<?php if( array_key_exists($ID.'DESC_01', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_01']  . "</li>";}		?>
-				<?php if( array_key_exists($ID.'DESC_02', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_02']  . "</li>";}  	?>
-				<?php if( array_key_exists($ID.'DESC_03', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_03']  . "</li>";}  	?>
-				<?php if( array_key_exists($ID.'DESC_04', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_04']  . "</li>";}  	?>
-				<?php if( array_key_exists($ID.'DESC_05', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_05']  . "</li>";}  	?>
+				<?php if( array_key_exists($ID.'DESC_01', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_01']  . "</li>";}		
+				if( array_key_exists($ID.'DESC_02', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_02']  . "</li>";}  	
+				if( array_key_exists($ID.'DESC_03', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_03']  . "</li>";}  	
+				if( array_key_exists($ID.'DESC_04', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_04']  . "</li>";}  	
+				if( array_key_exists($ID.'DESC_05', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_05']  . "</li>";}  	
+				if( array_key_exists($ID.'DESC_06', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_06']  . "</li>";}  	
+				if( array_key_exists($ID.'DESC_07', $txt ) ){ echo "<li>" . $txt[$ID.'DESC_07']  . "</li>";}  	?>
+				
 			</ul>
 			
 			<!-- EXPERIENCE WEB -->										

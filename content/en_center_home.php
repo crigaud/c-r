@@ -17,7 +17,7 @@
 <ul>
 	<li>ICDAR (International Conference on Document Analysis and Recognition)</li>
 	<li>GREC (International Workshop on Graphics Recognition)</li>
-	<li>CVPR</li>
+	<li>CVPR (Computer Vision and Pattern Recognition)</li>
 	<li>ICIP (International Conference on Image Processing)</li>
 	<li>DAS (International Workshop on Document Analysis Systems)</li>
 	<li>ECCV (European Conference on Computer Vision)</li>
@@ -49,11 +49,12 @@
 
 <h2>Working tools</h2>
 <ul>
+	<li><a href="http://www.latex-project.org/">LaTeX</a>, <a href="http://www.libreoffice.org">LibreOffice</a>: document preparation (article, slideshow and poster)</li>
 	<li><a href="https://github.com/">GitHub</a>: scientic productions management and sharing (article, poster, presentation, code, demonstrator)</li>
 	<li><a href="http://www.mendeley.com/">Mendeley</a>: library and reference manager</li>
 	<li><a href="https://www.mozilla.org/thunderbird/">Thunderbird</a>: email and agenda</li>
-	<li><a href="http://www.skype.com">Skype</a> : visio conference</li>
+	<li><a href="http://www.skype.com">Skype</a>: visio conference</li>
 	<li><a href="http://ipython.org/">IPython</a> notebook: laboratory notebook and interactive computing</li>
-	<li><a href="http://opencv.org/">OpenCV</a>, <a href="http://en.wikipedia.org/wiki/Java_Advanced_Imaging">JAI</a>, <a href="http://effbot.org/zone/pil-index.htm">PIL</a>, <a href="http://wiki.python.org/moin/ImageMagick">ImageMagick</a>, <a href="http://rsb.info.nih.gov/ij/">ImageJ</a>, <a href="http://www.gimp.org/">Gimp</a> : image processing</li>
+	<li><a href="http://opencv.org/">OpenCV</a>, <a href="http://en.wikipedia.org/wiki/Java_Advanced_Imaging">JAI</a>, <a href="http://effbot.org/zone/pil-index.htm">PIL</a>, <a href="http://wiki.python.org/moin/ImageMagick">ImageMagick</a>, <a href="http://rsb.info.nih.gov/ij/">ImageJ</a>, <a href="http://www.gimp.org/">Gimp</a>: image processing</li>
 </ul>
 	

@@ -17,7 +17,7 @@
 <ul>
 	<li>ICDAR (International Conference on Document Analysis and Recognition)</li>
 	<li>GREC (International Workshop on Graphics Recognition)</li>
-	<li>CVPR</li>
+	<li>CVPR (Computer Vision and Pattern Recognition)</li>
 	<li>ICIP (International Conference on Image Processing)</li>
 	<li>DAS (International Workshop on Document Analysis Systems)</li>
 	<li>ECCV (European Conference on Computer Vision)</li>
@@ -49,6 +49,7 @@
 
 <h2>Outils de travail</h2>
 <ul>
+	<li><a href="http://www.latex-project.org/">LaTeX</a>, <a href="http://www.libreoffice.org">LibreOffice</a> : préparation de document (article, diaporama et poster)</li>
 	<li><a href="https://github.com/">GitHub</a> : gestion, partage et diffusion des productions scientifiques (article, poster, présentation, code, demonstrateur)</li>
 	<li><a href="http://www.mendeley.com/">Mendeley</a> : gestion de la bibliothèque numérique et des références bibliographiques</li>
 	<li><a href="https://www.mozilla.org/thunderbird/">Thunderbird</a> : email et agenda</li>

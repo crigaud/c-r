@@ -55,6 +55,8 @@ for( $i=10 ; $i >= 5 ; $i-- ){
 				if( array_key_exists('RE_EX_'.$ID.'_DESC_03', $txt ) ){ echo '<li>' . $txt['RE_EX_'.$ID.'_DESC_03'] . '</li>';}
 				if( array_key_exists('RE_EX_'.$ID.'_DESC_04', $txt ) ){ echo '<li>' . $txt['RE_EX_'.$ID.'_DESC_04'] . '</li>';}
 				if( array_key_exists('RE_EX_'.$ID.'_DESC_05', $txt ) ){ echo '<li>' . $txt['RE_EX_'.$ID.'_DESC_05'] . '</li>';}
+				if( array_key_exists('RE_EX_'.$ID.'_DESC_06', $txt ) ){ echo '<li>' . $txt['RE_EX_'.$ID.'_DESC_06'] . '</li>';}
+				if( array_key_exists('RE_EX_'.$ID.'_DESC_07', $txt ) ){ echo '<li>' . $txt['RE_EX_'.$ID.'_DESC_07'] . '</li>';}
 			echo '
 			</ul>
 		<span class="more"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt['RE_EX_'.$ID.'_SUB_TITLE'] ) .'/"
