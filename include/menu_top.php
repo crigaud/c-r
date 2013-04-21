@@ -9,6 +9,9 @@
 				<a href="http://<?php echo $_SERVER['SERVER_NAME'] . '/'; if( strlen($lang) == 2){echo $lang;}; ?>" title="<?php echo $global['ME_LOGO'] ?>">Christophe Rigaud</a>
 			<!--</h1>-->
 
+			
+		</li>
+		<li class="flag">
 			<a href="http://<?php echo $_SERVER['SERVER_NAME']; 
 			if( strcmp($lang, 'fr') == 0 ){ 
 				echo str_replace( '/index.php', '/', str_replace( 'fr/', 'en/', $_SERVER['PHP_SELF']) ) ; 

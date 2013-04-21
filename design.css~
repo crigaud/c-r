@@ -38,8 +38,9 @@ body{
 	margin-left:		auto;
 	/*width:				100%;*/
 }
-
-#content{
+@media (min-width: 44em)
+{
+  	#content{
 	max-width:			44em;
 	min-height:			40em;
 	margin-top:			0.1em;
@@ -60,6 +61,23 @@ body{
 	-webkit-box-shadow: 3px 3px 3px #aaaaaa;
 	box-shadow: 3px 3px 3px #aaaaaa;*/
 }
+}
+@media (max-width: 44em)
+{
+  	#content{
+		margin-top:			0.1em;
+		margin-left:		auto;
+		margin-right:		auto;	
+	
+	/* 	background-color:	#EEEEEE; */
+		background-color:	white;		/* The Fallback for IE */
+		/*background-color:	rgba(240, 240, 240, 0.9);*/
+		border: 			1px solid;
+		border-radius: 		20px 20px 20px 20px;			/* BUG: Parse Error [empty string] ???? */
+	 	box-shadow: 		5px 5px 10px #CCC;	 /*x y size color*/
+	}
+}
+
 .Style1{
 	font-size:		0.82em;
 }
@@ -203,21 +221,31 @@ ul.menuTop{
 	list-style-type: none;
 	margin-left:	-3em;
 }
+ul.menuTop li{
+	display: 			inline-block;
+}
 ul.menuTop li.logo{
 	font-size:			1.8em;
 	font-weight:		bold;
-	display: 			inline-block;
     max-width:				11em;
 }
-@media (min-width: 900px)
+@media (min-width: 44em)
 {
   	ul.menuTop li.ball_1,ul.menuTop li.ball_2,ul.menuTop li.ball_3 {
-    display: 			inline-block;
-    width:				9em;
-    text-align:			center;
-	padding:			0.6em 0em 0.6em 0em;
-	margin:				0em 0em 0.5em 0.8em;
+		width:				9em;
+		text-align:			center;
+		padding:			0.6em 0em 0.6em 0em;
+		margin:				0em 0em 0.5em 0.8em;
+	}
 }
+@media (max-width: 44em)
+{
+  	ul.menuTop li.ball_1,ul.menuTop li.ball_2,ul.menuTop li.ball_3 {
+		width:				4em;
+		text-align:			center;
+		padding:			0.6em 0em 0.6em 0em;
+		margin:				0em 0em 0.5em 0.8em;
+	}
 }
 
 .ball_1,.ball_2,.ball_3{	

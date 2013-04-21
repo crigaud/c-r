@@ -70,7 +70,10 @@
 	
 	$attn = $attn ;
 	$subject = $attn;
-	$to = "contact@christophe-rigaud.com";
+	$first = "contact";
+	$second = "@christophe";
+	$third = "-rigaud.com";
+	$to = $first + $second + $third;
 	$notes = stripcslashes($notes);
 	
 	/*$message = " $todayis [EST] \n
