@@ -1,5 +1,17 @@
 <?php
 
+
+$meta = array(
+"blog-startup_TITLE"	=> "Let's blog! | Christophe Rigaud",
+"blog-startup_DESC"	=> "New blog for activities, research, news.",
+"japan-life_TITLE"	=> "Japan' life | Christophe Rigaud",
+"japan-life_DESC"	=> "Three months immersed in the Japanese culture around Osaka, Kyoto, Nara, Tokyo... with welcomming resident, high speed trains, massive cities, Bouddhist and Shintoist heritages. To discover!",
+"thesis-l3i-la-rochelle_TITLE"	=> "Thesis at L3i lab in La Rochelle | Christophe Rigaud",
+"thesis-l3i-la-rochelle_DESC"	=> "Beginning of a long story in computer science research, more precisely in document analysis and understanding.",
+
+);
+
+
 $global = array(
 "ERROR_404" => "Sorry, this page doesn't exist anymore please <a href='/' title='Home' >click here</a>",
 "ERROR_403" => "No authorizations <a href='/' title='Home' >click here</a> to go away.",
@@ -21,7 +33,7 @@ $global = array(
 "LT_03_DATE" => "February 19, 2013",
 "LT_02_HEAD" => "Elected at <a href='http://adocs.univ-lr.fr/' onclick='window.open(this.href); return false;'>ADocs</a> leadership",
 "LT_02_DATE" => "January 18, 2013",
-"LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/blog/index.php?id=japan-life\" >Research stay in Osaka</a>",
+"LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/blog/?q=japan-life\" >Research stay in Osaka</a>",
 "LT_01_DATE" => "January 12, 2013",
 
 /*************************** VCARD ****************************/

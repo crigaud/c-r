@@ -8,7 +8,7 @@ $art = array(
 'AR_DESC'				=> "Bienvenue sur le blog de Christophe Rigaud, il y présente ses dernières activité et résultats de recherche.",
 'AR_KEY'				=> "conférence,séminaire,article,publication,activité,actualité,nouveauté,christophe rigaud,rigaud christophe",
 'AR_AUTHOR_TITLE'		=> "A propos de ",
-'AR_FEEDBACK'		=> "<a href=\"http://". $_SERVER['SERVER_NAME']."/fr/contact/\" title=\"Envoyer un email\">Laisser un commentaire</a> ",
+'AR_FEEDBACK'		=> "<a href=\"http://". $_SERVER['SERVER_NAME']."/fr/contact/\" title=\"Envoyer un email\">Envoyer un commentaire</a> ",
 
 'AR_01_DATE'			=> "16-09-2011",
 'AR_01_TITLE'			=> "Ouverture du blog",

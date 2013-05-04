@@ -1,6 +1,17 @@
 <?php
 
+$meta = array(
 
+"test-de-personnalite-papi-i_TITLE"	=> "Test de personnalité PAPI-I | Christophe Rigaud",
+"test-de-personnalite-papi-i_DESC"	=> "Synthèse des résultats du test PAPI-I passé le 8 mars 2013 avec le service de la maison de la réussite et de l'insersion professionnelle de la l'Université de La Rochelle",
+"la-vie-au-japon_TITLE"	=> "La vie au Japon | Christophe Rigaud",
+"la-vie-au-japon_DESC"	=> "Un voyage de trois mois au coeur de la culture Japonnaise à Osaka, Kyoto, Nara, Tokyo... avec ses habitants accueillants, ses trains à grande vitesse, les interminables agglomérations et les massifs qui regorgent d'histoires Bouddhistes et Shintoistes. A découvrir!",
+"these-au-laboratoire-l3i-a-la-rochelle_TITLE"	=> "Thèse au laboratoire L3i de La Rochelle | Christophe Rigaud",
+"these-au-laboratoire-l3i-a-la-rochelle_DESC"	=> "Le début d'une aventure de trois ans pleine de surprises mais qu'est ce qu'une thèse? Un doctorat? Sur quoi vais-je travailler? Les réponses sont dans cet article.",
+"ouverture-du-blog_TITLE"	=> "Ouverture du blog | Christophe Rigaud",
+"ouverture-du-blog_DESC"	=> "Blog sur les activités, les recherches scientifiques récentes et les gros évènements professionnels de Christophe Rigaud.",
+
+);
 
 $global = array(
 "ERROR_404" => "Désolé, cette page n'existe plus, merci de <a href='/' >retourner à l'accueil</a>",
@@ -18,7 +29,7 @@ $global = array(
 "LT_TITLE" => "Actualité",
 "LT_07_HEAD" => "<a href=\"https://github.com/crigaud/publication/tree/master/2013/TALK/seminaire-S2IM-mathematique-modelisation-aeronautique\" >Présentation S2IM à Poitiers</a>",
 "LT_07_DATE" => "11 Avril 2013",
-"LT_06_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/fr/blog/index.php?id=test-de-personnalite-papi-i\" >Test de personnalité PAPI-I</a>",
+"LT_06_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/fr/blog/?q=test-de-personnalite-papi-i\" >Test de personnalité PAPI-I</a>",
 "LT_06_DATE" => "8 Avril 2013",
 "LT_05_HEAD" => "<a href=\"https://github.com/crigaud/publication/blob/master/2013/TALK/intelligent_media_processing_group/segmentation_and_indexation_of_comic_books.pdf?raw=true\" >Présentation à Osaka</a>",
 "LT_05_DATE" => "1 Mars 2013",
@@ -28,7 +39,7 @@ $global = array(
 "LT_03_DATE" => "19 Février 2013",
 "LT_02_HEAD" => "Elu au bureau de l'<a href=\"http://adocs.univ-lr.fr/\" onclick='window.open(this.href); return false;'>ADocs</a>",
 "LT_02_DATE" => "18 Janvier 2013",
-"LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/fr/blog/index.php?id=la-vie-au-japon\" >Séjour recherche à Osaka</a>",
+"LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/fr/blog/?q=la-vie-au-japon\" >Séjour recherche à Osaka</a>",
 "LT_01_DATE" => "12 Janvier 2013",
 
 /*************************** VCARD ****************************/

@@ -17,24 +17,28 @@
 	
 	<!-- DINAMIC CONTENT -->
 	<?php
-	if(strlen($lang) == 2){
-		if($section == "cv"){
-			$title = $txt["RE_TITLE"];
-			$desc = $txt["RE_DESC"];
-			$key = $txt["RE_KEY"];
-		}else if($section == "contact"){
-			$title = $global["CO_TITLE"];
-			$desc = $global["CO_DESC"];
-			$key = $global["CO_KEY"];
-		}else if($section == "publications"){
-			$title = "sdf";
-			$desc = $txt["PU_DESC"];
-			$key = $txt["PU_KEY"];
-		}else{
-			$title = $global['HO_TITLE'];
-			$desc = $global['HO_DESC'];
-			$key = $global['HO_KEY'];
-		}
+	$q = $_GET["q"];
+	if( $q != null ){
+		$title = $meta[$q.'_TITLE'];
+		$desc = $meta[$q.'_DESC'];
+	}else if(strlen($lang) == 2){
+			if($section == "cv"){
+				$title = $txt["RE_TITLE"];
+				$desc = $txt["RE_DESC"];
+				$key = $txt["RE_KEY"];
+			}else if($section == "contact"){
+				$title = $global["CO_TITLE"];
+				$desc = $global["CO_DESC"];
+				$key = $global["CO_KEY"];
+			}else if($section == "publications"){
+				$title = $txt["PU_TITLE"];
+				$desc = $txt["PU_DESC"];
+				$key = $txt["PU_KEY"];
+			}else{
+				$title = $global['HO_TITLE'];
+				$desc = $global['HO_DESC'];
+				$key = $global['HO_KEY'];
+			}
 	}else{
 		$title = $global['HO_TITLE'];
 		$desc = $global['HO_DESC'];
