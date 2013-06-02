@@ -19,6 +19,7 @@ $global = array(
 /*************************** MENU ****************************/
 "ME_LOGO" => "Home",
 "ME_HOME" => "Home",
+"ME_BLOG" => "Blog",
 "ME_RESUME" => "CV",
 "ME_CONTACT" => "Contact",
 "ME_PUBLI"	=> "Publications",
@@ -67,6 +68,8 @@ Thanks for stopping by!
 ",
 "HO_DESC" => "Hi, this website is a place where I show some recent work and keep an up-to-date resume. Feel free to contact me by e-mail or other forms of social media.",
 "HO_KEY" => "christophe rigaud,rigaud christophe,research,engineer,computer science,image processing,machine learning,data mining,computer vision,comics,cartoon",
+
+"HO_MINDMAP" => "Main activities",
 
 /************************ ABOUT ****************************/
 "AB_TITLE" => "About Christophe Rigaud",

@@ -32,6 +32,7 @@ $txt = array(
 'RE_EX_10_TITLE' 	=> "Chargé de recherche",
 'RE_EX_10_SUB_TITLE'=> "L3i - Laboratoire Informatique, Image et Interaction | La Rochelle - FR (Octobre 2011 - en cours)",
 'RE_EX_10_WEB'		=> "http://l3i.univ-larochelle.fr/Rigaud-Christophe.html",
+'RE_EX_10_DETAIL'	=> "1",
 'RE_EX_10_DESC_01' 	=> "Détection et reconnaissance d’objets complexes dans les images de bandes dessinées numérisées",
 'RE_EX_10_DESC_02' 	=> "Étude bibliographique, <a href='http://localhost/fr/cv/publication/' >publication</a> des résultats, revue d'articles, programmation Java et Python",
 'RE_EX_10_DESC_03' 	=> "Enseignement de programmation web et logique, encadrement de stagiaires",

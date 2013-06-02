@@ -33,6 +33,7 @@ $txt = array(
 'RE_EX_10_SUB_TITLE'=> "L3i - Laboratory Informatic, Image and Interaction | La Rochelle - FR (Octobre 2011 - present)",
 'RE_EX_10_TAGS'		=> "java,research,comics,gimp",
 'RE_EX_10_WEB'		=> "http://l3i.univ-larochelle.fr/Rigaud-Christophe,684.html",
+'RE_EX_10_DETAIL'	=> "1",
 'RE_EX_10_DESC_01' 	=> "State of the art of color image segmentation, characterization and indexation",
 'RE_EX_10_DESC_02' 	=> "Journal publication and scientific conferences (<a href=\"http://l3i.univ-larochelle.fr/Rigaud-Christophe,684.html\" title=\"Researcher profile\" onclick=\"window.open(this.href); return false;\">publication list</a>)",
 'RE_EX_10_DESC_03' 	=> "Application : application to detection and recognition of complex object from digitalized comic books",

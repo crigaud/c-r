@@ -18,6 +18,6 @@
 	//}else if(strcmp($section, 'publications') == 0){
 		//include($_SERVER['DOCUMENT_ROOT'].'/publications/inc_publications.php');
 	//}else{
-		include($_SERVER['DOCUMENT_ROOT'].'/content/home_left_panel.php');
+		//include($_SERVER['DOCUMENT_ROOT'].'/content/home_left_panel.php');
 	//}
 ?>

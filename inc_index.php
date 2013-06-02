@@ -25,7 +25,6 @@
 				include($_SERVER['DOCUMENT_ROOT']."/skeleton/center.php");
 			?>
 		</div>
-		</div>
 		<div id="bottom">
 			<?php
 				include($_SERVER['DOCUMENT_ROOT']."/skeleton/bottom.php");

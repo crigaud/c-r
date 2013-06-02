@@ -68,7 +68,7 @@ body{
 		margin-top:			0.1em;
 		margin-left:		auto;
 		margin-right:		auto;	
-	
+		min-width:			10em;
 	/* 	background-color:	#EEEEEE; */
 		background-color:	white;		/* The Fallback for IE */
 		/*background-color:	rgba(240, 240, 240, 0.9);*/
@@ -77,6 +77,9 @@ body{
 		border-radius: 		20px 20px 20px 20px;			/* BUG: Parse Error [empty string] ???? */
 	 	box-shadow: 		5px 5px 10px #CCC;	 /*x y size color*/
 	}
+	#mindmap{
+		display:			none;
+	}	
 }
 
 .Style1{
@@ -100,12 +103,19 @@ body{
 /********************************************************************************/
 /*										NEWS									*/
 /********************************************************************************/
-#vcard div.news_head a, #vcard div.news_date a:visited{
-	color:				black;
+div.news_head{
+	color:				#F8BB33;
+	font-weight:		bold;
+	font-size:			0.98em;
+	margin-left:		1em;
 }
-#vcard div.news_date{
+div.news_head a, div.news_head a:visited{
+	color:				#F8BB33;
+}
+#vcard div.news_date, .news_date{
 	color:				gray;
 	font-size:			0.7em;
+	margin-left:		2em;
 }
 
 
@@ -294,7 +304,9 @@ ul.menuTop li.logo{
 	margin-left:		auto;
 	margin-right:		auto;
 /* 	margin-bottom:		30px; */
-/*	text-align:		center;*/
+}
+#mindmap object{
+	margin-left:		1.5em;
 }
 
 #mindmap img{
@@ -498,12 +510,7 @@ div#content ul.ItemDesc li {
 #content a img.Logo, #content a.top{
 	float:				right;
 }
-/*.ItemTitle a:link, .ItemTitle a:visited{*/
-/*	color:				#33BB33;*/
-/*	text-align: 		left;*/
-/*	font-weight:		bold;*/
-/*	font-size:			1.03em*/
-/*}*/
+
 .ItemTitle h3 a:link, .ItemTitle h3 a:visited, #publications section span.headline a:link, #publications section span.headline a:visited{
 	color:				#33BB33;
 	text-align: 		left;
@@ -516,10 +523,7 @@ html body div#wrapper div#content h3 a.ItemSubTitle{
 	margin-left:		1em;
 	font-weight:		normal;
 }
-/*.ItemSubTitle a:link, .ItemSubTitle a:visited{*/
-/*	font-size:			0.82em;*/
-/*	margin-left:		1em;*/
-/*}*/
+
 h4.ItemSubTitle a:link, h4.ItemSubTitle a:visited, h4.ItemSubTitle a:link, h4.ItemSubTitle a:visited{
 	font-size:			1em;
 	font-weight:		normal;	
@@ -740,5 +744,8 @@ a:link, a:visited {
 }
 .logo a:hover{
 	color:			#f8BB33;
+}
+.to_hide{
+	display:		hidden;
 }
 

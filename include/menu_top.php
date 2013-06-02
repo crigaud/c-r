@@ -25,7 +25,7 @@
 			?>
 		</li>
 		<li class="ball_1">
-			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/';if(strlen($lang)==2){echo $lang;}else{echo 'en';}; ?>/" onclick="setStyle1(1);"><?php echo $global['ME_HOME'] ?></a>
+			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/';if(strlen($lang)==2){echo $lang;}else{echo 'en';}; ?>/blog/" onclick="setStyle1(1);"><?php echo $global['ME_BLOG'] ?></a>
 		</li>
 		<li class="ball_2">
 			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/';if(strlen($lang)==2){echo $lang;}else{echo 'en';}; ?>/cv/" onclick="setStyle1(2);"><?php echo $global['ME_RESUME'] ?></a>
