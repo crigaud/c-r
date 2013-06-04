@@ -31,7 +31,7 @@
 			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/';if(strlen($lang)==2){echo $lang;}else{echo 'en';}; ?>/cv/" onclick="setStyle1(2);"><?php echo $global['ME_RESUME'] ?></a>
 		</li>
 		<li class="ball_3">
-			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/';if(strlen($lang)==2){echo $lang;}else{echo 'en';}; ?>/contact/" onclick="setStyle1(3);"><?php echo $global['ME_CONTACT'] ?></a>
+			<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/';if(strlen($lang)==2){echo $lang;}else{echo 'en';}; ?>/cv/publication/" onclick="setStyle1(3);"><?php echo 'Publications' ?></a>
 		</li>
 	</ul>
 </div>
