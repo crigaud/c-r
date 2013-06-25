@@ -9,11 +9,11 @@
 <!-- REMOVE ONLOAD STYLE -->
 <body onload="setStyle1(1);">		
 	<div id="wrapper">
-		<div id="left_panel">
+		<!--<div id="left_panel">
 			<?php
-				include($_SERVER['DOCUMENT_ROOT']."/skeleton/left_panel.php");
+				//include($_SERVER['DOCUMENT_ROOT']."/skeleton/left_panel.php");
 			?>
-		</div>
+		</div>-->
 		<div id="right"><?php include($_SERVER['DOCUMENT_ROOT']."/skeleton/right.php");	?></div>		
 		<div id="top">
 			<?php
@@ -25,11 +25,12 @@
 				include($_SERVER['DOCUMENT_ROOT']."/skeleton/center.php");
 			?>
 		</div>
-		<div id="bottom">
-			<?php
-				include($_SERVER['DOCUMENT_ROOT']."/skeleton/bottom.php");
-			?>
-		</div>
+		
+	</div>
+	<div id="bottom">
+		<?php
+			include($_SERVER['DOCUMENT_ROOT']."/skeleton/bottom.php");
+		?>
 	</div>
 </body>
 </html>

@@ -1,12 +1,10 @@
 
 <div id="publications">
-	<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/publication/'.'" 
-#				>Publications</a></h2>';?></div>
-	<br />
+	
 	<?php
 if($subsection == "publication" || $subsection==""){
 ?>
-	<section itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
+	<section class="cv-element" itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
 		<span class="headline" itemprop="headline"><a href="https://github.com/crigaud/publication/tree/master/2013/ICDAR/an_active_contour_model_for_speech_balloon_detection_in_comics" onclick="window.open(this.href); return false;" >An active contour model for speech balloon detection in comics</a></span><br />
 		<span itemprop="author">Christophe Rigaud, Dimosthenis Karatzas, Joost Van de Weijer, Jean-Christophe Burie, Jean-Marc Ogier</span><br />
 		<span class="publisher" itemprop="publisher">Pending acceptance...</span>
@@ -14,12 +12,12 @@ if($subsection == "publication" || $subsection==""){
 		   	<li><a href="https://github.com/crigaud/publication/tree/master/2013/ICDAR/an_active_contour_model_for_speech_balloon_detection_in_comics" onclick="window.open(this.href); return false;">Material</a></li>
 		</ul>
 	</section>	
-	<section itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
+	<section class="cv-element" itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
 		<span class="headline" itemprop="headline"><a href="http://ebdtheque.univ-lr.fr/" onclick="window.open(this.href); return false;" >eBDtheque: a representative database of comics</a></span><br />
 		<span itemprop="author">Clément Guérin, Christophe Rigaud, Antoine Mercier</span><br />
 		<span class="publisher"  itemprop="publisher">Pending acceptance...</span>
 	</section>	
-	<section itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
+	<section class="cv-element" itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
 		<span class="headline" itemprop="headline"><a href="https://github.com/crigaud/publication/tree/master/2013/VISAPP/automatic_text_localisation_in_scanned_comic_books" onclick="window.open(this.href); return false;" >Automatic text localisation in scanned comic books</a></span><br />
 		<span itemprop="author">Christophe Rigaud, Dimosthenis Karatzas, Joost Van de Weijer, Jean-Christophe Burie, Jean-Marc Ogier</span><br />
 		<span class="publisher" itemprop="publisher">International Conference on Computer Vision Theory and Applications (VISAPP’13)</span>
@@ -31,7 +29,7 @@ if($subsection == "publication" || $subsection==""){
 		</ul>
 
 	</section>	
-	<section itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
+	<section class="cv-element" itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
 		<span class="headline" itemprop="headline"><a href="https://github.com/crigaud/publication/tree/master/2013/LNCS/robust_frame_and_text_extraction_from_comic_books" onclick="window.open(this.href); return false;" >Robust frame and text extraction from comic books</a></span><br />
 		<span itemprop="author">Christophe Rigaud, Norbert Tsopze, Jean-Christophe Burie, Jean-Marc Ogier</span><br />
 		<span class="publisher" itemprop="publisher">Graphics Recognition. New Trends and Challenges (LNCS), vol. 7423, pp. 129-138</span><br />
@@ -42,7 +40,7 @@ if($subsection == "publication" || $subsection==""){
 	
 	<h4>2012</h4>
 	
-	<section itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
+	<section class="article-content" itemprop="scholarlyArticle" itemscope itemtype="http://schema.org/ScholarlyArticle">
 		<span class="headline" itemprop="headline"><a href="https://github.com/crigaud/publication/tree/master/2012/CIFED/extraction_robuste_des_cases_et_du_texte_de_bandes_dessinees" onclick="window.open(this.href); return false;" >Extraction robuste des cases et du texte de bandes dessinées</a></span><br />
 		<span itemprop="author">Christophe Rigaud, Norbert Tsopze, Jean-Christophe Burie, Jean-Marc Ogier</span><br />
 		<span class="publisher"  itemprop="publisher">Colloque International Francophone sur l'Ecrit et le Document (CIFED'12)</span><br />
@@ -55,10 +53,6 @@ if($subsection == "publication" || $subsection==""){
 
 <?php
 }//AND IF SUBSECTION = EXPERIENCE
-
-if( $subsection != "publications"){
-	//echo '	<p class="see_all" align="right"><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/education/" title="'. $txt['RE_ALL'] .'"></a> </p>';
-}
 ?>		
 
 </div>

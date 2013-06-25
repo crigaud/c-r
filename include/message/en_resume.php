@@ -21,10 +21,11 @@ $txt = array(
 *														EXPERIENCE 													*
 *********************************************************************************************************************/
 
-'RE_EX_TITLE_ALL'	=>	"Christophe Rigaud's experiences",
-'RE_EX_DESC_ALL'	=>	"Details about Christophe Rigaud's experiences",
+'RE_EX_TITLE_ALL' 	=> "Professional experiences | Christophe Rigaud - ",
+'RE_EX_DESC_ALL'	=> "Professional experiences of Christophe Rigaud as technician, engineer and researcher in different companies as (agroalimentary, automation, tour operator, laboratory...)",
 
-'RE_EX_TITLE'		=>	"Experience",
+'RE_EX_TITLE'		=>	"Experiences",
+'RE_EX_TITLE_PL'	=> 	"Place",
 'RE_EX_TITLE_MI'	=> 	"Missions",
 'RE_EX_TITLE_WE'	=> 	"Web site",
 'RE_EX_TITLE_DOC'	=> 	"Documentation",
@@ -110,7 +111,7 @@ $txt = array(
 *														PUBLICATIONS 												*
 *********************************************************************************************************************/
 
-'PU_TITLE'			=> 	"Publications of Christophe Rigaud - Doctoral researcher in computer science",
+'PU_TITLE'			=> 	"Publications | Christophe Rigaud",
 'PU_DESC' 			=> 	"Publications list in international conferences and journaux nationaaux et internationnaux (e.g. ICDAR, GREC, VISAPP, LNCS, CIFED and PR).",
 'PU_KEY' 			=>	"publication,scientific articles,academic paper,public domain,ICDAR,LNCS,VISAPP,CIFED",
 

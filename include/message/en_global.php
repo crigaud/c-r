@@ -38,6 +38,7 @@ $global = array(
 "LT_01_DATE" => "January 12, 2013",
 
 /*************************** VCARD ****************************/
+"VC_TITLE" => "Business card",
 "VC_AGE_T" => "Age",
 "VC_AGE_D" => "years old",
 "VC_AFF_T" => "Affiliation",
@@ -58,7 +59,7 @@ $global = array(
 "VC_NET_T" => "Network: ",
 
 /************************** FOOTER ***************************/
-"FO_POWER" => "Designed and powered by Christophe Rigaud, hosted by OVH",
+"FO_POWER" => "Designed and powered by Christophe Rigaud, hosted by <a href='http://ovh.com/' onclick='window.open(this.href); return false;'>OVH</a>.",
 
 /*************************** HOME ****************************/
 "HO_TITLE" => "Christophe Rigaud - Ph.D. student in computer vision and document analysis",
@@ -78,11 +79,11 @@ Thanks for stopping by!
 "AB_INTRO" => "Below is quick overview of myself:",
        
 /************************* CONTACT ***************************/
-"CO_TITLE" => "Contact Christophe Rigaud",
+"CO_TITLE" => "Contact | Christophe Rigaud",
 "CO_DESC" => "Please fill up this form if you have any questions.",
 "CO_KEY" => "request,information,email,contact,christophe rigaud,rigaud christophe,address,email,contact,send,phone,tel,message,text,appointment,meeting,interview",
 "CO_H1" => "Contact",
-"CO_INTRO" => "Feel free to fill up this form if you have any questions.",
+"CO_INTRO" => "Feel free to fash the QR code with your smartphone or fill up the form bellow.",
 "CO_NAME" => "Name",
 "CO_NAME_ERROR" => "Please enter your name",
 "CO_EMAIL" => "Email",

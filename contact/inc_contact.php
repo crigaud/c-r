@@ -1,8 +1,10 @@
 
-<div id="contact">
+<section id="contact" class="article">
+
 
 	<h1><?php echo $global['CO_H1'] ?></h1>
 
+	<div class="article-content">		
 	<figure tabindex=1>
 		<img src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/contact/img/qr_code_mailto_christophe_rigaud.png" alt="QR code mailto" title="Zoom, flash and email" />
 	</figure>
@@ -85,4 +87,5 @@
 // 	$_SESSION['error1'] = 0;
 // 	$_SESSION['error2'] = 0; 
 ?>
-</div><!--END CONTACT-->
+</div><!--end article-content-->
+</section><!--end acticle-->				

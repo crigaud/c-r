@@ -19,96 +19,110 @@ $q = $_GET["q"];
 		}
 	}//END IF
 }*/
-
-// If no flag display all articles
-if( $q == null ){
-	for( $i=10 ; $i >= 1 ; $i-- ){
-		if( array_key_exists('AR_0'.$i.'_TITLE', $art) ){
-			printArticle($i, $art, $lang, $q);
-
-		} // END IF
-	} //END FOR
-}else{
-	$found = false;
-	for( $i=10 ; $i >= 1 ; $i-- ){
-		if( array_key_exists('AR_0'.$i.'_TITLE', $art) ){
-			if($art['AR_0'.$i.'_CONTENT'] == $q.'.html'){
-				printArticle($i, $art, $lang, $q);
-				$found = $i;
-			}else{
-				//echo $q.'<br />';
-			}
-			
-		} // END IF
+		echo '<div class="layout-row">';
+		//echo '<div class="article">';
+		echo '<section class="right-column">';
+			echo '<section class="article">';
+			echo '<h2>'.$art['AR_TITLE_LIST'].'</h2>';
+				echo '<section class="article-content">';
+				for( $i=20 ; $i >= 1 ; $i-- ){
+					if( array_key_exists('AR_0'.$i.'_TITLE', $art) ){
+						printListArticle($i, $art, $lang, $q);
+					} // END IF
+				} //END FOR
+				echo '</section>';//end article-content
+			echo '</section>';//end article
+		echo '</section>';//end right-column
 		
-	} //END FOR
-	//if(!$found){
-		for( $i=10 ; $i >= 1 ; $i-- ){
-			if($found != $i && array_key_exists('AR_0'.$i.'_TITLE', $art) ){
-				printArticle($i, $art, $lang, $q);
+		echo '<section class="left-column">';
+			echo '<section class="article">';
+							$found = false;
+							for( $i=20 ; $i >= 1 ; $i-- ){
+								if( array_key_exists('AR_0'.$i.'_TITLE', $art) ){
+									if($art['AR_0'.$i.'_CONTENT'] == $q.'.html'){
+										echo '<h1><a href="http://'.$_SERVER['SERVER_NAME'].'/'.$lang.'/blog/?q='.$q.'">'.$art['AR_0'.$i.'_TITLE'].'</a></h1>';
+										echo '<section class="article-content">';
+										printOneArticle($i, $art, $lang, $q);
+										$found = $i;
+										break;
+									}else{
+										//echo $q.'<br />';
+									}
+								} // END IF
+							} //END FOR
+					echo '</section>';//end article-content
+			echo '</section>';//end article
+		echo '</section>';//end left-column
 
-			} // END IF
-		} //END FOR
-	//}
-}
 
-function printArticle($i, $art,$l,$q){
+/********************
+* 	FONCTIONS		*
+********************/
+
+function printOneArticle($i, $art,$l,$q){
 	$date = explode( "-", $art['AR_0'.$i.'_DATE']);
 	$monthName = date("F", mktime(0, 0, 0, $date[1]));
 	//$absoluteFolder = 'http://'. $_SERVER['SERVER_NAME'].'/'.$l.'/blog/'.$date[2].'/'.$date[1].'/';
 	$pageName = getPageNameFromTitle( $art['AR_0'.$i.'_TITLE'] );	
 	//$path_parts = pathinfo('/www/htdocs/inc/lib.inc.php');
-	// Create page if not exists
 	
-	// Create if not exists
-	/*if( preg_match("/\/blog\/index.php$/", $_SERVER['PHP_SELF']) ){
-		if( !file_exists($date[2].'/'.$date[1].'/'.$pageName) ){
-			createArticlePage($date, $pageName);
-			echo 'CREATING: '. $date[2].'/'.$date[1].'/'.$pageName;
+	//if($q == preg_replace("/\\.[^.\\s]{3,4}$/", "", $art['AR_0'.$i.'_CONTENT'])){
+						//echo '<div class="article_author">'.$art['AR_0'.$i.'_AUTHOR'].'</div>';
+	//				}
+				//echo '</div>';
+				//echo '<div class="article_right_content">';
+	/*if(strstr($_SERVER['PHP_SELF'], $date[1])){	
+		echo '<h3 class="news_head">'. $art['AR_0'.$i.'_TITLE'].'</h3>';
+	}
+	else{
+		echo '<h3 class="news_head"><a href="?q='.preg_replace("/\\.[^.\\s]{3,4}$/", "", $art['AR_0'.$i.'_CONTENT']).'">'. $art['AR_0'.$i.'_TITLE'].'</a></h3>';
+	}*/
+	//echo '<div class="news_date">'.$date[0].' '.$monthName.' '.$date[2].'</div>';
+	
+	if($q == preg_replace("/\\.[^.\\s]{3,4}$/", "", $art['AR_0'.$i.'_CONTENT'])){
+		if( array_key_exists('AR_0'.$i.'_SUB_TITLE', $art) ){ echo '<h4>'.$art['AR_0'.$i.'_SUB_TITLE'].'</h4>';}
+		//echo '<p>';
+	
+		if( array_key_exists('AR_0'.$i.'_CONTENT', $art) ){ 
+			//$pa = $art['AR_0'.$i.'_CONTENT'] ;
+			$pa = $_SERVER['DOCUMENT_ROOT'].'/blog/'.$l.'/'.$art['AR_0'.$i.'_CONTENT'];
+			//echo $pa;
+			include($pa);
+		}else{
+			echo 'ERROR: article '.$i.' not found';
+		};
+	
+		//echo '</p>';
+		if( array_key_exists('AR_FEEDBACK', $art) ){ 
+			echo '<div class="article_feedback">'.$art['AR_FEEDBACK'].'</div>';
 		}
-	}else{
-		//echo 'INFO: please go to /blog/ to auto-create '.'blog/'.$date[2].'/'.$date[1].'/'.$pageName;
-	}*/	
+	}
+}
 
-	//if( strpos($pageName, $_SERVER['PHP_SELF'] ) == 0 ){
-	//if( !preg_match("/". $pageName ."/i", $_SERVER['PHP_SELF']) == 0 ){
-		echo '<div class="post">';
-			echo '<div class="article">';
-				echo '<div class="article_left_content">';
-					echo '<div class="article_date">'.$date[0].' '.$monthName.' '.$date[2].'</div>';
-					//echo '<div class="article_author"><a href="http://' . $_SERVER['SERVER_NAME'].'/'.$l .'/about/" title="' . $art['AR_AUTHOR_TITLE'] . $art['AR_0'.$i.'_AUTHOR'] . '">' . $art['AR_0'.$i.'_AUTHOR'].'</a></div>';
-					
 
-					if($q == preg_replace("/\\.[^.\\s]{3,4}$/", "", $art['AR_0'.$i.'_CONTENT'])){
-						echo '<div class="article_author">'.$art['AR_0'.$i.'_AUTHOR'].'</div>';
-					}
-				echo '</div>';
-				echo '<div class="article_right_content">';
-					if(strstr($_SERVER['PHP_SELF'], $date[1])){	
-						echo '<h2>'. $art['AR_0'.$i.'_TITLE'].'</h2>';
-					}
-					else{
-						echo '<h2><a href="?q='.preg_replace("/\\.[^.\\s]{3,4}$/", "", $art['AR_0'.$i.'_CONTENT']).'">'. $art['AR_0'.$i.'_TITLE'].'</a></h2>';}
-					if($q == preg_replace("/\\.[^.\\s]{3,4}$/", "", $art['AR_0'.$i.'_CONTENT'])){
-						if( array_key_exists('AR_0'.$i.'_SUB_TITLE', $art) ){ echo '<h3>'.$art['AR_0'.$i.'_SUB_TITLE'].'</h3>';}
-						//echo '<p>';
-					
-						if( array_key_exists('AR_0'.$i.'_CONTENT', $art) ){ 
-							//$pa = $art['AR_0'.$i.'_CONTENT'] ;
-							$pa = $_SERVER['DOCUMENT_ROOT'].'/blog/'.$l.'/'.$art['AR_0'.$i.'_CONTENT'];
-							//echo $pa;
-							include($pa);
-						}else{
-							echo 'ERROR: article '.$i.' not found';
-						};
-					
-						//echo '</p>';
-						if( array_key_exists('AR_FEEDBACK', $art) ){ echo '<div class="article_feedback">'.$art['AR_FEEDBACK'].'</div>';}
-					}
-				echo '</div>';
-			echo '</div>'; //END ARTICLE
-		echo '</div>'; //END POST
-	//} // END IF
+function printListArticle($i, $art,$l,$q){
+	$date = explode( "-", $art['AR_0'.$i.'_DATE']);
+	$monthName = date("F", mktime(0, 0, 0, $date[1]));
+	//$absoluteFolder = 'http://'. $_SERVER['SERVER_NAME'].'/'.$l.'/blog/'.$date[2].'/'.$date[1].'/';
+	$pageName = getPageNameFromTitle( $art['AR_0'.$i.'_TITLE'] );	
+	//$path_parts = pathinfo('/www/htdocs/inc/lib.inc.php');
+	
+	//if($q == preg_replace("/\\.[^.\\s]{3,4}$/", "", $art['AR_0'.$i.'_CONTENT'])){
+						//echo '<div class="article_author">'.$art['AR_0'.$i.'_AUTHOR'].'</div>';
+	//				}
+				//echo '</div>';
+				//echo '<div class="article_right_content">';
+	if(strstr($_SERVER['PHP_SELF'], $date[1])){	
+		echo '<h3 class="news_head">'. $art['AR_0'.$i.'_TITLE'].'</h3>';
+	}
+	else{
+		echo '<span class="news_head"><a href="?q='.preg_replace("/\\.[^.\\s]{3,4}$/", "", $art['AR_0'.$i.'_CONTENT']).'">'. $art['AR_0'.$i.'_TITLE'].'</a></span>';
+	}
+	echo '<div class="news_date">'.$date[0].' '.$monthName.' '.$date[2].'</div>';
+	
+	//if($q == preg_replace("/\\.[^.\\s]{3,4}$/", "", $art['AR_0'.$i.'_CONTENT'])){
+		//if( array_key_exists('AR_0'.$i.'_SUB_TITLE', $art) ){ echo '<h4>'.$art['AR_0'.$i.'_SUB_TITLE'].'</h4>';}
+
 }
 ?>
 

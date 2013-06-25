@@ -2,9 +2,6 @@
 <!--*********************************************************************************************************************
 	*														EXPERIENCE 													*
  	*********************************************************************************************************************-->
- 	
-<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/experience/'.'" 
-#				>'. $txt['RE_EX_TITLE']. '</a></h2>';?></div>
 
 
 
@@ -13,7 +10,7 @@
 if($subsection == "experience" || $subsection==""){
 
 ?>
-<nav><ul>
+
 <?php
 
 if( $section != 'cv'){
@@ -29,24 +26,18 @@ for( $i=10 ; $i >= 5 ; $i-- ){
 	 	$subFolderName = formatCompanyName( $txt['RE_EX_'.$ID.'_SUB_TITLE'] );
 		echo '
 
-		<li class="Item">
-			<table class="ItemTable">
-			<tr>
-				<td class="ItemTitle">
-					<h3><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. $subFolderName .'/" 
-						title="'. $txt['RE_EX_'.$ID.'_TITLE'] .'" >'. $txt['RE_EX_'.$ID.'_TITLE'] .'</a></h3>
-				</td>
-				<td class="logo_institution">';
+			<section class="cv-element">
+				<span class="logo_institution">';
 				if( array_key_exists('RE_EX_'.$ID.'_WEB', $txt) ){ echo '<a href="' . $txt['RE_EX_'.$ID.'_WEB'] . '" title="' . ucfirst($subFolderName) . '"  onclick="window.open(this.href); return false;" ><img src="http://' . $_SERVER['SERVER_NAME'] . '/cv/image/logo_' . $subFolderName . '.jpg"   alt="' . ucfirst($subFolderName) . '" /></a>' ;}
 				echo '
-				</td>
-			</tr>
-
-			</table>
-
-
-					<h4 class="ItemSubTitle"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. $subFolderName .'/"
-					>'. $txt['RE_EX_'.$ID.'_SUB_TITLE'] .'</a></h4>
+				</span>
+				<span class="ItemTitle">
+					<h3><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. $subFolderName .'/" 
+						title="'. $txt['RE_EX_'.$ID.'_TITLE'] .'" >'. $txt['RE_EX_'.$ID.'_TITLE'] .'</a></h3>
+				</span>
+				
+			
+					<span class="ItemSubTitle">'. $txt['RE_EX_'.$ID.'_SUB_TITLE'] .'</span>
 
 			<ul class="ItemDesc">
 			';
@@ -61,7 +52,8 @@ for( $i=10 ; $i >= 5 ; $i-- ){
 			</ul>
 		<span class="more"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt['RE_EX_'.$ID.'_SUB_TITLE'] ) .'/"
 					>'. $txt['RE_MORE'] .'</a></span>
-		</li>
+		</section>
+
 		';	//END ECHO
 	
 		$cmp--;
@@ -70,14 +62,9 @@ for( $i=10 ; $i >= 5 ; $i-- ){
 } //END FOR
 
 ?>
-</ul></nav>
+
 <?php
 }//AND IF SUBSECTION = EXPERIENCE
-
-if( $subsection != "experience"){
-	//echo '	<p class="see_all" align="right"><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/experience/" title="'. $txt['RE_ALL'] .'"></a></p>';
-}
-
 ?>			
 
 

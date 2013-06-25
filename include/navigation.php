@@ -6,7 +6,8 @@
 	if( !strcmp($url[1], 'index.php' ) == 0 ){$lang = $url[1];}else{$lang="en";}
 	if( !strcmp($url[2], 'index.php' ) == 0 ){$section = $url[2];}else{$section="";}
 	if( !strcmp($url[3], 'index.php' ) == 0 ){$subsection = $url[3];}else{$subsection="";}
+	if( !strcmp($url[4], 'index.php' ) == 0 ){$subsubsection = $url[4];}else{$subsubsection="";}
 	
-	//echo "Debug echo in <head> ".$domain." ".$lang." ".$section." ".$subsection;
+	//echo "Debug echo in <head> ".$domain." ".$lang." ".$section." ".$subsection." ".$subsubsection;
 	
 ?>

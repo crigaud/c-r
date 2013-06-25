@@ -3,16 +3,12 @@
 	*														EDUCATION 													*
  	*********************************************************************************************************************-->
  	
-<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/education/'.'" 
-				>'. $txt['RE_ED_TITLE'] .'</a></h2>';?></div>
-
-
 
 <?php
 if($subsection == "education" || $subsection==""){
 ?>
 
-<nav><ul>
+
 
 <?php
 
@@ -26,7 +22,7 @@ for( $i=8 ; $i >= 5 ; $i-- ){
 	if( array_key_exists('RE_ED_0'.$i.'_TITLE', $txt) && $cmp > 0 ){
 		echo '
 
-		<li class="Item">
+			<section class="cv-element">
 			<table class="ItemTable">
 			<tr>
 				<td class="ItemTitle">
@@ -36,8 +32,7 @@ for( $i=8 ; $i >= 5 ; $i-- ){
 			</tr>
 			</table>
 	
-			<h4 class="ItemSubTitle"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt['RE_ED_0'.$i.'_SUB_TITLE'] ) .'/"
-					>'. $txt['RE_ED_0'.$i.'_SUB_TITLE'] .'</a></h4>
+			<span class="ItemSubTitle">'. $txt['RE_ED_0'.$i.'_SUB_TITLE'] .'</span>
 
 
 			<ul class="ItemDesc">
@@ -51,8 +46,8 @@ for( $i=8 ; $i >= 5 ; $i-- ){
 			</ul>
 		<span class="more"><a 	href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt['RE_ED_0'.$i.'_SUB_TITLE'] ) .'/"
 					>'. $txt['RE_MORE'] .'</a></span>
-		</li>
 
+		</section>
 		';	//END ECHO
 		$cmp--;
 	}//END IF
@@ -60,12 +55,8 @@ for( $i=8 ; $i >= 5 ; $i-- ){
 
 ?>
 
-</ul></nav>
+
 
 <?php
 }//AND IF SUBSECTION = EXPERIENCE
-
-if( $subsection != "education"){
-	//echo '	<p class="see_all" align="right"><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/education/" title="'. $txt['RE_ALL'] .'"></a> </p>';
-}
 ?>	

@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="656"
@@ -33,7 +34,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="328.09636"
+     inkscape:cx="329.52493"
      inkscape:cy="180.93411"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -248,54 +249,74 @@
        x="395.53754"
        y="-27.841682"
        ry="8.5481482" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="543.71405"
-       y="-53.495033"
-       id="text3867-1"
-       sodipodi:linespacing="123%"
-       transform="scale(1.0011355,0.9988658)"><tspan
-         sodipodi:role="line"
-         id="tspan3869-0"
+    <a
+       id="a3078"
+       xlink:href="http://adocs.univ-lr.fr/"
+       target="_blank">
+      <text
+         transform="scale(1.0011355,0.9988658)"
+         sodipodi:linespacing="123%"
+         id="text3867-1"
+         y="-53.495033"
          x="543.71405"
-         y="-53.495033">ADocs</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="567.43469"
-       y="39.493736"
-       id="text3867-6-9"
-       sodipodi:linespacing="123%"
-       transform="scale(1.0011355,0.9988658)"><tspan
-         id="tspan3938-1"
-         sodipodi:role="line"
+         style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="-53.495033"
+           x="543.71405"
+           id="tspan3869-0"
+           sodipodi:role="line">ADocs</tspan></text>
+    </a>
+    <a
+       id="a3066"
+       xlink:href="http://vivelevelo17.free.fr/"
+       target="_blank">
+      <text
+         transform="scale(1.0011355,0.9988658)"
+         sodipodi:linespacing="123%"
+         id="text3867-6-9"
+         y="39.493736"
          x="567.43469"
-         y="39.493736">Vive le vélo</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="510.07129"
-       y="80.683311"
-       id="text3867-63-1"
-       sodipodi:linespacing="123%"
-       transform="scale(1.0011355,0.9988658)"><tspan
-         sodipodi:role="line"
-         id="tspan3869-2-4"
+         style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="39.493736"
+           x="567.43469"
+           sodipodi:role="line"
+           id="tspan3938-1">Vive le vélo</tspan></text>
+    </a>
+    <a
+       id="a3062"
+       xlink:href="http://ferme.le.bourgas.free.fr"
+       target="_blank">
+      <text
+         transform="scale(1.0011355,0.9988658)"
+         sodipodi:linespacing="123%"
+         id="text3867-63-1"
+         y="80.683311"
          x="510.07129"
-         y="80.683311">Ferme le Bourgas</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="584.84351"
-       y="-9.704917"
-       id="text3867-3-9"
-       sodipodi:linespacing="123%"
-       transform="scale(1.0011355,0.9988658)"><tspan
-         sodipodi:role="line"
-         id="tspan3869-6-0"
+         style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="80.683311"
+           x="510.07129"
+           id="tspan3869-2-4"
+           sodipodi:role="line">Ferme le Bourgas</tspan></text>
+    </a>
+    <a
+       id="a3082"
+       xlink:href="http://ebdtheque.univ-lr.fr/"
+       target="_blank">
+      <text
+         transform="scale(1.0011355,0.9988658)"
+         sodipodi:linespacing="123%"
+         id="text3867-3-9"
+         y="-9.704917"
          x="584.84351"
-         y="-9.704917">eBDtheque</tspan></text>
+         style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="-9.704917"
+           x="584.84351"
+           id="tspan3869-6-0"
+           sodipodi:role="line">eBDtheque</tspan></text>
+    </a>
     <path
        style="fill:none;stroke:#0000ff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 192.51555,-175.30206 117.84228,46.88299"
@@ -334,18 +355,23 @@
        x="435.24023"
        y="105.4967"
        ry="8.5481482" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="441.43329"
-       y="123.16033"
-       id="text3867-3-9-9"
-       sodipodi:linespacing="123%"
-       transform="scale(1.0011355,0.9988658)"><tspan
-         sodipodi:role="line"
-         id="tspan3869-6-0-9"
+    <a
+       id="a3070"
+       xlink:href="http://www.christophe-rigaud.com/"
+       target="_blank">
+      <text
+         transform="scale(1.0011355,0.9988658)"
+         sodipodi:linespacing="123%"
+         id="text3867-3-9-9"
+         y="123.16033"
          x="441.43329"
-         y="123.16033">Christophe Rigaud</tspan></text>
+         style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="123.16033"
+           x="441.43329"
+           id="tspan3869-6-0-9"
+           sodipodi:role="line">Christophe Rigaud</tspan></text>
+    </a>
     <rect
        style="fill:#f72e0c;fill-opacity:1;stroke:none"
        id="rect3007-0-0-3"
@@ -354,18 +380,23 @@
        x="348.24023"
        y="142.78241"
        ry="8.5481482" />
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
-       x="355.95892"
-       y="160.48837"
-       id="text3867-3-9-99"
-       sodipodi:linespacing="123%"
-       transform="scale(1.0011355,0.9988658)"><tspan
-         sodipodi:role="line"
-         id="tspan3869-6-0-5"
+    <a
+       id="a3074"
+       xlink:href="http://produitslocaux.free.fr/"
+       target="_blank">
+      <text
+         transform="scale(1.0011355,0.9988658)"
+         sodipodi:linespacing="123%"
+         id="text3867-3-9-99"
+         y="160.48837"
          x="355.95892"
-         y="160.48837">Produits locaux</tspan></text>
+         style="font-size:14px;font-style:normal;font-weight:normal;line-height:123.00000191%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="160.48837"
+           x="355.95892"
+           id="tspan3869-6-0-5"
+           sodipodi:role="line">Produits locaux</tspan></text>
+    </a>
     <rect
        style="fill:#00eb00;fill-opacity:0.60784314;stroke:none"
        id="rect3007-07"

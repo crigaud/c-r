@@ -5,12 +5,12 @@ $txt = array(
 *														RESUME 													*
 *********************************************************************************************************************/
 
-'RE_TITLE'			=> 	"Christophe Rigaud - CV - Doctorant-ingénieur en informatique et traitement d'images",
+'RE_TITLE'			=> 	"CV doctorant-ingénieur en analyse de documents, traitement d'images et intelligence artificielle | Christophe Rigaud",
 'RE_TITLE_EX' 		=> 	"Expérience de Christophe Rigaud &#224; ",
-'RE_DESC' 			=> 	"Bienvenue sur mon CV en ligne! Doctorant-ingénieur en informatique, automatique et traitement d'images. Formation,  qualifications, expériences professionnelles et connaissances diverses.",
+'RE_DESC' 			=> 	"Doctorant-ingénieur en informatique, automatique et traitement d'images. Formation,  qualifications, expériences professionnelles et connaissances diverses.",
 'RE_DESC_EX' 		=> 	"Tous les détails de l'expérience de Christophe Rigaud &#224; ",
-'RE_KEY' 			=>	"christophe rigaud,rigaud christophe,cv,curriculum vitae,formation,diplôme,expériences professionnelles,entreprise,projet,passion,recherche,ingénieur,informatique,traitement d'image,vision par ordinateur",
-'RE_KEY_EX'			=> 	"cv,doctorant,informatique,vision par ordinateur,traitement d'image, analyse de document,christophe rigaud",
+'RE_KEY' 			=>	"doctorant-ingénieur,jeune chercheur,chercheur,doctorant,ingénieur,analyse de document,traitement d'image,vision par ordinateur,intelligence artificielle,cv,curriculum vitae,formation,diplome,expériences,publication",
+'RE_KEY_EX'			=> 	"doctorant-ingénieur,doctorant,ingénieur,analyse de document,traitement d'image,vision par ordinateur,intelligence artificielle,cv,curriculum vitae,formation,diplome,expériences,publication",
 'RE_INTRO' 			=> 	"De formation ingénieur en informatique complétée par un master recherche, je suis actuellement en seconde année de doctorat au laboratoire <a href='http://l3i.univ-larochelle.fr/' onclick='window.open(this.href); return false;'>L3i</a> à la Rochelle. Je travaille sur la segmentation et l'indexation d'objets complexes à partir d'images de bandes dessinées numériques.<br/>
        <br />Parle couramment anglais et mobile en France comme &#224; l'étranger. <a href=\"http://". $_SERVER['SERVER_NAME']."/".$lang."/contact\" title=\"Envoyer un email\">Contacter</a>",
 'RE_MORE'			=>	"En savoir +",
@@ -20,10 +20,11 @@ $txt = array(
 *												PROFESSIONAL EXPERIENCES											*
 *********************************************************************************************************************/
 
-'RE_EX_TITLE_ALL'	=>	"CV Christophe Rigaud - Parcours professionnel",
-'RE_EX_DESC_ALL'	=>	"Christophe Rigaud - Doctorant-ingénieur en informatique, automatique et traitement d'images.",
+'RE_EX_TITLE_ALL' 	=> "Expériences professionnelles | Christophe Rigaud - ",
+'RE_EX_DESC_ALL'	=> "Expériences professionnelles de Christophe Rigaud en tant que technicien, ingénieur et chercheur dans différentes industries des secteurs secondaire et tertiaire (agroalimentaire, automatismes, agence réceptrice, laboratoire...)",
 
 'RE_EX_TITLE' 		=> "Expériences professionnelles",
+'RE_EX_TITLE_PL'	=> "Lieu",
 'RE_EX_TITLE_MI'	=> "Missions",
 'RE_EX_TITLE_WE'	=> "Site web",
 'RE_EX_TITLE_DOC'	=> "Documentation",
@@ -88,15 +89,15 @@ $txt = array(
 *														EDUCATION 													*
 *********************************************************************************************************************/
 
-'RE_ED_TITLE_ALL' 	=> "CV Christophe Rigaud - Formations",
-'RE_ED_DESC_ALL'	=> "Formations de Christophe Rigaud depuis l'IUT puis l'école d'ingénieur et maintenant l'Université",
+'RE_ED_TITLE_ALL' 	=> "Formations | Christophe Rigaud - ",
+'RE_ED_DESC_ALL'	=> "Formations de Christophe Rigaud depuis l'IUT de Salon de Provence en passant par l'école d'ingénieur publique ISTIA d'Angers jusqu'au doctorat à l'Université de La Rochelle.",
 
 'RE_ED_TITLE' 		=> "Formations",
 
 'RE_ED_08_TITLE' 	=> "Doctorat en traitement d'images",
 'RE_ED_08_SUB_TITLE'=> "L3i - Laboratoire Informatique, Image et Interaction | La Rochelle - FR (Octobre 2011 - en cours)",
 'RE_ED_08_DESC_01' 	=> "Étude bibliographique sur la segmentation et la caractérisation d'images couleurs",
-'RE_ED_08_DESC_02' 	=> "Publication dans des revues et conférences scientifiques (<a href=\"http://l3i.univ-larochelle.fr/Rigaud-Christophe.html\" title=\"Fiche chercheur\" onclick=\"window.open(this.href); return false;\">liste des publications</a>)",
+'RE_ED_08_DESC_02' 	=> "Publication dans des revues et conférences scientifiques (<a href=\"../publication/\" title=\"Voir toutes les publications\">liste des publications</a>)",
 'RE_ED_08_DESC_03' 	=> "Application : détection et reconnaissance d’objets complexes dans des images de bandes dessinées numérisées",
 'RE_ED_07_DETAIL'	=> "0",
 
@@ -125,9 +126,9 @@ $txt = array(
 *														PUBLICATIONS 												*
 *********************************************************************************************************************/
 
-'PU_TITLE'			=> 	"Publications de Christophe Rigaud - Doctorant-ingénieur en informatique et traitement d'images",
-'PU_DESC' 			=> 	"Listes des publications dans les conférences et revues nationales et internationnales telles que ICDAR, GREC, VISAPP, LNCS, CIFED and PR.",
-'PU_KEY' 			=>	"publication,articles scientifiques,academique,domaine public,ICDAR,LNCS,VISAPP,CIFED",
+'PU_TITLE'			=> 	"Publications | Christophe Rigaud",
+'PU_DESC' 			=> 	"Listes des publications dans les conférences et revues nationales et internationnales telles que ICDAR, GREC, VISAPP, LNCS, CIFED, DAS et PR.",
+'PU_KEY' 			=>	"publication,articles scientifiques,academique,domaine public, ICDAR, LNCS, VISAPP, CIFED, DAS",
 
 /********************************************************************************************************************
 *															SKILLS 	(1 to 10 cv ready)								*

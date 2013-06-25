@@ -4,11 +4,12 @@ $art = array(
 /********************************************************************************************************************
 *															ARTICLE 													*
 *********************************************************************************************************************/
-'AR_TITLE'				=> "Christophe Rigaud - Blog",
-'AR_DESC'				=> "Bienvenue sur le blog de Christophe Rigaud, il y présente ses dernières activité et résultats de recherche.",
+'AR_TITLE'				=> "Blog | Christophe Rigaud",
+'AR_DESC'				=> "Blog de Christophe Rigaud, visite du Japon, test de personalité PAPI, thèse l3i.",
 'AR_KEY'				=> "conférence,séminaire,article,publication,activité,actualité,nouveauté,christophe rigaud,rigaud christophe",
 'AR_AUTHOR_TITLE'		=> "A propos de ",
 'AR_FEEDBACK'		=> "<a href=\"http://". $_SERVER['SERVER_NAME']."/fr/contact/\" title=\"Envoyer un email\">Envoyer un commentaire</a> ",
+'AR_TITLE_LIST'				=> "Liste des articles",
 
 'AR_01_DATE'			=> "16-09-2011",
 'AR_01_TITLE'			=> "Ouverture du blog",

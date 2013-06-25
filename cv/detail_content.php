@@ -47,36 +47,41 @@
 *														MAIN PAGE	 												*
 *********************************************************************************************************************/		
 ?>
+<section class="article">
 
 			<!-- TITLE -->
-			<?php if ($cat == 0){ ?>
-			<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/experience/'.'" 
-				>'. $txt['RE_EX_TITLE'] .'</a></h2>';?></div>
-			<?php }else{ ?>			
-			<div class="SectionTitle"><?php echo '<h2><a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/education/'.'" 
-				>'. $txt['RE_ED_TITLE'] .'</a></h2>';?></div>
-			<?php } ?>				
-							
+	<?php if ($cat == 0){ ?>
+			<h1><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>" title="<?php echo $txt[$ID.'TITLE'] ?>" ><?php echo $txt[$ID.'TITLE'] ?></a></h1>
+	<?php }else{ ?>			
+			<?php echo '
+			<h1>
+				<a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'">'. $txt[$ID.'TITLE'] .'</a>
+			</h1>';?>
+	<?php } ?>				
+			
+	<div class="article-content">		
 			<!-- EXPERIENCE TITLE -->				
 				<?php 	if( array_key_exists($ID.'TITLE', $txt ) && array_key_exists($ID.'SUB_TITLE', $txt ) ){	?>
-					<table class="ItemTable">
-						<tr>
-							<td class="ItemTitle">
-								<h3><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>" title="<?php echo $txt[$ID.'TITLE'] ?>" ><?php echo $txt[$ID.'TITLE'] ?></a></h3>
-				<?php }	else{ 
-							echo $txt[$ID.'TITLE']; } ?>	
-							</td>
-							<td class="logo_institution">		
-																	
-			<!-- EXPERIENCE LOGO -->				
-						<?php if( array_key_exists($ID.'WEB', $txt ) ){ echo "<a class='' href=' " . $txt[$ID.'WEB']  . " ' title='". ucfirst($url_temp[3]) ."'  onclick='window.open(this.href); return false;' ><img class='Logo' src='http://" . $_SERVER['SERVER_NAME'].'/cv/image/logo_' . $url_temp[3] . ".jpg' alt='" . ucfirst($url_temp[3]) . "' /></a>";}?>
-							</td>
-						</tr>
-					</table>
+
+<span class="logo_institution">		
+										
+<!-- EXPERIENCE LOGO -->				
+<?php if( array_key_exists($ID.'WEB', $txt ) ){ echo "<a class='' href=' " . $txt[$ID.'WEB']  . " ' title='". ucfirst($url_temp[3]) ."'  onclick='window.open(this.href); return false;' ><img class='Logo' src='http://" . $_SERVER['SERVER_NAME'].'/cv/image/logo_' . $url_temp[3] . ".jpg' alt='Logo " . ucfirst($url_temp[3]) . "' /></a>";}?>
+</span>
 					
-			<!-- EXPERIENCE SUBTITLE -->				
+<span class="ItemTitle">
+	<!--<h3><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>" title="<?php echo $txt[$ID.'TITLE'] ?>" ><?php echo $txt[$ID.'TITLE'] ?></a></h3>-->
+
+<?php }else{ 
+
+	echo $txt[$ID.'TITLE']; } ?>	
+</span>
+
+					
+			<!-- EXPERIENCE SUBTITLE -->		
+			<?php if( array_key_exists('RE_EX_TITLE_PL', $txt ) ){ echo "<h4>" . $txt['RE_EX_TITLE_PL']  . "</h4>";}?>		
 				<?php 	if( array_key_exists($ID.'TITLE', $txt ) && array_key_exists($ID.'SUB_TITLE', $txt ) ){	?>
-							<h4 class="ItemSubTitle"><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/'. formatCompanyName( $txt[$ID.'SUB_TITLE'] ) .'/'; ?>"><?php echo $txt[$ID.'SUB_TITLE'] ?></a></h4>
+							<p><?php echo $txt[$ID.'SUB_TITLE'] ?></p>
 				<?php }else{ 
 							echo $txt[$ID.'SUB_TITLE']; } ?>						
 
@@ -110,5 +115,6 @@
 					include_once($_SERVER['DOCUMENT_ROOT']."/cv/detail/inc_" . $lang . "_" . $url_temp[3] . ".php");
 				}
 			?>			
-						
+	</div><!--end article-content-->
+</section><!--end acticle-->						
 
