@@ -52,5 +52,5 @@
 	<li><a href="https://www.mozilla.org/thunderbird/">Thunderbird</a> : email et agenda</li>
 	<li><a href="http://www.skype.com">Skype</a> : visio conférence</li>
 	<li><a href="http://ipython.org/">IPython</a> notebook : cahier de laboratoire et programmation interactive</li>
-	<li><a href="http://opencv.org/">OpenCV</a>, <a href="http://en.wikipedia.org/wiki/Java_Advanced_Imaging">JAI</a>, <a href="http://effbot.org/zone/pil-index.htm">PIL</a>, <a href="http://wiki.python.org/moin/ImageMagick">ImageMagick</a>, <a href="http://rsb.info.nih.gov/ij/">ImageJ</a>, <a href="http://www.gimp.org/">Gimp</a> : traitement d'image</li>
+	<li><a href="http://opencv.org/">OpenCV</a>, <a href="http://en.wikipedia.org/wiki/Java_Advanced_Imaging">JAI</a>, <a href="https://pypi.python.org/pypi/PIL">PIL</a>, <a href="http://wiki.python.org/moin/ImageMagick">ImageMagick</a>, <a href="http://rsb.info.nih.gov/ij/">ImageJ</a>, <a href="http://www.gimp.org/">Gimp</a> : traitement d'image</li>
 </ul>

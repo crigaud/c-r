@@ -4,117 +4,140 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-            
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<!-- *********************** ENGLISH ******************************* -->
-
+<url>
+  <loc>http://www.christophe-rigaud.com/</loc>
+</url>
 <url>
   <loc>http://www.christophe-rigaud.com/en/</loc>
-  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/</loc>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/en/cv/</loc>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.christophe-rigaud.com/en/cv/experience.php</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/en/cv/education.php</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.christophe-rigaud.com/en/cv/publication/</loc>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/en/contact/</loc>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.christophe-rigaud.com/en/cv/lisa/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/en/cv/traveltura/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/en/cv/bontour/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/en/cv/erm-automatismes/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/en/cv/campbell-s-soup/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/en/cv/istia-lisa/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/en/cv/istia/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/en/cv/iut-salon-de-provence/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-
-<!-- *********************** FRENCH ******************************* -->
-
-<url>
-  <loc>http://www.christophe-rigaud.com/fr/</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.christophe-rigaud.com/en/blog/?q=japan-life</loc>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/</loc>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
-  <loc>http://www.christophe-rigaud.com/fr/cv/experience.php</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/fr/cv/education.php</loc>
-  <changefreq>monthly</changefreq>
+  <loc>http://www.christophe-rigaud.com/fr/cv/publication/</loc>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/contact/</loc>
-  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/blog/?q=test-de-personnalite-papi-i</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/blog/?q=la-vie-au-japon</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/blog/?q=these-au-laboratoire-l3i-a-la-rochelle</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/blog/?q=ouverture-du-blog</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/cv/download/CV_Christophe_Rigaud_en.pdf</loc>
+  <lastmod>2013-06-02T23:03:22+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/varied/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/experience/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/l3i/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/lisa/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/traveltura/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/bontour/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/erm-automatismes/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/campbell-s-soup/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/education/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/istia-lisa/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/istia/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/iut-salon-de-provence/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/blog/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/blog/?q=thesis-l3i-la-rochelle</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/blog/?q=blog-startup</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/cv/download/CV_Christophe_Rigaud_fr.pdf</loc>
+  <lastmod>2012-09-29T23:05:47+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/varied/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/experience/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/l3i/</loc>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/lisa/</loc>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/traveltura/</loc>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/bontour/</loc>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/erm-automatismes/</loc>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/campbell-s-soup/</loc>
-  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/education/</loc>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/istia-lisa/</loc>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/istia/</loc>
-  <changefreq>monthly</changefreq>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/iut-salon-de-provence/</loc>
-  <changefreq>monthly</changefreq>
 </url>
-
+<url>
+  <loc>http://www.christophe-rigaud.com/en/blog/</loc>
+</url>
 </urlset>

@@ -105,13 +105,13 @@ $txt = array(
 'RE_ED_07_SUB_TITLE'=> "ISTIA/LISA - École d'ingénieur option Systèmes Dynamiques et Signaux (SDS) | Angers - FR (2010 - 2011)",
 'RE_ED_07_DESC_01' 	=> "Cours : traitement d'image, traitement du signal, traitement statistique de l'information, robotique, réalité virtuelle",
 'RE_ED_07_DESC_02' 	=> "Projet : état de l'art sur l'interprétation d'images par des connaissances topologiques et photométriques à priori (150h)",
-'RE_ED_07_DESC_03' 	=> "Mini projet : qualification esthétique d'arbustes d'ornements (équilibre, compacité, homogénéité) par traitement de vidéos d'arbustes posés sur un plateau tournant (15h) : dans le cadre du projet de phénotypage <a href='http://www.istia.univ-angers.fr/LISA/PHENOTIC/'  onclick='window.open(this.href); return false;'>PHENOTIC</a>",
+'RE_ED_07_DESC_03' 	=> "Mini projet : qualification esthétique d'arbustes d'ornements (équilibre, compacité, homogénéité) par traitement de vidéos d'arbustes posés sur un plateau tournant (15h) : dans le cadre du projet de phénotypage PHENOTIC",
 'RE_ED_07_DETAIL'	=> "1",
 
 'RE_ED_06_TITLE' 	=> "Ingénieur informatique et automatique",
 'RE_ED_06_SUB_TITLE'=> "ISTIA - École d'ingénieur option Automatique et Génie Informatique (AGI) | Angers - FR (2008 - 2011)",
 'RE_ED_06_DESC_01' 	=> "Cours : tronc commun ingénieur, programmation Unix &amp; Windows, temps réel, web, sécurité réseau, réalité virtuelle, traitement du signal, supervision, traçabilité, systèmes embarqués",
-'RE_ED_06_DESC_02' 	=> "Projet : reconnaissance d'objets (SIFT/SURF) pour la cartographie d'un espace par robot (80h, 3 personnes) : défi <a href='http://www.defi-carotte.fr/page-defi-carotte-equipes-10.html'  onclick='window.open(this.href); return false;'>CAROTTE</a>, consortium Cartomatic",
+'RE_ED_06_DESC_02' 	=> "Projet : reconnaissance d'objets (SIFT/SURF) pour la cartographie d'un espace par robot (80h, 3 personnes) : défi CAROTTE, consortium Cartomatic",
 'RE_ED_06_DESC_03' 	=> "Projet : \"Journ&#233;e des M&#233;tiers\": organisation de la journée d'accueil annuelle de 40 entreprises à l'école (12 personnes)",
 'RE_ED_06_DETAIL'	=> "1",
 

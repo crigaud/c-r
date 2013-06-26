@@ -43,7 +43,7 @@
 		
 
 		//If we are NOT in the sub directory of the experience (no match)> exist? > create
-		if( preg_match("/". $dir ."/i", $_SERVER['PHP_SELF']) == 0 ){
+		/*if( preg_match("/". $dir ."/i", $_SERVER['PHP_SELF']) == 0 ){
 			//If directory DO NOT exists
 			if (!is_dir($dir)) {
 				try {
@@ -54,7 +54,7 @@
 					echo 'Caught exception (NOT CREATED): ',  $e->getMessage(), "\n";
 				}
 			}
-		}		
+		}*/		
 			
 		return $dir ;
 	}

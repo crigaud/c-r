@@ -54,7 +54,7 @@
 							$title = $txt['RE_EX_0'.$i.'_TITLE'].' | Christophe Rigaud';
 							echo formatCompanyName( $txt['RE_EX_0'.$i.'_SUB_TITLE'] );
 						}else{
-							echo formatCompanyName( $txt['RE_EX_0'.$i.'_SUB_TITLE'] );
+							echo formatCompanyName( $txt['RE_ED_0'.$i.'_SUB_TITLE'] );
 						}
 					}				
 				}
