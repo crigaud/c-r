@@ -5,9 +5,9 @@ $txt = array(
 *														RESUME 													*
 *********************************************************************************************************************/
 
-'RE_TITLE'			=> 	"CV doctorant-ingénieur en analyse de documents, traitement d'images et intelligence artificielle | Christophe Rigaud",
+'RE_TITLE'			=> 	"CV doctorant-ingénieur en traitement d'images et vision par ordinateur | Christophe Rigaud",
 'RE_TITLE_EX' 		=> 	"Expérience de Christophe Rigaud &#224; ",
-'RE_DESC' 			=> 	"Doctorant-ingénieur en informatique, automatique et traitement d'images. Formation,  qualifications, expériences professionnelles et connaissances diverses.",
+'RE_DESC' 			=> 	"Ingénieur chercheur en informatique, traitement d'images et vision par ordinateur. Formation,  qualifications, expériences professionnelles et connaissances diverses.",
 'RE_DESC_EX' 		=> 	"Tous les détails de l'expérience de Christophe Rigaud &#224; ",
 'RE_KEY' 			=>	"doctorant-ingénieur,jeune chercheur,chercheur,doctorant,ingénieur,analyse de document,traitement d'image,vision par ordinateur,intelligence artificielle,cv,curriculum vitae,formation,diplome,expériences,publication",
 'RE_KEY_EX'			=> 	"doctorant-ingénieur,doctorant,ingénieur,analyse de document,traitement d'image,vision par ordinateur,intelligence artificielle,cv,curriculum vitae,formation,diplome,expériences,publication",
@@ -30,16 +30,16 @@ $txt = array(
 'RE_EX_TITLE_DOC'	=> "Documentation",
 
 
-'RE_EX_10_TITLE' 	=> "Chargé de recherche",
+'RE_EX_10_TITLE' 	=> "Chargé de recherche en traitement d'images",
 'RE_EX_10_SUB_TITLE'=> "L3i - Laboratoire Informatique, Image et Interaction | La Rochelle - FR (Octobre 2011 - en cours)",
 'RE_EX_10_WEB'		=> "http://l3i.univ-larochelle.fr/Rigaud-Christophe.html",
 'RE_EX_10_DETAIL'	=> "1",
-'RE_EX_10_DESC_01' 	=> "Détection et reconnaissance d’objets complexes dans les images de bandes dessinées numérisées",
-'RE_EX_10_DESC_02' 	=> "Étude bibliographique, <a href='http://localhost/fr/cv/publication/' >publication</a> des résultats, revue d'articles, programmation Java et Python",
-'RE_EX_10_DESC_03' 	=> "Enseignement de programmation web et logique, encadrement de stagiaires",
-'RE_EX_10_DESC_04' 	=> "Organisation d'évènements : festival du film, journée des doctorants, conférence nationale",
-'RE_EX_10_DESC_05' 	=> "Représentation des doctorants au conseil de laboratoire, de l'université et dans l'association des doctorants",
-'RE_EX_10_DESC_06' 	=> "Séjour de recherche au laboratoire CVC (Espagne, 9 mois) et au Intelligent Media Processing Lab (Japon, 3 mois)",
+'RE_EX_10_DESC_01' 	=> "<b>Recherche</b>: détection et reconnaissance d’objets complexes dans les images de bandes dessinées numérisées",
+'RE_EX_10_DESC_02' 	=> "<b>Étude bibliographique</b>, <a href='http://localhost/fr/cv/publication/' >publication</a> des résultats, revue d'articles scientifiques",
+'RE_EX_10_DESC_03' 	=> "<b>Enseignement</b> de programmation web et logique, encadrement de stagiaires",
+'RE_EX_10_DESC_04' 	=> "<b>Organisation</b> d'évènements : journée des doctorants, conférence locale, festival du film [pas trop] scientifique, fête de la science",
+'RE_EX_10_DESC_05' 	=> "<b>Représentation</b> des doctorants au conseil de laboratoire, de l'université et dans l'association des doctorants",
+'RE_EX_10_DESC_06' 	=> "Séjour de recherche aux laboratoires CVC (Espagne, 9 mois) et au Intelligent Media Processing Lab (Japon, 3 mois)",
 
 'RE_EX_09_TITLE' 	=> "Stage de fin d'études en laboratoire de recherche de 5 mois",
 'RE_EX_09_SUB_TITLE'=> "LISA - Laboratoire d'Ingénierie des Systèmes Automatisés | Angers - FR (Mars 2011 - Juillet 2011)",
@@ -94,7 +94,7 @@ $txt = array(
 
 'RE_ED_TITLE' 		=> "Formations",
 
-'RE_ED_08_TITLE' 	=> "Doctorat en traitement d'images",
+'RE_ED_08_TITLE' 	=> "Doctorat en informatique et applications : traitement d'images de bandes dessinées",
 'RE_ED_08_SUB_TITLE'=> "L3i - Laboratoire Informatique, Image et Interaction | La Rochelle - FR (Octobre 2011 - en cours)",
 'RE_ED_08_DESC_01' 	=> "Étude bibliographique sur la segmentation et la caractérisation d'images couleurs",
 'RE_ED_08_DESC_02' 	=> "Publication dans des revues et conférences scientifiques (<a href=\"../publication/\" title=\"Voir toutes les publications\">liste des publications</a>)",

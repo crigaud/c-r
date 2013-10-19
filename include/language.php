@@ -4,6 +4,7 @@
 		include($_SERVER['DOCUMENT_ROOT'].'/include/message/'.$lang.'_global.php');	
 		//if( strcmp($section, 'cv') == 0 ){
 			include($_SERVER['DOCUMENT_ROOT'].'/include/message/'.$lang.'_resume.php');
+			include($_SERVER['DOCUMENT_ROOT'].'/include/message/en_publication.php');
 		//}else if( strcmp($section, 'blog') == 0 ){
 			include($_SERVER['DOCUMENT_ROOT'].'/include/message/'.$lang.'_article.php');
 		//}else if( strcmp($section, 'blog') == 0 ){
@@ -13,6 +14,7 @@
 		include($_SERVER['DOCUMENT_ROOT']."/include/message/en_global.php");	
 		//if( strcmp($section, 'cv') == 0 ){
 			include($_SERVER['DOCUMENT_ROOT'].'/include/message/en_resume.php');
+			include($_SERVER['DOCUMENT_ROOT'].'/include/message/en_publication.php');
 		//}else if( strcmp($section, 'blog') == 0 ){
 			include($_SERVER['DOCUMENT_ROOT'].'/include/message/en_article.php');
 		//}else if( strcmp($section, 'blog') == 0 ){

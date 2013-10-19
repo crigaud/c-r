@@ -20,10 +20,11 @@
 			</section><!--end acticle-->
 		<section id="skill" class="article">
 			<h2>
-				<?php echo $txt['RE_SK_TITLE'] ?>
+				<?php echo '<a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/publication/'.'" 
+#				>Publications</a>';?>
 			</h2>
 			<div class="article-content">
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_skill_h.php'); ?>
+				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/publication_content.php'); ?>
 			</div><!--end article-content-->
 		</section><!--end acticle-->
 		<section class="article">
@@ -37,11 +38,10 @@
 		</section><!--end acticle-->
 		<section class="article">
 			<h2>
-				<?php echo '<a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/publication/'.'" 
-#				>Publications</a>';?>
+				<?php echo $txt['RE_SK_TITLE'] ?>
 			</h2>
 			<div class="article-content">
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/publication_content.php'); ?>
+				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_skill_h.php'); ?>
 			</div><!--end article-content-->
 		</section><!--end acticle-->
 	</div><!--end right-column-->
@@ -84,7 +84,7 @@
 		</section><!--end acticle-->
 		<?php } ?>
 			
-
+		<?php if($subsection == "skill"){?>
 		<section id="skill" class="article">
 			<h2>
 				<?php echo $txt['RE_SK_TITLE'] ?>
@@ -93,7 +93,7 @@
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_skill_h.php'); ?>
 			</div><!--end article-content-->
 		</section><!--end acticle-->
-
+		<?php } ?>
 		
 		<?php if($subsection == "varied"){?>
 		<section class="article">

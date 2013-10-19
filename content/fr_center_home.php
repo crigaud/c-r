@@ -5,6 +5,19 @@
 </p>-->
 
 <div class="layout-row">
+
+<section class="article">
+			<h2><?php echo $global["HO_MINDMAP"];?></h2>
+				<div class="article-content">
+					<!--<object data="/image/christophe_rigaud_mindmap.svg" type="image/svg+xml"></object>-->
+					<p>Après un BTS en conception et réalisation de systèmes automatiques</a> à Carpentras, une <a href="/fr/cv/iut-salon-de-provence/" >licence à l'IUT de Salon de Provence</a> et un <a href="/fr/cv/istia/" >diplôme d'ingénieur en Automatique et Génie Informatique</a> à l'école d'ingénieur de l'Université d'Angers en 2011, je mène aujourd'hui un <a href="/fr/cv/l3i/" >projet de thèse de doctorat européen</a> au sein du laboratoire de recherche en informatique, image et interaction (L3i) de l'Université de La Rochelle. Je travaille aussi en cotutelle avec le <a href="http://www.cvc.uab.es/" onclick='window.open(this.href); return false;'>centre de vision par ordinateur</a> (CVC) de l'Université autonome de Barcelone.
+<br />
+Mes travaux de recherches actuels concernent l'analyse de bandes dessinées par ordinateur dans lesquelles je cherche à extraire un maximum d'informations pour décrire automatiquement le contenu des images à savoir les cases, les bulles, le texte et les personnages. L'ensemble de ses informations constitue une base de connaissance que l'on peut alors intérroger avec des mots clefs (voir un exemple) pour retrouver une case en particulier, un dialogue ou une suite d'actions à partir d'une multitude d'albums numérisés et en quelques secondes. D'autre applications sont à l'étude comme la lecture case par case sur smartphone ou tablette, la traduction automatique et la synthèse vocale.
+				</p>
+				</div><!--end article-content-->
+		</section><!--end acticle-->
+		
+		
 	<div class="right-column">
 		<section class="article">
 			<h2><?php echo $global["VC_TITLE"];?></h2>
@@ -49,9 +62,43 @@
 					<a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang.'/contact/';?>" >
 						<?php echo $global['VC_EMA_D'] ?>
 					</a>
+					
+					<br />
+					<br />
+
+					<ul class="network">
+						<!--<li>
+							<a onclick="window.open(this.href); return false;" href="http://<?php echo $_SERVER['SERVER_NAME'];?>/cv/download/CV_Christophe_Rigaud_<?php echo $lang ?>.pdf" >
+								<img class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/pdf.png" alt="CV PDF" title="Download PDF" />
+							</a>
+						</li>-->
+						<li>
+							<a href="http://fr.linkedin.com/in/christopherigaud" onclick="window.open(this.href); return false;">
+								<img  height="19px" class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/linkedin_Logo.svg" alt="LinkedIn profile" title="LinkedIn profile" />
+							</a>
+						</li>
+						<li>
+							<a href="http://www.viadeo.com/<?php echo $lang ?>/profile/christophe.rr" onclick="window.open(this.href); return false;">
+								<img class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/viadeo_logo.png" alt="Viadeo profile" title="Viadeo profile" />
+							</a>
+						</li>
+						<li>
+							<a href="http://www.mendeley.com/profiles/christophe-r/" onclick="window.open(this.href); return false;">
+								<img class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/mendeley-logo-445px.jpg" alt="Mendeley profile" title="Mendeley profile" />
+							</a>
+						</li>
+						<li>
+							<a href="https://github.com/crigaud" onclick="window.open(this.href); return false;">
+								<img height="20px" class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/GitHub.svg" alt="Github profile" title="Github profile" />
+							</a>
+						</li>
+					</ul>
+	
 				</section>
 			</div><!--end article-content-->
 		</section><!--end acticle-->
+		
+	
 	</div><!--end right-column-->
 	
 	<div class="left-column">
@@ -74,10 +121,9 @@
 			</div><!--end article-content-->
 		</section><!--end acticle-->
 	</div><!--end left-column-->
-	<section id="mindmap">
-		<h2><?php echo $global["HO_MINDMAP"];?></h2>
-		<object data="/image/christophe_rigaud_mindmap.svg" type="image/svg+xml"></object> 
-	</section>
+	
+	
+	
 </div><!--end layout-row-->
 
 

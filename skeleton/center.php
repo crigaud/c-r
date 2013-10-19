@@ -23,6 +23,8 @@
 		include($_SERVER['DOCUMENT_ROOT'].'/publications/inc_index.php');
 	}else if(strcmp($section, 'tag') == 0){
 		include($_SERVER['DOCUMENT_ROOT'].'/tag/inc_index.php');
+	}else if(strcmp($section, 'tools') == 0){
+		include($_SERVER['DOCUMENT_ROOT'].'/tools/inc_index.php');
 	}else{
 		include($_SERVER['DOCUMENT_ROOT'].'/content/'.$lang.'_center_home.php');
 

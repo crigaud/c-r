@@ -8,8 +8,8 @@ $art = array(
 'AR_DESC'				=> "Latest activities, news and research results.",
 'AR_KEY'				=> "conference,seminar,article,publication,activity,actuality,news,christophe rigaud,rigaud christophe",
 'AR_AUTHOR_TITLE'		=> "About ",
-'AR_FEEDBACK'		=> "<a href=\"http://". $_SERVER['SERVER_NAME']."/".$lang."/contact/\" title=\"Send an email\">Write a comments</a> ",
-'AR_TITLE_LIST'				=> "List of post",
+'AR_FEEDBACK'			=> "<a href=\"http://". $_SERVER['SERVER_NAME']."/".$lang."/contact/\" title=\"Send an email\">Write a comments</a> ",
+'AR_TITLE_LIST'			=> "List of post",
 
 'AR_01_DATE'			=> "16-09-2011",
 'AR_01_TITLE'			=> "Blog startup",

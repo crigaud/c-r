@@ -4,23 +4,45 @@
 	*	This class define the stucture of the articles	*
 	*****************************************************/
 	class Article{
-	  public $category;
-	  public $title;            // person taking the test
-	  public $keywordArray;		// SEO and tag, replace public $tagArray
-	  public $date;             // use the word 'score' because 'blah' is meaningless	  
-	  
-	  public $content;
+		public $id;
+
+	  	public $title;
+	  	public $subTitle;
+	  	public $date;
+	  	public $author;
+
+		/* SEO metadata */
+	  	public $metaTitle;
+	  	public $metaDesc;
+	  	public $metaKeywords;
+
+	  	/* Content location */
+	  	//public $urlLink;
+		public $urlContent;
+
+	  	/* Specific to publications */
+	  	public $publisher;
 	  	
+	  	public $urlOnline;
+	  	public $urlPdf;
+	  	public $urlPoster;
+	  	public $urlPresentation;
+	  	public $urlDemo;
+	  	public $urlMaterial;
 
-	  public function __construct($p, $s){
-		$this->title = $p;
-		$this->date = $s;
-	  }
+	  	/* Extra */ 
+		public $category;
+		public $tags;    		  	
 
-	  public function __toString(){
-		return "Test [person=$this->person, score=$this->score%]";
-	  }
-	}
+		public function __construct($id){
+			$this->id = $id;
+		}
+
+		public function __toString(){
+			return "Test [id=$this->id, title=$this->title]";
+		}
+	}//END Article class
+	
 	function random_hex_color(){
 		return sprintf("%02X%02X%02X", mt_rand(0, 255), mt_rand(0, 255), mt_rand(0, 255));
 	}

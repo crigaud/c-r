@@ -31,7 +31,7 @@ $txt = array(
 'RE_EX_TITLE_DOC'	=> 	"Documentation",
 
 'RE_EX_10_TITLE' 	=> "Doctoral researcher in computer science",
-'RE_EX_10_SUB_TITLE'=> "L3i - Laboratory Informatic, Image and Interaction | La Rochelle - FR (Octobre 2011 - present)",
+'RE_EX_10_SUB_TITLE'=> "L3i - Laboratory of Computer science, Image and Interaction | La Rochelle - FR (Octobre 2011 - present)",
 'RE_EX_10_TAGS'		=> "java,research,comics,gimp",
 'RE_EX_10_WEB'		=> "http://l3i.univ-larochelle.fr/Rigaud-Christophe,684.html",
 'RE_EX_10_DETAIL'	=> "1",

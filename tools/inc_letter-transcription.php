@@ -1,24 +1,5 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<?php
-		include("../../../include/header.php");
-	?>
-	<title><?php echo TO_TRANS_TITLE ?></title>
-	<meta name="description" content="<?php echo TO_TRANS_DESC ?>" />
-	<meta name="keywords" content="<?php echo TO_TRANS_KEY ?>" />
-</head>
-<body onLoad="document.getElementById('txtL').focus()">
-	<div id="vcard">
-		<?php
-			include("../../../vcard.php");
-		?>
-	</div>
-	<div id="wrapper">
-		<?php
-			include("../../../include/menu_top.php");
-		?>		
-		<div id="content">
+
+
 <script language="JavaScript" chartype='ISO-8859-1'>
 <!--            
 
@@ -132,9 +113,8 @@ function removeAccents(s){
 -->
 </script>
 
-			<h1><?php echo TO_TRANS_TITLE ?></h1>
 			
-			<p id="info">Ecrire ou coller du texte dans la zone de gauche, la transcription apparaitra dans la zone de droite.</p>
+			<p id="info">Ecrire ou coller du texte dans la zone de texte ci-dessous, la transcription apparaitra automatiquement en dessous.</p>
 			<table>
 				<tr>
 					<td>
@@ -163,16 +143,6 @@ function removeAccents(s){
 
 
 
-
-
-        </div><!-- END CONTENT -->
-       <?php
-			include("../../../include/footer.php");
-		?>
-    </div><!-- END WRAPPER -->
-		
-</body>
-</html>
 
 
 

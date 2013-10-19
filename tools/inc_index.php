@@ -1,33 +1,29 @@
-<!DOCTYPE HTML>
-<html>
-<head>
 	<?php
-		include("../../include/header.php");
-	?>
-	<title><?php echo TO_TITLE ?></title>
-	<meta name="description" content="<?php echo TO_DESC ?>" />
-	<meta name="keywords" content="<?php echo TO_KEY ?>" />
-</head>
-<body onload="setStyle1(3);">			   
-	<div id="vcard">
-		<?php
-			include("../../vcard.php");
-		?>
-	</div>
-	<div id="wrapper">
-		<?php
-			include("../../include/menu_top.php");
-		?>		
-		<div id="content">
-			<a href="/<?php echo LANGUAGE; ?>/tools/text-localization-in-comics/" ><?php echo TO_TEXT_LOCA_TITLE ?></a>
-			<br />
-			<br />
-			<a href="/<?php echo LANGUAGE; ?>/tools/letter-transcription/" ><?php echo TO_TRANS_TITLE ?></a>		
-        </div><!-- END CONTENT -->
-       <?php
-			include("../../include/footer.php");
-		?>
-    </div><!-- END WRAPPER -->
+	$q = $_GET["q"];
+	if($q == 'text-localization-in-comics'){
 		
-</body>
-</html>
+	}else if($q == 'letter-transcription'){
+		?>
+		<section class="article">
+			<h1><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang ;?>/tools/?q=letter-transcription" ><?php echo $global['TO_TRANS_TITLE']; ?></a></h1>
+			<section class="article-content">
+				<?php include('inc_letter-transcription.php');?>
+			</section><!-- END ARTICLE CONTENT -->		
+        </section><!-- END ARTICLE -->
+        <?php
+	}else{
+	
+	?>
+		<section class="article">
+			<h2><a href="http://<?php echo $_SERVER['SERVER_NAME'].'/'.$lang ;?>/tools/" >Tools</a></h2>
+			<section class="article-content">
+				<!--<a href="?q=text-localization-in-comics" ><?php echo $global['TO_TEXT_LOCA_TITLE'] ?></a>
+				<br />
+				<br />-->
+				<a href="?q=letter-transcription" ><?php echo $global['TO_TRANS_TITLE'] ?></a>
+			 </section><!-- END ARTICLE CONTENT -->		
+        </section><!-- END ARTICLE -->
+      
+      <?php
+      }
+      ?>

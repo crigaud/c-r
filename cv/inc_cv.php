@@ -20,6 +20,15 @@
 			</section><!--end acticle-->
 		<section id="skill" class="article">
 			<h2>
+				<?php echo '<a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/publication/'.'" 
+#				>Publications</a>';?>
+			</h2>
+			<div class="article-content">
+				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/publication_content.php'); ?>
+			</div><!--end article-content-->
+		</section><!--end acticle-->
+		<section class="article">
+			<h2>
 				<?php echo $txt['RE_SK_TITLE'] ?>
 			</h2>
 			<div class="article-content">
@@ -33,15 +42,6 @@
 			</h2>
 			<div class="article-content">
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/varied.php'); ?>
-			</div><!--end article-content-->
-		</section><!--end acticle-->
-		<section class="article">
-			<h2>
-				<?php echo '<a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/publication/'.'" 
-#				>Publications</a>';?>
-			</h2>
-			<div class="article-content">
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/publication_content.php'); ?>
 			</div><!--end article-content-->
 		</section><!--end acticle-->
 	</div><!--end right-column-->
