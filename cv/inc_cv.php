@@ -110,8 +110,7 @@
 		<?php if($subsection == "publication"){?>
 		<section class="article">
 			<h2>
-				<?php echo '<a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/publication/'.'" 
-#				>Publications</a>';?>
+				<?php echo '<a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/publication/" >Publications</a>';?>
 			</h2>
 			<div class="article-content">
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/publication_content.php'); ?>

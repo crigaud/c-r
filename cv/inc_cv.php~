@@ -29,19 +29,19 @@
 		</section><!--end acticle-->
 		<section class="article">
 			<h2>
+				<?php echo $txt['RE_SK_TITLE'] ?>
+			</h2>
+			<div class="article-content">
+				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_skill_h.php'); ?>
+			</div><!--end article-content-->
+		</section><!--end acticle-->
+		<section class="article">
+			<h2>
 				<?php echo '<a href="http://'. $_SERVER['SERVER_NAME'].'/'.$lang.'/cv/varied/'.'" 
 #				>'. $txt['RE_VA_TITLE']. '</a>';?>
 			</h2>
 			<div class="article-content">
 				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/varied.php'); ?>
-			</div><!--end article-content-->
-		</section><!--end acticle-->
-		<section class="article">
-			<h2>
-				<?php echo $txt['RE_SK_TITLE'] ?>
-			</h2>
-			<div class="article-content">
-				<?php include($_SERVER['DOCUMENT_ROOT'].'/cv/inc_skill_h.php'); ?>
 			</div><!--end article-content-->
 		</section><!--end acticle-->
 	</div><!--end right-column-->
