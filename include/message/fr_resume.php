@@ -126,9 +126,21 @@ $txt = array(
 *														PUBLICATIONS 												*
 *********************************************************************************************************************/
 
-'PU_TITLE'			=> 	"Publications | Christophe Rigaud",
-'PU_DESC' 			=> 	"Listes des publications dans les conférences et revues nationales et internationnales telles que ICDAR, GREC, VISAPP, LNCS, CIFED, DAS et PR.",
+'PU_TITLE'			=> 	"Listes des publications",
+'PU_DESC' 			=> 	"Listes des publications dans les conférences et revues nationales et internationnales telles que ICDAR, GREC, VISAPP, LNCS, CIFED, DAS, IJDAR et PR.",
 'PU_KEY' 			=>	"publication,articles scientifiques,academique,domaine public, ICDAR, LNCS, VISAPP, CIFED, DAS",
+'PU_VERSION'		=>	"version originale",
+'PU_TITLE_PAPER'	=> 	"Titre",
+'PU_AUTHORS'		=>	"Auteurs",
+'PU_ABSTRACT'		=>	"Résumé",
+/*'PU_ILLUSTRATION'	=>	"Illustrations",*/
+'PU_POSTER'			=>	"Poster",
+'PU_PRESENTATION'	=>	"Diaporama",
+'PU_RES'			=>	"Ressources",
+'PU_RES_ONLINE'		=>	"Voir en ligne",
+'PU_RES_PDF'		=>	"Télécharger l'article en PDF",
+'PU_RES_MATERIAL'	=>	"Dépôt GitHub",
+'PU_BIBTEX'			=>	"Citation BibTeX",
 
 /********************************************************************************************************************
 *															SKILLS 	(1 to 10 cv ready)								*

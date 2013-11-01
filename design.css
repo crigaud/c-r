@@ -717,7 +717,9 @@ footer a, footer a:visited{
 	border-style:none;
 	border-color:red;
 }
-
+pre { 
+	overflow: auto; 						/* which will allow a fixed size with horizontal scrolling for long lines. */
+}
 a:hover{
 	text-decoration:	underline;
 }

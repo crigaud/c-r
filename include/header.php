@@ -16,23 +16,39 @@
 		$q = $_GET["q"]; 
 		if( array_key_exists($q.'_TITLE', $meta) ){
 		?>
-	<title><?php echo $meta[$q.'_TITLE']; ?></title>
-	<meta name="description" content="<?php echo $meta[$q.'_DESC']; ?>">
+		<title><?php echo $meta[$q.'_TITLE']; ?></title>
+		<meta name="description" content="<?php echo $meta[$q.'_DESC']; ?>">
+			<?php
+		}else{
+			$found = False;
+			foreach ($publications as $a) {
+				if($a->id == $q){
+					$found = True;
+					echo '<title>' . $a->metaTitle . $global['HO_SUFIX'] . '</title>';
+					echo '<meta name="description" content="' . $a->metaDesc .'">';
+				}
+			}
+			if(!$found){
+				echo '<title>' . 'NOT FOUND' .'</title>';
+			}
+		
+		}
+	}else if($section == 'cv'){
+		 if($subsection == 'publication'){
+		 	echo '<title>' . $txt['PU_TITLE'] . $global['HO_SUFIX'] . '</title>';
+		 	echo '<meta name="description" content="' . $txt['PU_DESC'] .'">';
+		 }else{
+			?>
+			<title><?php echo $txt['RE_TITLE']; ?></title>
+			<meta name="description" content="<?php echo $txt['RE_DESC']; ?>">
+			<?php
+		}
+	}else{	
+			?>
+		<title><?php echo $global['HO_TITLE']; ?></title>
+		<meta name="description" content="<?php echo $global['HO_DESC']; ?>">
 		<?php
 	}
-	}else if($section == 'cv'){	
-		?>
-	<title><?php echo $txt['RE_TITLE']; ?></title>
-	<meta name="description" content="<?php echo $txt['RE_DESC']; ?>">
-	<?php
-	}else {	
-		?>
-	<title><?php echo $global['HO_TITLE']; ?></title>
-	<meta name="description" content="<?php echo $global['HO_DESC']; ?>">
-	<?php
-	}
-	
-	
 	
 	
 	?>

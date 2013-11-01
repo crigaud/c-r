@@ -38,6 +38,7 @@ $a->bibtex = '@inproceedings{Rigaud2013GREC,
     year = {2013}
 }';
 $a->urlPdf = 'https://github.com/crigaud/publication/blob/master/2013/GREC/speech_balloon_contour_classification_in_comics/paper/2013_Rigaud_Speech%20balloon%20contour%20classification%20in%20comics.pdf?raw=true';
+$a->urlPresentation = 'http://www.slideshare.net/slideshow/embed_code/27753499';
 $a->urlMaterial = 'https://github.com/crigaud/publication/tree/master/2013/GREC/speech_balloon_contour_classification_in_comics';
 
 array_push($publications, $a);
@@ -180,7 +181,7 @@ $a->urlContent = $a->id . '.html';
 
 $a->urlOnline = 'http://hal.archives-ouvertes.fr/hal-00701987';
 $a->urlPdf = 'https://github.com/crigaud/publication/blob/master/2012/CIFED/extraction_robuste_des_cases_et_du_texte_de_bandes_dessinees/paper/2011_Rigaud_Extraction_robuste_des_cases_et_du_texte_de_bandes_dessinees.pdf?raw=true';
-$a->urlPresentation = 'https://github.com/crigaud/publication/blob/master/2012/CIFED/extraction_robuste_des_cases_et_du_texte_de_bandes_dessinees/presentation/2012_Rigaud_Extraction_robuste_des_cases_et_du_texte_de_bandes_dessinees.pdf?raw=true';
+$a->urlPresentation = 'http://www.slideshare.net/slideshow/embed_code/24145096';
 
 array_push($publications, $a);
 

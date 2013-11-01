@@ -111,9 +111,21 @@ $txt = array(
 *														PUBLICATIONS 												*
 *********************************************************************************************************************/
 
-'PU_TITLE'			=> 	"Publications | Christophe Rigaud",
+'PU_TITLE'			=> 	"List of publications",
 'PU_DESC' 			=> 	"Publications list in international conferences and journaux nationaaux et internationnaux (e.g. ICDAR, GREC, VISAPP, LNCS, CIFED and PR).",
 'PU_KEY' 			=>	"publication,scientific articles,academic paper,public domain,ICDAR,LNCS,VISAPP,CIFED",
+'PU_VERSION'		=>	"original version",
+'PU_TITLE_PAPER'	=> 	"Title",
+'PU_AUTHORS'		=>	"Authors",
+'PU_ABSTRACT'		=>	"Abstract",
+/*'PU_ILLUSTRATION'	=>	"Illustrations",*/
+'PU_POSTER'			=>	"Poster",
+'PU_PRESENTATION'	=>	"Slideshow",
+'PU_RES'			=>	"Ressources",
+'PU_RES_ONLINE'		=>	"See online",
+'PU_RES_PDF'		=>	"Download PDF version",
+'PU_RES_MATERIAL'	=>	"GitHub depository",
+'PU_BIBTEX'			=>	"Citation BibTeX",
 
 /********************************************************************************************************************
 *															SKILLS 	(1 to 10 cv ready)								*

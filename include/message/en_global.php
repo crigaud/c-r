@@ -63,6 +63,7 @@ $global = array(
 
 /*************************** HOME ****************************/
 "HO_TITLE" => "Christophe Rigaud - Ph.D. student in computer vision and document analysis",
+"HO_SUFIX" => " | Christophe Rigaud",
 "HO_INTRO" => "Hi,<br />This website is a place where I show some <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/publication/\" >recent work</a> and keep an up-to-date <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >resume</a>.<br />Feel free to <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contact me</a> by e-mail or other forms of social media.<br />
 Thanks for stopping by!
 

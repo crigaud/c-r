@@ -12,7 +12,7 @@
 					<!--<object data="/image/christophe_rigaud_mindmap.svg" type="image/svg+xml"></object>-->
 					<p>Après un BTS en conception et réalisation de systèmes automatiques</a> à Carpentras, une <a href="/fr/cv/iut-salon-de-provence/" >licence à l'IUT de Salon de Provence</a> et un <a href="/fr/cv/istia/" >diplôme d'ingénieur en Automatique et Génie Informatique</a> à l'école d'ingénieur de l'Université d'Angers en 2011, je mène aujourd'hui un <a href="/fr/cv/l3i/" >projet de thèse de doctorat européen</a> au sein du laboratoire de recherche en informatique, image et interaction (L3i) de l'Université de La Rochelle. Je travaille aussi en cotutelle avec le <a href="http://www.cvc.uab.es/" onclick='window.open(this.href); return false;'>centre de vision par ordinateur</a> (CVC) de l'Université autonome de Barcelone.
 <br />
-Mes travaux de recherches actuels concernent l'analyse de bandes dessinées par ordinateur dans lesquelles je cherche à extraire un maximum d'informations pour décrire automatiquement le contenu des images à savoir les cases, les bulles, le texte et les personnages. L'ensemble de ses informations constitue une base de connaissance que l'on peut alors intérroger avec des mots clefs (voir un exemple) pour retrouver une case en particulier, un dialogue ou une suite d'actions à partir d'une multitude d'albums numérisés et en quelques secondes. D'autre applications sont à l'étude comme la lecture case par case sur smartphone ou tablette, la traduction automatique et la synthèse vocale.
+Mes travaux de recherches actuels concernent l'analyse automatique de bandes dessinées par ordinateur dans lesquelles je cherche à extraire un maximum d'informations pour décrire le contenu des images à savoir la position et les caractéristiques des cases, des bulles, du texte et des personnages. L'ensemble de ses informations constitue une base de connaissance que l'on peut alors intérroger avec des mots clefs (<a href="http://ebdtheque.univ-lr.fr/tools/"  onclick='window.open(this.href); return false;'>voir démo</a>) pour retrouver une case en particulier, un dialogue ou une suite d'actions à partir d'une multitude d'albums numérisés et en quelques secondes. D'autre applications sont à l'étude comme la lecture case par case sur smartphone ou tablette, la traduction automatique et la synthèse vocale.
 				</p>
 				</div><!--end article-content-->
 		</section><!--end acticle-->
@@ -79,17 +79,22 @@ Mes travaux de recherches actuels concernent l'analyse de bandes dessinées par 
 						</li>
 						<li>
 							<a href="http://www.viadeo.com/<?php echo $lang ?>/profile/christophe.rr" onclick="window.open(this.href); return false;">
-								<img class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/viadeo_logo.png" alt="Viadeo profile" title="Viadeo profile" />
+								<img class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/viadeo_logo.png" alt="Viadeo logo" title="Viadeo profile" />
 							</a>
 						</li>
 						<li>
 							<a href="http://www.mendeley.com/profiles/christophe-r/" onclick="window.open(this.href); return false;">
-								<img class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/mendeley-logo-445px.jpg" alt="Mendeley profile" title="Mendeley profile" />
+								<img class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/mendeley-logo-445px.jpg" alt="Mendeley logo" title="Mendeley profile" />
 							</a>
 						</li>
 						<li>
 							<a href="https://github.com/crigaud" onclick="window.open(this.href); return false;">
-								<img height="20px" class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/GitHub.svg" alt="Github profile" title="Github profile" />
+								<img height="20px" class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/GitHub.svg" alt="Github logo" title="Github profile" />
+							</a>
+						</li>
+						<li>
+							<a href="http://www.slideshare.net/ChristopheRigaud/" onclick="window.open(this.href); return false;">
+								<img height="20px" class="img_no_decoration" src="http://<?php echo $_SERVER['SERVER_NAME']; ?>/icon/slideshare.svg" alt="Slideshare logo" title="Slideshare profile" />
 							</a>
 						</li>
 					</ul>

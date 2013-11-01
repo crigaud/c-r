@@ -37,7 +37,7 @@ body{
 @media (min-width: 44em)
 {
   	#content{
-		/*width:				60em;*/
+		max-width:			60em;
 		min-height:			40em;
 		margin-top:			1em;
 		margin-left:		auto;
@@ -717,7 +717,9 @@ footer a, footer a:visited{
 	border-style:none;
 	border-color:red;
 }
-
+pre { 
+	overflow: auto;
+}
 a:hover{
 	text-decoration:	underline;
 }

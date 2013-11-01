@@ -34,6 +34,15 @@
   <loc>http://www.christophe-rigaud.com/fr/cv/publication/</loc>
 </url>
 <url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/iut-salon-de-provence/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/istia/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/l3i/</loc>
+</url>
+<url>
   <loc>http://www.christophe-rigaud.com/fr/contact/</loc>
 </url>
 <url>
@@ -50,7 +59,28 @@
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/cv/download/CV_Christophe_Rigaud_en.pdf</loc>
-  <lastmod>2013-06-02T23:03:22+00:00</lastmod>
+  <lastmod>2013-09-05T22:55:12+00:00</lastmod>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/publication/?q=redundant-structure-detection-in-attributed-adjacency-graphs%20for-character-detection-in-comics-books</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/publication/?q=speech-balloon-contour-classification-in-comics</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/publication/?q=active-contour-model-for-speech-balloon-detection-in-comics</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/publication/?q=ebdtheque-a-representative-database-of-comics</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/publication/?q=automatic-text-localisation-in-scanned-comic-books</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/publication/?q=robust-frame-and-text-extraction-from-comic-books</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/en/cv/publication/?q=extraction-robuste-des-cases-et-du-texte-de-bandes-dessinees</loc>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/en/cv/varied/</loc>
@@ -102,13 +132,31 @@
   <lastmod>2012-09-29T23:05:47+00:00</lastmod>
 </url>
 <url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/publication/?q=redundant-structure-detection-in-attributed-adjacency-graphs%20for-character-detection-in-comics-books</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/publication/?q=speech-balloon-contour-classification-in-comics</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/publication/?q=active-contour-model-for-speech-balloon-detection-in-comics</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/publication/?q=ebdtheque-a-representative-database-of-comics</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/publication/?q=automatic-text-localisation-in-scanned-comic-books</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/publication/?q=robust-frame-and-text-extraction-from-comic-books</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/fr/cv/publication/?q=extraction-robuste-des-cases-et-du-texte-de-bandes-dessinees</loc>
+</url>
+<url>
   <loc>http://www.christophe-rigaud.com/fr/cv/varied/</loc>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/experience/</loc>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/fr/cv/l3i/</loc>
 </url>
 <url>
   <loc>http://www.christophe-rigaud.com/fr/cv/lisa/</loc>
@@ -132,12 +180,10 @@
   <loc>http://www.christophe-rigaud.com/fr/cv/istia-lisa/</loc>
 </url>
 <url>
-  <loc>http://www.christophe-rigaud.com/fr/cv/istia/</loc>
-</url>
-<url>
-  <loc>http://www.christophe-rigaud.com/fr/cv/iut-salon-de-provence/</loc>
-</url>
-<url>
   <loc>http://www.christophe-rigaud.com/en/blog/</loc>
+</url>
+<url>
+  <loc>http://www.christophe-rigaud.com/cv/detail/download/Presentation_master_recherche_christophe_rigaud.pdf</loc>
+  <lastmod>2012-02-04T23:55:09+00:00</lastmod>
 </url>
 </urlset>

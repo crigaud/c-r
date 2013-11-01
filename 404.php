@@ -13,9 +13,16 @@
 			?>
 		</div>
 		<div id="content">
-			<p>
-				<?php echo $global["ERROR_404"] ?>
-			</p>
+			<div class="layout-row">
+				<section class="article">
+					<h2><?php echo 'Error';?></h2>
+					<div class="article-content">
+						<p>
+							<?php echo $global["ERROR_404"] ?>
+						</p>
+					</div><!--end acticle content-->		
+				</section><!--end acticle-->
+			</div><!--end layout-row-->
 		</div>				
 		<div id="bottom">
 			<?php

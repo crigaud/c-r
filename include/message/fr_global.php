@@ -91,7 +91,7 @@ $global = array(
 
 /*************************** HOME ****************************/
 "HO_TITLE" => "Christophe Rigaud - Doctorant-ingénieur en informatique et analyse de documents",
-
+"HO_SUFIX" => " | Christophe Rigaud",
 "HO_INTRO" => "Bienvenue!<br />Ce site présente mes activées de recherche, les <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/publication/\" >publications</a> associées et mon <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >CV interactif</a>.<br />N'hésitez pas à me <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contacter</a>.",
 "HO_DESC" => "Bienvenue, ce site présente mes activées de recherche, les publications associées et mon CV interactif. N'hésitez pas à me contacter.",
 "HO_KEY" => "christophe rigaud,rigaud christophe,ing&eacute;nieur,chercheur,traitement d'image,vision par ordinateur,machine learning,data mining,informatique,vision par ordinateur,christophe,rigaud,rigot,rigaut,rigo,rigod",
