@@ -3,8 +3,11 @@
 	<meta charset="UTF-8">
 
 	<!-- DESIGN -->	
-	<link rel="shortcut icon" type="image/x-icon" href="http://<?php echo $_SERVER['SERVER_NAME']?>/favicon.png" />
-	<link rel="stylesheet" media="screen" type="text/css" title="css" href="http://<?php echo $_SERVER['SERVER_NAME']?>/design.css" />
+	<?php 
+		//$protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
+	?>	
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
+	<link rel="stylesheet" media="screen" type="text/css" title="css" href="/design.css" />
 	
 	<!-- JAVASCRIPT -->
 	<script type="text/javascript" src="http://<?php echo $_SERVER['SERVER_NAME']?>/include/function.js"></script>

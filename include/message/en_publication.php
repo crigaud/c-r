@@ -49,7 +49,7 @@ $a->metaTitle = $a->title;
 $a->metaDesc = 'Method to detect speech balloon type in comics.';
 $a->metaKeywords = 'speech balloon type, speech bubble, comics,detection, story understanding';
 
-$a->urlPdf = 'https://github.com/crigaud/publication/blob/master/2013/GREC/speech_balloon_contour_classification_in_comics/paper/2013_Rigaud_Speech%20balloon%20contour%20classification%20in%20comics.pdf?raw=true';
+$a->urlPdf = 'https://github.com/crigaud/publication/blob/master/2013/GREC/speech_balloon_contour_classification_in_comics/paper/2013_Rigaud_Speech_balloon_contour_classification_in_comics.pdf?raw=true';
 $a->urlPresentation = 'http://www.slideshare.net/slideshow/embed_code/27753499';
 $a->urlMaterial = 'https://github.com/crigaud/publication/tree/master/2013/GREC/speech_balloon_contour_classification_in_comics';
 
@@ -71,8 +71,7 @@ $a->bibtex = '@inproceedings{Rigaud2013ICDAR,
     title = {An active contour model for speech balloon detection in comics},
     author = {Rigaud, Christophe and Karatzas, Dimosthenis and Van de Weijer, Joost and Burie, Jean-Christophe and Ogier, Jean-Marc},
     booktitle = {Proceedings of the 12th International Conference on Document Analysis and Recognition (ICDAR)},
-    publisher = {IEEE},
-    address = {Washington DC},
+    pages = {1240-1244},
     year = {2013}
 }';
 $a->metaTitle = $a->title;
@@ -98,10 +97,9 @@ American comics and mangas. Additionally, we present the piece of software used 
 validate results against this ground truth. Everything is publicly available for scientific use on http://ebdtheque.univ-lr.fr.';
 $a->bibtex = '@inproceedings{Guerin2013ICDAR,
     title = {eBDtheque: a representative database of comics},
-    author = {Gu{\'e}rin, Cl{\'e}ment and Rigaud, Christophe and Mercier, Antoine and al.},
+    author = {Gu{\'e}rin, Cl{\'e}ment and Rigaud, Christophe and Mercier, Antoine and Ammar-Boudjelal, Farid and Bertet, Karell and Bouju, Alain and Burie, Jean-Christophe and Louis, George and Ogier, Jean-Marc and Revel, Arnaud},
     booktitle = {Proceedings of the 12th International Conference on Document Analysis and Recognition (ICDAR)},
-    publisher = {IEEE},
-    address = {Washington DC},
+    pages = {1145-1149},
     year = {2013}
 }';
 

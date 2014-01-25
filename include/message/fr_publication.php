@@ -37,7 +37,7 @@ $a->bibtex = '@inproceedings{Rigaud2013GREC,
     booktitle = {Proceedings of the 10th IAPR International Workshop on Graphics Recognition (GREC)},
     year = {2013}
 }';
-$a->urlPdf = 'https://github.com/crigaud/publication/blob/master/2013/GREC/speech_balloon_contour_classification_in_comics/paper/2013_Rigaud_Speech%20balloon%20contour%20classification%20in%20comics.pdf?raw=true';
+$a->urlPdf = 'https://github.com/crigaud/publication/blob/master/2013/GREC/speech_balloon_contour_classification_in_comics/paper/2013_Rigaud_Speech_balloon_contour_classification_in_comics.pdf?raw=true';
 $a->urlPresentation = 'http://www.slideshare.net/slideshow/embed_code/27753499';
 $a->urlMaterial = 'https://github.com/crigaud/publication/tree/master/2013/GREC/speech_balloon_contour_classification_in_comics';
 
@@ -52,12 +52,11 @@ $a->author = 'Christophe Rigaud, Dimosthenis Karatzas, Joost Van de Weijer, Jean
 $a->publisher = 'Proceedings of International Conference of Document Analysis and Recognition (ICDAR), 2013';
 $a->abs	= 'Les bandes dessinées constituent un important héritage dans de nombreux pays. La numérisation combinée avec l\'analyse automatique de document permettrait une variété de nouvelles applications, dont compris la réutilisation de documents anciens et la recherche par le contenu de l\'image. La compréhension des documents dans ce domaine est difficile car les BD sont des documents semi-structurés, combinant des éléments sémantiquement d\'origine textuelle et graphique. Peu d\'études ont été menées à ce jour. Dans ce travail, nous proposons un nouvelle approche pour localiser les bulles fermées et ouvertes à partir d\'images de bandes dessinées, une étape essentielle vers une interprétation automatisée de la bande dessinée. L\'approche est comparée à
 des méthodes existantes de la littérature et les résultats sont présentés.';
-$a->bibtex = '@inproceedings{Rigaud2013ICDAR,
+$a->bibtex = '@inproceedings{Rigaud2013ICDARActive,
     title = {An active contour model for speech balloon detection in comics},
     author = {Rigaud, Christophe and Karatzas, Dimosthenis and Van de Weijer, Joost and Burie, Jean-Christophe and Ogier, Jean-Marc},
-    booktitle = {Proceedings of the 12th International Conference on Document Analysis and Recognition (ICDAR)},
-    publisher = {IEEE},
-    address = {Washington DC},
+    booktitle = {Proceedings of the International Conference on Document Analysis and Recognition, ICDAR},
+    pages = {1240-1244},
     year = {2013}
 }';
 $a->metaTitle = $a->title;
@@ -81,10 +80,9 @@ $a->publisher = 'Proceedings of International Conference of Document Analysis an
 $a->abs = 'Nous présentons eBDtheque, une base d\'image de différentes bandes dessinées et leur vérité terrain pour les cases, les bulles, les lignes de texte ainsi que leurs annotations sémantiques. La base de données se compose d\'une centaine de pages de différents albums de bandes dessinées, franco-belges, Comics américains et des mangas. De plus, nous présentons les outils qui nous ont permit de créer cette vérité terrain et de valider nos résultats. Tout est publiquement disponible pour une utilisation scientifique sur le site web du projet : http://ebdtheque.univ-lr.fr';
 $a->bibtex = '@inproceedings{Guerin2013ICDAR,
     title = {eBDtheque: a representative database of comics},
-    author = {Gu{\'e}rin, Cl{\'e}ment and Rigaud, Christophe and Mercier, Antoine and al.},
+    author = {Gu{\'e}rin, Cl{\'e}ment and Rigaud, Christophe and Mercier, Antoine and Ammar-Boudjelal, Farid and Bertet, Karell and Bouju, Alain and Burie, Jean-Christophe and Louis, George and Ogier, Jean-Marc and Revel, Arnaud},
     booktitle = {Proceedings of the 12th International Conference on Document Analysis and Recognition (ICDAR)},
-    publisher = {IEEE},
-    address = {Washington DC},
+    pages = {1145-1149},
     year = {2013}
 }';
 $a->metaTitle = $a->title;

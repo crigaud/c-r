@@ -90,14 +90,8 @@ body{
 /********************************************************************************/
 /*										NEWS									*/
 /********************************************************************************/
-.news_head{
-	color:				#F8BB33;
-	font-size:			0.98em;
-	margin-left:		1em;
-}
-.news_head a, .news_head a:visited{
-	color:				#F8BB33;
-}
+
+
 #vcard div.news_date, .news_date{
 	color:				gray;
 	font-size:			0.7em;
@@ -138,11 +132,6 @@ body{
 /********************************************************************************/
 /*										MENU									*/
 /********************************************************************************/
-
-.logo a{
-	font-size:		1em;
-	color:			#f8BB33;
-}
 
 
 /*html body div#wrapper div#menu_top table tbody tr td{*/
@@ -320,16 +309,32 @@ margin-top:140px;
 	background-color:	white;
 	border-radius: 		0.3em 0.3em 0.3em 0.3em;
 }
-
-.right-column{
-	float:				right;
-	width:				48%;
-	margin-bottom:		2em;
+@media (min-width: 45em)
+{
+	.right-column{
+		float:				right;
+		width:				48%;
+		margin-bottom:		2em;
+	}
+	.left-column{
+		float:				left;
+		width:				48%;
+		margin-bottom:		2em;
+	}
 }
-.left-column{
-	float:				left;
-	width:				48%;
-	margin-bottom:		2em;
+@media (max-width: 45em)
+{
+	.right-column{
+		/*float:				right;
+		width:				48%;*/
+		margin-bottom:		2em;
+	}
+	.left-column{
+		/*float:				left;
+		width:				48%;*/
+		margin-bottom:		2em;
+	}
+}
 }
 
 /********************************************************************************/
@@ -492,22 +497,25 @@ div#content ul.ItemDesc li {
 	font-weight:		bold;
 	font-size:			0.7em
 }
-.ItemTitle h3:hover{
-	color: 				#33BB33;
-	text-decoration:	underline;
-}
+
 #content a img.Logo, #content a.top{
 	float:				right;
 }
-
-.ItemTitle h3 a:link, .ItemTitle h3 a:visited, #publications section span.headline a:link, #publications section span.headline a:visited{
+.ItemTitle h3{
+	margin:			0em;
+}
+.ItemTitle h3 a:link, .ItemTitle h3 a:visited, .headline a:link, .headline a:visited{
+	font-weight:		bold;
 	color:				#33BB33;
 	text-align: 		left;
 /*	font-weight:		bold;*/
 	font-size:			0.88em;
+	text-decoration:	none;
 }
-.ItemTitle h3{
-	margin:			0em;
+
+.ItemTitle h3:hover, .news_head a:hover, .headline a:hover{
+	color: 				#33BB33;
+	text-decoration:	underline;
 }
 html body div#wrapper div#content h3 a.ItemSubTitle{
 	font-size:			0.7em;
@@ -718,8 +726,10 @@ footer a, footer a:visited{
 	border-color:red;
 }
 pre { 
-	overflow: auto;
+	overflow: auto; 						/* which will allow a fixed size with horizontal scrolling for long lines. */
 }
+
+/* GENERAL LINKS */
 a:hover{
 	text-decoration:	underline;
 }
@@ -728,11 +738,24 @@ a:link, a:visited {
 	border: 		none;
 	color:			gray;
 }
+
+/* SPECIFIC LINKS */
+.logo a:link{
+	font-size:		1em;
+	color:			#f8BB33;
+}
 .logo a:visited{
 	color:			#f8BB33;
 }
 .logo a:hover{
 	color:			#f8BB33;
+}
+
+.news_head a, .news_head a:visited{
+	color:			#33BB33;
+	font-weight: 	bold;
+	font-size: 		0.88em;
+	/*margin-left:		1em;*/
 }
 .to_hide{
 	display:		hidden;

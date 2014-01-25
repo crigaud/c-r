@@ -31,11 +31,11 @@ $global = array(
 /************************* NEWS *************************/
 "LT_TITLE" => "Actualité",
 
-"LT_12_HEAD" => "<a href=\"https://github.com/crigaud/publication/tree/master/2013/ICDAR/an_active_contour_model_for_speech_balloon_detection_in_comics\"  onclick='window.open(this.href); return false;'>Publication à ICDAR'13</a>",
+"LT_12_HEAD" => "<a href=\"http://www.christophe-rigaud.com/fr/cv/publication/?q=active-contour-model-for-speech-balloon-detection-in-comics\"  >Publication à ICDAR'13</a>",
 "LT_12_DATE" => "28 Août 2013",
 
 
-"LT_11_HEAD" => "<a href=\"https://github.com/crigaud/publication/tree/master/2013/GREC/speech_balloon_contour_classification_in_comics\"  onclick='window.open(this.href); return false;'>Publication à GREC'13</a>",
+"LT_11_HEAD" => "<a href=\"http://www.christophe-rigaud.com/fr/cv/publication/?q=speech-balloon-contour-classification-in-comics\" >Publication à GREC'13</a>",
 "LT_11_DATE" => "21 Août 2013",
 
 "LT_10_HEAD" => "<a href=\"https://github.com/crigaud/publication/blob/master/2013/LOCAL/doctoral_school_seminar/2013_Rigaud_segmentation_indexation_interactive_objets_graphiques_bandes_dessinees.pdf?raw=true\" >Avancement des travaux de thèse</a>",
@@ -54,9 +54,9 @@ $global = array(
 "LT_07_DATE" => "1 Mars 2013",
 
 
-"LT_05_HEAD" => "<a href=\"https://github.com/crigaud/publication/tree/master/2013/LNCS/robust_frame_and_text_extraction_from_comic_books\" onclick='window.open(this.href); return false;'>Publication dans LNCS</a>",
+"LT_05_HEAD" => "<a href=\"http://www.christophe-rigaud.com/fr/cv/publication/?q=robust-frame-and-text-extraction-from-comic-books\" >Publication dans LNCS</a>",
 "LT_05_DATE" => "19 Février 2013",
-"LT_04_HEAD" => "Élu au bureau de l'<a href=\"http://adocs.univ-lr.fr/\" onclick='window.open(this.href); return false;'>ADocs</a>",
+"LT_04_HEAD" => "<a href=\"http://adocs.univ-lr.fr/index.php/presentation/l-association/\" onclick='window.open(this.href); return false;'>Élu au bureau de l'ADocs</a>",
 "LT_04_DATE" => "18 Janvier 2013",
 "LT_03_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/fr/blog/?q=la-vie-au-japon\" >Séjour recherche à Osaka</a>",
 "LT_03_DATE" => "12 Janvier 2013",
@@ -70,18 +70,17 @@ $global = array(
 "VC_AGE_T" => "Age",
 "VC_AGE_D" => "ans",
 "VC_AFF_T" => "Affiliation",
-"VC_AFF_D" => "<a href='http://l3i.univ-larochelle.fr' ><span itemprop='brand'>Laboratoire L3i</span></a>",
+"VC_AFF_D" => "<a href='http://l3i.univ-larochelle.fr' >Laboratoire L3i</a>",
 "VC_LOC_T" => "Adresse",
-"VC_LOC_BUILDING" => "<a href='http://sciences.univ-larochelle.fr' >
-<span itemprop='postOfficeBoxNumber'>Pôle Sciences & Technologies</span></a>
-<br />
-<a href='http://www.univ-larochelle.fr' >Université de La Rochelle</a>",
+"VC_LOC_DEPARTMENT" => "Département informatique",
+"VC_LOC_BUILDING" => "<a href='http://www.univ-larochelle.fr' >Université de La Rochelle</a>",
+"VC_LOC_POLE" => "<a href='http://sciences.univ-larochelle.fr' >Pôle Sciences & Technologies</a>",
 "VC_LOC_STREET" => "Avenue M. Crépeau",
 "VC_LOC_POSTALCODE" => "17042",
 "VC_LOC_LOCALITY" => "La Rochelle",
 "VC_LOC_COUNTRY" => "France",
 "VC_EMA_T" => "Email : ",
-"VC_EMA_D" => "contact(at)christophe-rigaud.com",
+"VC_EMA_D" => "<span >&#99;</span><span>&#111;</span><span>&#110;</span><span>&#116;</span><span>&#97;</span><span>&#99;</span><span>&#116;</span><span>&#64;</span><span>christophe-rigaud.com</span>",
 "VC_AVA_T" => "Situation professionnelle",
 "VC_AVA_D" => "Doctorant-ingénieur en traitement d'images",
 "VC_NET_T" => "Réseaux :",

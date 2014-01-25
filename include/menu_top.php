@@ -14,7 +14,11 @@
 		<li class="flag">
 			<a href="http://<?php echo $_SERVER['SERVER_NAME']; 
 			if( strcmp($lang, 'fr') == 0 ){ 
-				echo str_replace( '/index.php', '/', str_replace( 'fr/', 'en/', $_SERVER['PHP_SELF']) ) ; 
+				if( $url[1] == 'index.php'){
+					echo '/en/';
+				}else{
+					echo str_replace( '/index.php', '/', str_replace( 'fr/', 'en/', $_SERVER['PHP_SELF']) ) ; 
+				}
 				echo '" title="Display in English"><img class="flag"  alt="Display in English" src="http://' . $_SERVER['SERVER_NAME'] . '/icon/flag_uk.png" /></a>';
 			}else if( strcmp($lang, 'en') == 0 && strlen($section) > 1 ){ 
 				echo str_replace( '/index.php', '/', str_replace( 'en/', 'fr/', $_SERVER['PHP_SELF']) ); 

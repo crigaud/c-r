@@ -32,7 +32,7 @@ $global = array(
 "LT_04_DATE" => "February 22, 2013",
 "LT_03_HEAD" => "<a href=\"http://link.springer.com/book/10.1007/978-3-642-36824-0/page/1\" onclick='window.open(this.href); return false;'>Publication in LNCS book</a>",
 "LT_03_DATE" => "February 19, 2013",
-"LT_02_HEAD" => "Elected at <a href='http://adocs.univ-lr.fr/' onclick='window.open(this.href); return false;'>ADocs</a> leadership",
+"LT_02_HEAD" => "<a href='http://adocs.univ-lr.fr/index.php/presentation/l-association' onclick='window.open(this.href); return false;'>Elected at ADocs leadership</a>",
 "LT_02_DATE" => "January 18, 2013",
 "LT_01_HEAD" => "<a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/blog/?q=japan-life\" >Research stay in Osaka</a>",
 "LT_01_DATE" => "January 12, 2013",
@@ -42,27 +42,26 @@ $global = array(
 "VC_AGE_T" => "Age",
 "VC_AGE_D" => "years old",
 "VC_AFF_T" => "Affiliation",
-"VC_AFF_D" => "<a href='http://l3i.univ-larochelle.fr' ><span itemprop='brand'>Laboratory L3i</span></a>",
+"VC_AFF_D" => "<a href='http://l3i.univ-larochelle.fr' >Laboratoire L3i</a>",
 "VC_LOC_T" => "Adresse",
-"VC_LOC_BUILDING" => "<a href='http://sciences.univ-larochelle.fr' >
-<span itemprop='postOfficeBoxNumber'>Pôle Sciences & Technologies</span></a>
-<br />
-<a href='http://www.univ-larochelle.fr' >Université de La Rochelle</a>",
+"VC_LOC_DEPARTMENT" => "Computer science department",
+"VC_LOC_BUILDING" => "<a href='http://www.univ-larochelle.fr' >University of La Rochelle</a>",
+"VC_LOC_POLE" => "<a href='http://sciences.univ-larochelle.fr' >Pôle Sciences & Technologies</a>",
 "VC_LOC_STREET" => "Avenue M. Crépeau",
 "VC_LOC_POSTALCODE" => "17042",
 "VC_LOC_LOCALITY" => "La Rochelle",
 "VC_LOC_COUNTRY" => "France",
-"VC_EMA_T" => "Email: ",
+"VC_EMA_T" => "Email : ",
 "VC_EMA_D" => "<span >&#99;</span><span>&#111;</span><span>&#110;</span><span>&#116;</span><span>&#97;</span><span>&#99;</span><span>&#116;</span><span>&#64;</span><span>christophe-rigaud.com</span>",
 "VC_AVA_T" => "Employment status",
-"VC_AVA_D" => "Ph.D. student in computer science",
+"VC_AVA_D" => "Ph.D. candidate in computer science",
 "VC_NET_T" => "Network: ",
 
 /************************** FOOTER ***************************/
 "FO_POWER" => "Designed and powered by Christophe Rigaud, hosted by <a href='http://ovh.com/' onclick='window.open(this.href); return false;'>OVH</a>.",
 
 /*************************** HOME ****************************/
-"HO_TITLE" => "Christophe Rigaud - Ph.D. student in computer vision and document analysis",
+"HO_TITLE" => "Christophe Rigaud - Ph.D. candidate in computer vision and document analysis",
 "HO_SUFIX" => " | Christophe Rigaud",
 "HO_INTRO" => "Hi,<br />This website is a place where I show some <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/publication/\" >recent work</a> and keep an up-to-date <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/cv/\" >resume</a>.<br />Feel free to <a href=\"http://".$_SERVER['SERVER_NAME']."/".$lang."/contact/\" >contact me</a> by e-mail or other forms of social media.<br />
 Thanks for stopping by!

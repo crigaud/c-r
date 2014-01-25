@@ -5,9 +5,9 @@ $txt = array(
 *														GENERAL 													*
 *********************************************************************************************************************/
 
-'RE_TITLE' 			=>	"Christophe Rigaud - CV - Ph.D. student in computer vision and document analysis",
+'RE_TITLE' 			=>	"Christophe Rigaud - CV - Ph.D. candidate in computer vision and document analysis",
 'RE_TITLE_EX'		=>	"Christophe Rigaud's experience at ",
-'RE_DESC'			=>	"Welcome on my online resume! Currently Ph.D. student in computer vision and document analysis. Including educations, qualifications, work experiences and other skills.",
+'RE_DESC'			=>	"Welcome on my online resume! Currently Ph.D. candidate in computer vision and document analysis. Including educations, qualifications, work experiences and other skills.",
 'RE_DESC_EX'		=>	"Details about Christophe Rigaud's experience at ",
 'RE_KEY'			=> 	"christophe rigaud,rigaud christophe,resume,cv,currivulum vitae,linkedin,viadeo,pdf,qualification,degree,experience,skill,hobbies,research,engineer,image processing,computer vision",
 'RE_KEY_EX'			=> 	"phd, computer vision, document analysis, christophe rigaud,rigaud christophe,experience,job,people,partner,contact,reference,details",
@@ -36,7 +36,7 @@ $txt = array(
 'RE_EX_10_WEB'		=> "http://l3i.univ-larochelle.fr/Rigaud-Christophe,684.html",
 'RE_EX_10_DETAIL'	=> "1",
 'RE_EX_10_DESC_01' 	=> "State of the art of color image segmentation, characterization and indexation",
-'RE_EX_10_DESC_02' 	=> "Journal publication and scientific conferences (<a href=\"http://l3i.univ-larochelle.fr/Rigaud-Christophe,684.html\" title=\"Researcher profile\" onclick=\"window.open(this.href); return false;\">publication list</a>)",
+'RE_EX_10_DESC_02' 	=> "Journal publication and scientific conferences (<a href=\"http://www.christophe-rigaud.com/en/cv/publication/\" >publication list</a>)",
 'RE_EX_10_DESC_03' 	=> "Application : application to detection and recognition of complex object from digitalized comic books",
 
 'RE_EX_09_TITLE'	=>	"Research laboratory internship",
